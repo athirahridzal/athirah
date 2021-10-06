@@ -3,7 +3,7 @@
     
     "title": {
       "text": "Deaths from COVID-19",
-      "subtitle":"Cumulative Death by Death Date",
+      "subtitle":"Cumulative death by death date",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
