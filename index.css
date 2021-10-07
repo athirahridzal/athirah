@@ -6,6 +6,7 @@
 
 body{
     background-color: #99FFCC;
+    MAX-WIDTH: 500px
 }
 
 h1, h3, p{
