@@ -6,7 +6,8 @@
 
 body{
     background-color: B5F9B7;
-    max-width: 400px
+    max-width: 400px;
+    min-width: 300px
 }
 
 h1, h3, p{
