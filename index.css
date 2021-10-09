@@ -5,24 +5,25 @@
 /* This is my first proper css file */
 
 body{
-    background-color: #BFFFC1;
+    background-color: #203565;
     margin: auto;
     max-width: 450px
 }
 
 h1{
-    color: #151869;
+    color: #FDFDFD;
     font-family: 'Roboto', sans-serif;
 } 
 
 h3{
-    color:#5C5C62;
+    color:#90949C;
     font-family: 'Roboto', sans-serif;
 } 
 
 p{
-    color:#01010D);
+    color:#F5F8FF);
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
     
 } 
 
