@@ -9,7 +9,7 @@ body{
     margin: auto;
     max-width: 450px
 }
-
+ 
 h1{
     color: #598BD5;
     font-family: 'Poppins', sans-serif;
@@ -17,13 +17,13 @@ h1{
 
 
 h3{
-    color:#BBBDC0;
+    color: #BBBDC0;
     font-family: 'Roboto', sans-serif;
     font-style: bold;
 } 
 
 p{
-    color:#EEEEEF);
+    color: #EEEEEF);
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     
