@@ -5,7 +5,9 @@
 /* This is my first proper css file */
 
 body{
-    background-color: #051876;
+    background-color: #7EF09C;
+    margin: auto;
+    max-width: 450px
 }
 
 h1, h3, p{
@@ -20,5 +22,6 @@ h1, h3, p{
     border-style: solid;
     border-radius: 5px;
     border-color: white;
+    margin: auto;
 }
 
