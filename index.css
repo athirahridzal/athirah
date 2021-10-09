@@ -11,18 +11,19 @@ body{
 }
 
 h1{
-    color:rgb(17, 17, 17);
+    color: #151869;
     font-family: 'Roboto', sans-serif;
 } 
 
 h3{
-    color:rgb(17, 17, 17);
+    color:#5C5C62;
     font-family: 'Roboto', sans-serif;
 } 
 
 p{
-    color:rgb(17, 17, 17);
+    color:#01010D);
     font-family: 'Roboto', sans-serif;
+    
 } 
 
 .chart{
