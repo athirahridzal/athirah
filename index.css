@@ -5,18 +5,27 @@
 /* This is my first proper css file */
 
 body{
-    background-color: #7EF09C;
+    background-color: #BFFFC1;
     margin: auto;
     max-width: 450px
 }
 
-h1, h3, p{
+h1{
     color:rgb(17, 17, 17);
     font-family: 'Roboto', sans-serif;
-}
+} 
+
+h3{
+    color:rgb(17, 17, 17);
+    font-family: 'Roboto', sans-serif;
+} 
+
+p{
+    color:rgb(17, 17, 17);
+    font-family: 'Roboto', sans-serif;
+} 
 
 .chart{
-    background-color: white;
     width:330px;
     border-width: 10px;
     border-style: solid;
