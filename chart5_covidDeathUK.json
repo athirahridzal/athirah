@@ -53,7 +53,7 @@
       "scale": {"scheme": "magma"},
       "title": null,
       "legend": {
-        "orient": "top-left", 
+        "orient": "center", 
         "fillColor":null,
         "labelFontSize":9.5
         }
