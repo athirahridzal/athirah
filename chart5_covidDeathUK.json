@@ -47,7 +47,7 @@
       "axis": {"grid": true}
     },
 
-    "color":null
+    "color":{
       "field": "areaName",
       "type": "nominal",
       "scale": {"scheme": "magma"},
