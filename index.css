@@ -8,7 +8,7 @@
 body{
     background-color: #F6F6F2;
     margin: auto;
-    max-width: 2500px;
+    max-width: 500px;
     min-width: 320px
 }
  
@@ -28,6 +28,7 @@ p{
     color: "black" ;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
+    font-weight: 500
     
 } 
 
