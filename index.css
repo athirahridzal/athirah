@@ -23,7 +23,7 @@ h3{
 } 
 
 p{
-    color: "black";
+    color: #BADFE7;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     
@@ -33,9 +33,9 @@ p{
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #BADFE7;
+    border-color: "white";
     margin: center;
-    background-color: #BADFE7;
+    background-color: "white";
     width: 360px
     
 }
