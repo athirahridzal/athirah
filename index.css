@@ -35,9 +35,9 @@ p{
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
-    border-color: "white";
-    margin: center;
-    background-color: "white";
+    border-color: #BADFE7 ;
+    margin: auto ;
+    background-color: #BADFE7  ;
     width: 360px
     
 }
