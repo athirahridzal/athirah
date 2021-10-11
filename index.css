@@ -5,7 +5,7 @@
 /* This is my first proper css file */
 
 body{
-    background-color: #022549;
+    background-color: #F6F6F2;
     margin: auto;
     max-width: 450px
 }
@@ -33,9 +33,9 @@ p{
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #5a5a5f;
+    border-color: #BADFE7;
     margin: center;
-    background-color: #5a5a5f;
+    background-color: #BADFE7;
     width: 350px
     
 }
