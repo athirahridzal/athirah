@@ -25,7 +25,11 @@
 
     ],
   
-  "background": "null",
+ "config": {
+  "background":"#122b39",
+  "view": {
+    "stroke": "transparent"}},
+  
   "height": 300,
   "width": 310,
    
