@@ -27,8 +27,8 @@
   
  "config": {
   "background":"#205C8A",
-  "view": {
-    "stroke": "transparent"}},
+  <!-- "view": {
+   <!--  "stroke": "transparent"}}, 
   
   "height": 300,
   "width": 310,
