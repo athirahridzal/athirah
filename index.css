@@ -23,11 +23,13 @@ h3{
 } 
 
 p{
-    color: #BADFE7;
+    color: "black" ;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     
 } 
+
+/*#BADFE7*/
 
 .chart{
     border-width: 10px;
