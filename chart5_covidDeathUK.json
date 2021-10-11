@@ -25,7 +25,7 @@
 
     ],
   
-  
+  "background": "null"
   "height": 300,
   "width": 310,
    
@@ -53,7 +53,7 @@
       "scale": {"scheme": "magma"},
       "title": null,
       "legend": {
-        "orient": "center", 
+        "orient": "top-right", 
         "fillColor":null,
         "labelFontSize":9.5
         }
