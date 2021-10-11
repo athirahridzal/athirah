@@ -2,6 +2,7 @@
 
 
 
+
 /* This is my first proper css file */
 
 body{
@@ -12,13 +13,13 @@ body{
  
 h1{
     color: #388087;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 } 
 
 
 h3{
     color: #6FB3B8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: bold;
 } 
 
