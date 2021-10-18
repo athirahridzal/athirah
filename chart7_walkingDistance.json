@@ -4,72 +4,80 @@
   "data": {
     "values": [
       {
-        "Week": "1",
+        "Month": "5/27/2021",
+        "Distance (km)": 0
+      },
+      {
+        "Month": "6/3/2021",
         "Distance (km)": 0.44
       },
       {
-        "Week": "2",
+        "Month": "6/10/2021",
         "Distance (km)": 0.46
       },
       {
-        "Week": "3",
+        "Month": "6/17/2021",
         "Distance (km)": 1.01
       },
       {
-        "Week": "4",
+        "Month": "6/24/2021",
         "Distance (km)": 1.69
       },
       {
-        "Week": "5",
+        "Month": "7/1/2021",
         "Distance (km)": 1.09
       },
       {
-        "Week": "6",
+        "Month": "7/8/2021",
         "Distance (km)": 1
       },
       {
-        "Week": "7",
+        "Month": "7/15/2021",
         "Distance (km)": 3.27
       },
       {
-        "Week": "8",
+        "Month": "7/22/2021",
         "Distance (km)": 2.48
       },
       {
-        "Week": "9",
+        "Month": "7/29/2021",
         "Distance (km)": 4.16
       },
       {
-        "Week": "10",
+        "Month": "8/5/2021",
         "Distance (km)": 1.62
       },
       {
-        "Week": "11",
+        "Month": "8/12/2021",
         "Distance (km)": 3.28
       },
       {
-        "Week": "12",
+        "Month": "8/19/2021",
         "Distance (km)": 5
       },
       {
-        "Week": "13",
+        "Month": "8/26/2021",
         "Distance (km)": 1.71
       },
       {
-        "Week": "14",
+        "Month": "9/2/2021",
         "Distance (km)": 7.07
       },
       {
-        "Week": "15",
+        "Month": "9/9/2021",
         "Distance (km)": 1
       },
       {
-        "Week": "16",
+        "Month": "9/16/2021",
         "Distance (km)": 4.17
       },
       {
-        "Week": "17",
+        "Month": "9/23/2021",
         "Distance (km)": 2.42
+      },
+      {
+        "Month": "9/30/2021",
+        "Distance (km)": 0
       }
     ]
   },
@@ -82,10 +90,13 @@
   "encoding": {
 
     "x": {
-      "field": "Week",
-      "type": "quantitative",
+      "field": "Month",
+      "title": null,
+      "type": "temporal",
       "axis": {
-        "labelAngle": 315
+        "labelAngle": 0
+        ,
+        "labelBaseline":"middle"
       }
     },
     "y": {
@@ -96,10 +107,10 @@
   },
   "title": {
     "text": "Average Walking Distance in Summer Break",
-    "subtitle": "Average weekly walking distance from 31st May to 26th September",
+    "subtitle": "Average weekly walking distance in km from 31st May to 26th September",
     "fontSize": 16,
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 12,
+    "subtitleFontSize": 11,
     "anchor": "start",
     "color": "olivedrab"
   }
