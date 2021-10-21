@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Google's stock price over time.",
+  "description": "Plotting my average weekly walking distance over summer break",
   "data": {
     "values": [
       {
