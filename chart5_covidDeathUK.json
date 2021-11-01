@@ -5,11 +5,10 @@
     "text": "Deaths from COVID-19",
     "subtitle":"Cumulative death by death date",
     "subtitleFontStyle":"italic",
-    "subtitleFontSize":12,
-    "subtitleColor": "lightgrey",
+    "subtitleFontSize":10,
     "anchor": "start",
-    "fontWeight": 1000,
-    "color": "floralwhite"
+    "fontWeight": 100,
+    "color": "black"
   },
   
    "data": {
@@ -26,9 +25,7 @@
 
 
     ],
-  
- "config": {
-  "background":"#5a5a5f"},
+
    
   "height": 300,
   "width": 310,
@@ -41,14 +38,14 @@
       "field": "date",
       "type": "temporal",
       "title": null,
-      "axis": {"grid": false, "labelColor":"palegreen"}
+      "axis": {"grid": false}
     },
 
     "y": {
       "field": "cumDeaths28DaysByDeathDate",
       "type": "quantitative",
       "title": null,
-      "axis": {"grid": true, "labelColor":"palegreen"}
+      "axis": {"grid": true}
     },
 
     "color":{
@@ -59,8 +56,7 @@
       "legend": {
         "orient": "top-left", 
         "fillColor":null,
-        "labelFontSize":9.5,
-        "labelColor": "lightyellow"
+        "labelFontSize":9.5
         }
     }
 }
