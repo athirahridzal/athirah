@@ -9,7 +9,8 @@
     "color": "black"
   },
   
-   "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_WBANK-GC.XPN.TRFT.ZS.json"},
+   "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_WBANK-GC.XPN.TRFT.ZS.json"}, "format": {
+        "type":"json"}},
 
    
   "height": 300,
