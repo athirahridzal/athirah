@@ -3,7 +3,7 @@
   
   "title": {
     "text": "Projected Global Population",
-    "subtitle":"Expected population in 2030 and 2050 by the UN",
+    "subtitle":"Expected population in 2030 and 2050 by the UN, Source: World Bank, UN",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
@@ -19,7 +19,7 @@
   "height": 300,
   "width": 310,
    
-  "mark": {"type": "line", "point": false},
+  "mark": {"type": "line", "point": true},
  
   "encoding": {
 
@@ -31,14 +31,14 @@
     },
 
     "y": {
-      "field": "World [WLD]",
+      "field": "Value",
       "type": "quantitative",
       "title": null,
       "axis": {"grid": true}
-    },
+          },
 
     "color": {
-      "scale": {"scheme": " accent"},
+      "scale": {"scheme": "viridis"},
       "title": null
       
     }
