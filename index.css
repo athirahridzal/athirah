@@ -7,9 +7,9 @@
 
 body{
     background-color: #F6F6F2;
-    margin: auto; }
-   max-width: 50%;
-/*     min-width: 320px */
+    margin: auto; 
+   max-width: 100%}
+   /* min-width: 320px */
 
  
 h1{
