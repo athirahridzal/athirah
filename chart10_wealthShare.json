@@ -12,10 +12,12 @@
   },
   
  "data": {
-      "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-WFRBST01134.json": {
+      "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-WFRBST01134.json",
+"format": {
         "type":"json",
         "property": "observations"
       }},
+  
   
   
      
