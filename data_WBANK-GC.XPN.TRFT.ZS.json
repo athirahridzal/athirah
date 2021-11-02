@@ -1,0 +1,813 @@
+[
+    {
+        "page": 1,
+        "pages": 5,
+        "per_page": 50,
+        "total": 244,
+        "sourceid": "2",
+        "sourcename": "World Development Indicators",
+        "lastupdated": "2021-10-28"
+    },
+    [
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2020",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2019",
+            "value": 14.3494609395722,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2018",
+            "value": 14.4502787016915,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2017",
+            "value": 15.0608278799479,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2016",
+            "value": 14.9686114506713,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2015",
+            "value": 15.2605428928056,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2014",
+            "value": 15.6183143946404,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2013",
+            "value": 15.7732196127896,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2012",
+            "value": 15.355096844594,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2011",
+            "value": 15.7857623723673,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2010",
+            "value": 15.9041770036828,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2009",
+            "value": 15.4842532548442,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2008",
+            "value": 14.4757624902225,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2007",
+            "value": 15.8709708281179,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2006",
+            "value": 18.2966185683567,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2005",
+            "value": 19.9056559459157,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2004",
+            "value": 20.69243548326,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2003",
+            "value": 21.1093759384948,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2002",
+            "value": 20.9410840290922,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2001",
+            "value": 20.5859518083802,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "2000",
+            "value": 20.7989906107133,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1999",
+            "value": 21.4308772240754,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1998",
+            "value": 22.0226892174297,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1997",
+            "value": 22.4555534357072,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1996",
+            "value": 22.9465631054029,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1995",
+            "value": 22.6926960926227,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1994",
+            "value": 64.9503020950035,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1993",
+            "value": 63.6380405492108,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1992",
+            "value": 64.6975887252796,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1991",
+            "value": 63.1214401453403,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1990",
+            "value": 62.0562873116649,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1989",
+            "value": 4.82748823933612,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1988",
+            "value": 4.43291128543864,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1987",
+            "value": 3.45130445408444,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1986",
+            "value": 3.4653247868368,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1985",
+            "value": 3.41224647261884,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1984",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1983",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1982",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1981",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1980",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1979",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1978",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1977",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1976",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1975",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1974",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1973",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1972",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "GC.XPN.TRFT.ZS",
+                "value": "Subsidies and other transfers (% of expense)"
+            },
+            "country": {
+                "id": "DK",
+                "value": "Denmark"
+            },
+            "countryiso3code": "DNK",
+            "date": "1971",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]
