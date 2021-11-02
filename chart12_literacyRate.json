@@ -9,9 +9,10 @@
     "color": "black"
   },
   
-   "data": {"url": "https://api.worldbank.org/v2/country/GBR/indicator/GC.XPN.TRFT.ZS?format=json"}, "format": {
+   "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_WBANK-SE.ADT.LITR.ZS.json"}, "format": {
         "type":"json"}},
 
+ <!-- "repeat": {"layer": ["GBR", "US", "UK", "FRA", "DNK"]}, -->
    
   "height": 300,
   "width": 310,
