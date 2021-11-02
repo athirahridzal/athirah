@@ -24,7 +24,7 @@
   "encoding": {
 
     "x": {
-      "field": "time",
+      "field": "Time",
       "type": "temporal",
       "title": null,
       "axis": {"grid": false}
