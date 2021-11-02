@@ -43,11 +43,8 @@
     },
 
     "color":{
-      "field": "areaName",
-      "type": "nominal",
-      "scale": {"scheme": "magma"},
-      "title": null,
-       "labelFontSize":9.5
+         "scale": {"scheme": "magma"},
+        "labelFontSize":9.5
         }
     }
 }
