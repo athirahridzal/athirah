@@ -69,3 +69,9 @@ p{
   background-color: #04AA6D; /* Add an active/current color */
 }
 
+.box {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+  }
+
