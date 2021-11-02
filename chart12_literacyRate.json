@@ -9,7 +9,8 @@
     "color": "black"
   },
   
-   "data": {"url": "https://api.worldbank.org/v2/country/GBR/indicator/GC.XPN.TRFT.ZS?format=json"},
+   "data": {"url": "https://api.worldbank.org/v2/country/GBR/indicator/GC.XPN.TRFT.ZS?format=json"}, "format": {
+        "type":"json"}},
 
    
   "height": 300,
