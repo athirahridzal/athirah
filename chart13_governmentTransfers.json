@@ -12,6 +12,8 @@
    "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_WBANK-GC.XPN.TRFT.ZS.json"}, "format": {
         "type":"json"}},
 
+ <!-- "repeat": {"layer": ["GBR", "US", "UK", "FRA", "DNK"]}, -->
+
    
   "height": 300,
   "width": 310,
