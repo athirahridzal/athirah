@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Expenditure on Transportation",
+    "subtitle": "Total investment on inland transport infrastructure, Source: OECD",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "fontSize":16,
+    "anchor": "start",
+    "color": "dodgerblue"
+  },
+   
+    "data": {
+      "url": "https://stats.oecd.org/sdmx-json/data/ITF_INV-MTN_DATA/.I-INV-TOT-INLD.EUR/all?startTime=2000&endTime=2019",
+      "format":{
+        "type":"json",
+        "property":"dataSets"
+      }},
+
+  "height": 300,
+  "width": 310,
+  "mark": {"type": "line", "point": false, "color":"goldenrod"},
+    
+    
+    "encoding": {
+      
+      "x": {"field": "", "type": "ordinal", "title": null},
+      
+      "y": {"field": "", "type": "quantitative", "title": null},
+
+    "color": {
+      "field": "",
+      "type": "nominal",
+      "scale": {"scheme": "plasma"},
+      "title": null,
+      "legend": {
+        "orient": "top-right", 
+        "fillColor": null,
+        "labelFontSize":9.5}
+  
+ 
+    }
+    }
+}
