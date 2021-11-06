@@ -1,51 +1,35 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
   "title": {
     "text": "Wealth Share of Top 1%",
-    "subtitle":"Share of total net wealth of the top 1% in the United States, Source: FRED",
-    "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
+    "subtitle": "Share of total net wealth of the top 1% in the United States, Source: FRED",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "fontSize":16,
     "anchor": "start",
-    "fontWeight": 100,
-    "color": "black"
+    "color": "purple"
   },
-  
- "data": {
-      "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-WFRBST01134.json",
-"format": {
-        "type":"json",
-        "property": "observations"
-      }},
-  
-  
-  
-     
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-WFRBST01134.json",
+    "format": {"type": "json", "property": "observations"}
+  },
+
+
   "height": 300,
   "width": 310,
-   
-  "mark": {"type": "line", "point": false},
- 
+  "mark": {"type": "line", "point": false, "color":"goldenrod"},
   "encoding": {
-
     "x": {
       "field": "date",
       "type": "temporal",
-       
       "title": null,
       "axis": {"grid": false}
     },
-
     "y": {
       "field": "value",
       "type": "quantitative",
       "title": null,
       "axis": {"grid": true}
-    },
-
-    "color":{
-       "scale": {"scheme": "magma"},
-       "labelFontSize":9.5
-        }
     }
+  }
 }
