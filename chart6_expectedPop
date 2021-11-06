@@ -7,7 +7,7 @@
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
-    "color": "black",
+    "color": "navy",
     "fontSize": 16
   },
   
@@ -20,7 +20,7 @@
   "height": 300,
   "width": 310,
    
-  "mark": {"type": "line", "point": true},
+  "mark": {"type": "line", "point": false, "color":"darkturquoise"},
 
   "encoding": {
 
@@ -39,8 +39,7 @@
           },
 
     "color": {
-      "scale": {"scheme": "greens"},
-      "title": null
+       "title": null
       
     }
 }
