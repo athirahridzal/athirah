@@ -20,27 +20,62 @@
   "height": 300,
   "width": 310,
    
-  "mark": {"type": "line", "point": false, "color":"darkturquoise"},
 
-  "encoding": {
+"layer":[
+    {"mark":{
+        "type": "line",    
+        "color":"darkturquoise",
+        "width": 10,
+        "strokeWidth":2,
+        "opacity":1},
 
-    "x": {
-      "field": "Time",
-      "type": "temporal",
-      "title": null,
-      "axis": {"grid": false}
+      "encoding": {
+        "x": {
+          "field": "Time",
+          "type": "temporal",
+          "title":null},
+        "y": {
+          "field": "Value",                
+          "type": "quantitative",
+          "title":null}
+        }
     },
 
-    "y": {
-      "field": "Value",
-      "type": "quantitative",
-      "title": null,
-      "axis": {"grid": true}
-          },
+    {
+      "encoding": {
+        
+        "x": {
+          "aggregate": "max", 
+          "field": "Time", 
+          "type": "temporal"},
+        
+        "y": {
+          "aggregate": {"argmax": "Time"},
+          "field": "Value",
+          "type": "quantitative"
+        },
 
-    "color": {
-       "title": null
-      
+        "text": {
+          "aggregate": {"argmax": "Time"},
+          "field": "Value", 
+          "type": "nominal"}
+      },
+
+      "layer": [
+        {"mark": {
+          "type": "circle",
+          "color":"turquoise",
+       
+          "size":100}},
+
+        {"mark": {
+          "type": "text", 
+          "align": "center", 
+          "dx": 10,
+          "color":"black"
+       }}
+      ]
     }
+  ]
 }
-}
+  
