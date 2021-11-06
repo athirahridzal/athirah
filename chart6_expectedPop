@@ -12,8 +12,8 @@
   },
   
    "data": {
-    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/expectedPop.csv"
-  },
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/expectedPop.csv", "format": {
+        "type":"csv"}},
 
 
      
