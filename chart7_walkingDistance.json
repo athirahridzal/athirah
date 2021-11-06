@@ -110,7 +110,7 @@
     "subtitle": "Average weekly walking distance in km from 31st May to 26th September",
     "fontSize": 16,
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 11,
+    "subtitleFontSize": 10,
     "anchor": "start",
     "color": "olivedrab"
   }
