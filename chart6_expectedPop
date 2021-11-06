@@ -7,20 +7,21 @@
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
-    "color": "black"
+    "color": "black",
+    "fontSize": 16
   },
   
    "data": {
-    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/expectedPop.csv",
-    "format": {"type": "csv"}
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/expectedPop.csv"
   },
+
 
      
   "height": 300,
   "width": 310,
    
   "mark": {"type": "line", "point": true},
- 
+
   "encoding": {
 
     "x": {
@@ -38,7 +39,7 @@
           },
 
     "color": {
-      "scale": {"scheme": "viridis"},
+      "scale": {"scheme": "greens"},
       "title": null
       
     }
