@@ -19,7 +19,9 @@
      
   "height": 300,
   "width": 310,
-   
+   "transform": [
+  {"calculate": "datum.Value/1000000000", "as": "Billion"}
+],
 
 "layer":[
     {"mark":{
@@ -35,7 +37,7 @@
           "type": "temporal",
           "title":null},
         "y": {
-          "field": "Value",                
+          "field": "Billion",                
           "type": "quantitative",
           "title":null}
         }
@@ -51,13 +53,13 @@
         
         "y": {
           "aggregate": {"argmax": "Time"},
-          "field": "Value",
+          "field": "Billion",
           "type": "quantitative"
         },
 
         "text": {
           "aggregate": {"argmax": "Time"},
-          "field": "Value", 
+          "field": "Billion", 
           "type": "nominal"}
       },
 
