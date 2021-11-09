@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+     "title": {
+    "text": "Top 10 Largest Colonial Empires",
+    "subtitle": "Empires Based on Land Area in Billions on km, Source: World Atlas",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 9,
+    "anchor": "start",
+    "fontSize": 16,
+    "color": "red"
+  },
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataColoniser.csv", "format": {"type": "csv"}
+  },
+  "params": [
+    {
+      "name": "highlight",
+      "select": {"type": "point", "on": "mouseover"}
+    },
+    {"name": "select", "select": "point"}
+  ],
+  "mark": {
+    "type": "bar",
+    "fill": "#810404",
+    "stroke": "darkgrey",
+    "cursor": "pointer"
+  },
+  "encoding": {
+    "x": {"field": "Empire", "type": "nominal","sort":"y","title":null},
+    "y": {"field": "Maximum Colonial Area", "type": "quantitative","title":null,
+    "fillOpacity": {
+      "condition": {"param": "select", "value": 1},
+      "value": 0.3
+    },
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "select",
+          "empty": false,
+          "value": 2
+        },
+        {
+          "param": "highlight",
+          "empty": false,
+          "value": 1
+        }
+      ],
+      "value": 0
+    }
+  },
+  "config": {
+    "scale": {
+      "bandPaddingInner": 0.2
+    }
+  }
+  }}
