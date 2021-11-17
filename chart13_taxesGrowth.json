@@ -1,51 +1,68 @@
 {"$schema" : "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "Government Transfers",
-    "subtitle":"Government transfers as a percentage of total expense, Source: World Bank",
+    "text": "Income Tax Growth",
+    "subtitle":"Annual growth of income taxes since 1988 in the UK, Source: ONS",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
-    "color": "black"
+    "color": "mediumseagreen"
+
   },
   
-   "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_WBANK-GC.XPN.TRFT.ZS.json"}, "format": {
-        "type":"json"}},
+   "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_ONS-KGT3.json", "format":{"property":"years"}},
 
- <!-- "repeat": {"layer": ["GBR", "US", "UK", "FRA", "DNK"]}, -->
 
    
   "height": 300,
   "width": 310,
    
-  "mark": {"type": "line", "point": false},
- 
-  "encoding": {
+  
+  "mark": {"type": "line", "point": false, "color":"red"},
+   
+  "encoding": 
+  {"x": {"field": "date", "type": "ordinal", "timeUnit":"year", "title":null}},
 
-    "x": {
-      "field": "date",
-      "type": "temporal",
-      "title": null,
-      "axis": {"grid": false}
+  "layer": [
+    {"encoding": {
+        "y": {"field": "value", 
+              "type": "quantitative", 
+              "title":null, "axis": {"grid": true, "gridColor": {"condition": {"test": "datum.value === 0", "value": "black"},"value": "#ddd"}}}},
+        
+"layer": [
+          {"mark":{
+            "type": "line",
+            "align": false,
+           
+            "color": "red"}},
+          {"transform": 
+            [{"filter": {"selection": "hover"}}], 
+               "mark": {
+                 "type":"circle",
+                 "size":150,
+                 "color":"red"}}
+      ]
     },
-
-    "y": {
-      "field": "value",
-      "type": "quantitative",
-      "title": null,
-      "axis": {"grid": true}
-    },
-
-    "color": {
-      "field": "areaName",
-      "type": "nominal",
-      "scale": {"scheme": "tableau10"},
-      "title": null,
-      "legend": {
-        "orient": "top-right", 
-        "fillColor": null,
-        "labelFontSize":9.5}
+    
+  {"mark": "rule", 
+      "encoding": {
+         "opacity": {
+           "condition": {"value": 0, "selection": "hover"},
+           "value": 0 },
+          "tooltip": [
+          {"field": "date", "type": "ordinal", "timeUnit":"year", "title":"Year"},  
+          {"field": "value", "type": "quantitative", "title":"Annual Change %"}]
+           },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["date"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
     }
+  ]
 }
-}
- 
