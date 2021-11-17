@@ -3,81 +3,33 @@
   "description": "Plotting my average weekly walking distance over summer break",
   "data": {
     "values": [
-      {
-        "Month": "5/27/2021",
-        "Distance (km)": 0
+            {
+        "Month": "April 2021",
+        "Steps": 1410
       },
       {
-        "Month": "6/3/2021",
-        "Distance (km)": 0.44
+        "Month": "May 2021",
+        "Steps": 642
       },
       {
-        "Month": "6/10/2021",
-        "Distance (km)": 0.46
+        "Month": "Jun 2021",
+        "Steps": 1183
       },
       {
-        "Month": "6/17/2021",
-        "Distance (km)": 1.01
+        "Month": "Jul 2021",
+        "Steps": 3193
       },
       {
-        "Month": "6/24/2021",
-        "Distance (km)": 1.69
+        "Month": "Aug 2021",
+        "Steps": 4314
       },
       {
-        "Month": "7/1/2021",
-        "Distance (km)": 1.09
+        "Month": "Sep 2021",
+        "Steps": 3843
       },
       {
-        "Month": "7/8/2021",
-        "Distance (km)": 1
-      },
-      {
-        "Month": "7/15/2021",
-        "Distance (km)": 3.27
-      },
-      {
-        "Month": "7/22/2021",
-        "Distance (km)": 2.48
-      },
-      {
-        "Month": "7/29/2021",
-        "Distance (km)": 4.16
-      },
-      {
-        "Month": "8/5/2021",
-        "Distance (km)": 1.62
-      },
-      {
-        "Month": "8/12/2021",
-        "Distance (km)": 3.28
-      },
-      {
-        "Month": "8/19/2021",
-        "Distance (km)": 5
-      },
-      {
-        "Month": "8/26/2021",
-        "Distance (km)": 1.71
-      },
-      {
-        "Month": "9/2/2021",
-        "Distance (km)": 7.07
-      },
-      {
-        "Month": "9/9/2021",
-        "Distance (km)": 1
-      },
-      {
-        "Month": "9/16/2021",
-        "Distance (km)": 4.17
-      },
-      {
-        "Month": "9/23/2021",
-        "Distance (km)": 2.42
-      },
-      {
-        "Month": "9/30/2021",
-        "Distance (km)": 0
+        "Month": "Oct 2021",
+        "Steps": 2380
       }
     ]
   },
@@ -85,29 +37,30 @@
  "height": 300,
   "width": 310,
 
-  "mark": {"type": "bar", "color": "orangered"},
+  "mark": {"type": "line", "color": "orangered",  "point": { "color":"orangered",
+      "filled": false,
+      "fill": "white"}},
 
   "encoding": {
 
     "x": {
-      "field": "Month",
+      "field": "Month", "timeUnit": "month", "type": "ordinal",
       "title": null,
-      "type": "temporal",
-      "axis": {
+            "axis": {
         "labelAngle": 0
         ,
         "labelBaseline":"middle"
       }
     },
     "y": {
-      "field": "Distance (km)",
+      "field": "Steps",
       "type": "quantitative",
       "title": null
     }
   },
   "title": {
-    "text": "Average Walking Distance in Summer Break",
-    "subtitle": "Average weekly walking distance in km from 31st May to 26th September",
+    "text": "Steps per Day",
+    "subtitle": "Average daily steps from April to October 2021",
     "fontSize": 16,
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
