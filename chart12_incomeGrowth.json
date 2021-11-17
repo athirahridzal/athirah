@@ -1,49 +1,68 @@
 {"$schema" : "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "Literacy Rate",
-    "subtitle":"Adult Literacy rate as percentage of ages 15+, Source: World Bank",
+    "text": "Income Growth",
+    "subtitle":"Annual wage and salaries since 1988 in the UK, Source: ONS",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
-    "color": "black"
+    "color": "darkcyan"
+
   },
   
-   "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_WBANK-SE.ADT.LITR.ZS.json"}, "format": {
-        "type":"json"}},
+   "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_ONS-KGQ2.json", "format":{"property":"years"}},
 
- <!-- "repeat": {"layer": ["GBR", "US", "UK", "FRA", "DNK"]}, -->
+
    
   "height": 300,
   "width": 310,
    
-  "mark": {"type": "line", "point": false},
- 
-  "encoding": {
+  "mark": {"type": "line", "point": false, "color":"deepskyblue"},
+  
+  "encoding": 
+  {"x": {"field": "date", "type": "ordinal", "timeUnit":"year", "title":null}},
 
-    "x": {
-      "field": "date",
-      "type": "temporal",
-      "title": null,
-      "axis": {"grid": false}
+  "layer": [
+    {"encoding": {
+        "y": {"field": "value", 
+              "type": "quantitative", 
+              "title":null}},
+        
+        "layer": [
+          {"mark":{
+            "type": "line",
+            "align": false,
+             "color": "deepskyblue"}},
+          {"transform": 
+            [{"filter": {"selection": "hover"}}], 
+               "mark": {
+                 "type":"circle",
+                 "size":150,
+                 "color":"darkcyan"}}
+      ]
     },
-
-    "y": {
-      "field": "value",
-      "type": "quantitative",
-      "title": null,
-      "axis": {"grid": true}
-    },
-
-    "color": {
-      "field": "areaName",
-      "type": "nominal",
-      "scale": {"scheme": "tableau10"},
-      "title": null,
-      "legend": {
-        "orient": "top-right", 
-        "fillColor": null,
-        "labelFontSize":9.5}
+    
+    {"mark": "rule", 
+      "encoding": {
+         "opacity": {
+           "condition": {"value": 0, "selection": "hover"},
+           "value": 0 },
+          "tooltip": [
+          {"field": "date", "type": "ordinal", "timeUnit":"year", "title":"Date"},  
+          {"field": "value", "type": "quantitative", "title":"Annual Change"}]
+           },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["date"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
     }
+  ]
 }
-}
+
+  
