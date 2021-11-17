@@ -48,8 +48,8 @@
            "condition": {"value": 0, "selection": "hover"},
            "value": 0 },
           "tooltip": [
-          {"field": "date", "type": "ordinal", "timeUnit":"year", "title":"Date"},  
-          {"field": "value", "type": "quantitative", "title":"Annual Change"}]
+          {"field": "date", "type": "ordinal", "timeUnit":"year", "title":"Year"},  
+          {"field": "value", "type": "quantitative", "title":"Annual Change %"}]
            },
       "selection": {
         "hover": {
