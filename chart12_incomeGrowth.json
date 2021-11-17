@@ -2,7 +2,7 @@
   
   "title": {
     "text": "Income Growth",
-    "subtitle":"Annual wage and salaries since 1988 in the UK, Source: ONS",
+    "subtitle":"Annual growth wage and salaries since 1949 in the UK, Source: ONS",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
