@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Savings Growth",
-    "subtitle": "Quarterly growth of savings rate since 1947 in the US, Source: FRED",
+    "subtitle": "Quarterly growth of savings rate since 2000 in the US, Source: FRED",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -12,6 +12,11 @@
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-A072RC1Q156SBEA.json",
     "format": {"property": "observations"}
   },
+
+"transform": [
+       {"filter": {"field": "date","range": [{"year": 2000},{"year": 2021}]}}
+    ],
+
   "height": 300,
   "width": 310,
   "mark": {"type": "line", "point": false, "color": "deepskyblue"},
