@@ -48,9 +48,13 @@
    <p class="rubric-launch"> Here is my <a class="textLink" href="project"> Data Science Visualisation</a> page </p> 
     </div> -->
       
- <h2><span>Week 1 - Getting Started</span></h2>      
+ <h2><span>Week 1 - Getting Started</span></h2>  
+  
+   <container class="bcontainer">
+      <div class="wrap">
    <h3> COVID-19 Cases </h3>
   <p> This is an interactive chart of number of Covid-19 cases by UK regions </p>
+     </div>
 <!--Chart 1 -->
   <div class="chart" id="chart1">
       <script>
@@ -59,9 +63,10 @@
       </script>
   </div>
 
-  
+     <div class="wrap">
   <h3> UK Labour Productivity </h3>
    <p> This chart the shows the rising trend of productivity of workers in the UK since 1971 </p>
+     </div>
 <!--Chart 2 -->
 <div class="chart" id="chart2">
     <script>
@@ -69,10 +74,11 @@
       vegaEmbed('#chart2', myChart2);
     </script>
 </div>
-  
-  
+    
+     <div class="wrap">
   <h3> Aging Populations </h3>
   <p> This interactive chart plots past and forecasted data of aging populations </p>
+     </div>
   <!--Chart 3 -->
 <div class="chart" id="chart3">
     <script>
@@ -80,7 +86,7 @@
       vegaEmbed('#chart3', myChart3);
     </script>
 </div>
-  
+  </container>
   <h2><span>Week 2 - Hosting Data</span></h2>  
   
   <h3> COVID-19 First Dose Vaccination </h3>
