@@ -74,16 +74,24 @@ p{
 }
 
 /* taken from w3schools */
-.btn {
-  background-color: #D0CCCC; /* Blue background */
-  border-color: #801018; /* Remove borders */
-  color: black; /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 30px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #E5E0E0; /* Dark-grey background */
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: B6B2B2;
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: black; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #E5E0E0; /* Add a hover color */
+}
+
+.active {
+  background-color: #EFADEB; /* Add an active/current color */
 }
