@@ -5,19 +5,19 @@
 
 <head>
   
-  <!--Meta stuff-->
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <!--Meta stuff-->
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <!--The next three lines allow the Vega embed-->
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
-  <link rel="stylesheet" href="index.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
@@ -46,7 +46,9 @@
 
 <body>
 
+<header>
   <h1><strong>Data Science Portfolio</strong></h1>
+ </header>
   
   <!-- <div class="wrap">
    <p class="rubric-launch"> Here is my <a class="textLink" href="project"> Data Science Visualisation</a> page </p> 
@@ -54,12 +56,10 @@
       
  <h2><span>Week 1 - Getting Started</span></h2>  
   
-   <container class="bcontainer">
-     <container class="bcontainer">
-      <div class="wrap">
-   <h3> COVID-19 Cases </h3>
-  <p> This is an interactive chart of number of Covid-19 cases by UK regions </p>
-     </div>
+ <container class="bcontainer">
+
+  <!-- <h3> COVID-19 Cases </h3>
+  <p> This is an interactive chart of number of Covid-19 cases by UK regions </p> -->
 <!--Chart 1 -->
   <div class="chart" id="chart1">
       <script>
@@ -67,13 +67,11 @@
         vegaEmbed('#chart1', myChart1);
       </script>
   </div>
-     </container>
-
-     <container class="bcontainer">
-     <div class="wrap">
-  <h3> UK Labour Productivity </h3>
-   <p> This chart the shows the rising trend of productivity of workers in the UK since 1971 </p>
-     </div>
+    
+  
+  <!-- <h3> UK Labour Productivity </h3>
+   <p> This chart the shows the rising trend of productivity of workers in the UK since 1971 </p> -->
+    
 <!--Chart 2 -->
 <div class="chart" id="chart2">
     <script>
@@ -81,13 +79,12 @@
       vegaEmbed('#chart2', myChart2);
     </script>
 </div>
-     </container>
+
      
-    <container class="bcontainer">
-     <div class="wrap">
-  <h3> Aging Populations </h3>
-  <p> This interactive chart plots past and forecasted data of aging populations </p>
-     </div>
+   
+  <!--<h3> Aging Populations </h3>
+  <p> This interactive chart plots past and forecasted data of aging populations </p> -->
+    
   <!--Chart 3 -->
 <div class="chart" id="chart3">
     <script>
@@ -95,7 +92,7 @@
       vegaEmbed('#chart3', myChart3);
     </script>
 </div>
-      </container>
+
   </container>
   <h2><span>Week 2 - Hosting Data</span></h2>  
   
