@@ -64,7 +64,7 @@
  <container class="bcontainer">
 
      <div class="wrap">
-            <h3 class="rubric-launch"> These charts were taken from <a class="textLink" href="ttps://rapidcharts.io/launch"> Rapid Charts</a>. The charts plots the COVID-19 cases by
+            <h3 class="rubric-launch"> These charts were taken from <a class="textLink" href="https://rapidcharts.io/launch"> Rapid Charts</a>. The charts plots the COVID-19 cases by
        the UK regions, labour productivity and the increasing trend of aging populations. </h3> 
         </div>
      <!-- <h3> COVID-19 Cases </h3>
@@ -103,10 +103,16 @@
 </div>
 
   </container>
+    
   <h2><span>Week 2 - Hosting Data</span></h2>  
-  
-  <h3> COVID-19 First Dose Vaccination </h3>
-  <p> This chart shows the number of first dose vaccination in three UK cities recorded by vaccination date </p>
+   <container class="bcontainer">
+
+     <div class="wrap">
+            <h3> The charts shows the number of first dose vaccinations and death dates from COVID-19 in three UK cities. </h3> 
+        </div>
+     
+  <!--  <h3> COVID-19 First Dose Vaccination </h3>
+ <p> This chart shows the number of first dose vaccination in three UK cities recorded by vaccination date </p> -->
   <!--Chart 4 by API-->
 <div class="chart" id="chart4">
     <script>
@@ -116,8 +122,8 @@
 </div>
   
   
-   <h3> COVID-19 Deaths </h3>
-   <p> This chart shows the cumulative of deaths from Covid-19 in three UK cities recorded by death date </p>
+  <!--  <h3> COVID-19 Deaths </h3>
+ <p> This chart shows the cumulative of deaths from Covid-19 in three UK cities recorded by death date </p> -->
    <!--Chart 5 --> 
 <div class="chart" id="chart5">
     <script>
@@ -125,11 +131,20 @@
       vegaEmbed('#chart5', myChart5);
     </script>
 </div>
-
+  </container>
+  
   <h2><span>Week 3 - Editing Data</span></h2>  
   
- <h3> Predicted Global Population </h3>
-   <p> This chart plots the global population, with the predicted population level for 2030 and 2050</p>
+ 
+   <container class="bcontainer">
+
+     <div class="wrap">
+            <h3> The first chart plots the predicted global population added into the csv file. The second shows the average daily steps I've taken from April to October, data manually 
+       written in JSON format.</h3> 
+        </div>
+     
+<!--  <h3> Predicted Global Population </h3>
+   <p> This chart plots the global population, with the predicted population level for 2030 and 2050</p> -->
    <!--Chart 6 --> 
    
 <div class="chart" id="chart6">
@@ -139,8 +154,8 @@
     </script>
 </div>
 
-<h3> Athirah Walking </h3>
-   <p> This chart shows my average walking steps </p>
+<!--<h3> Athirah Walking </h3>
+    <p> This chart shows my average walking steps </p> -->
    <!--Chart 7 --> 
  
 <div class="chart" id="chart7">
@@ -149,15 +164,30 @@
       vegaEmbed('#chart7', myChart7);
     </script>
 </div>
-
+  </container>
+  
   <h2><span>Week 4 - API Driven Charts</span></h2>  
+   <container class="bcontainer">
+
+     <div class="wrap">
+            <h3> These charts are </h3> 
+        </div>
   <!-- 8
 
 
 9-->
+  </container>   
+     
   <h2><span>Week 5 - Raw Github Charts - Colab, using Loop</span></h2>  
-   <h3> Top 1% Wealth Share </h3>
-   <p> This chart shows the net wealth share of the top 1% in the United States over time </p>
+  
+  <container class="bcontainer">
+
+     <div class="wrap">
+            <h3> These charts are US based data that shows the increasing trend of the wealth share of the top 1%, total expenditure on educational books, 
+              the savings rate and growth of debt service for households. The data for these were downloaded using a for loop in Python. </h3> 
+        </div>
+ <!--  <h3> Top 1% Wealth Share </h3>
+   <p> This chart shows the net wealth share of the top 1% in the United States over time </p> -->
    <!--Chart 10 --> 
 <div class="chart" id="chart10">
     <script>
@@ -166,8 +196,8 @@
     </script>
 </div>
   
-  <h3> Paying for Books </h3>
-   <p> This chart shows the increasing trend of expenditures on educational books in the United States </p>
+ <!--  <h3> Paying for Books </h3>
+  <p> This chart shows the increasing trend of expenditures on educational books in the United States </p> -->
    <!--Chart 11 --> 
 <div class="chart" id="chart11">
     <script>
@@ -176,8 +206,8 @@
     </script>
 </div>
   
-  <h3> Growth of Savings </h3>
-   <p> This chart plots the quarterly growth rate of savings rate in the US </p>
+  <!--  <h3> Growth of Savings </h3>
+  <p> This chart plots the quarterly growth rate of savings rate in the US </p> -->
    <!--Chart 12 --> 
 <div class="chart" id="chart12">
     <script>
@@ -186,8 +216,8 @@
     </script>
 </div>
   
-  <h3> Growth of Debt Service </h3>
-   <p> This chart illustrate the quarterly growth of household debt payments in the US </p>
+ <!--   <h3> Growth of Debt Service </h3>
+ <p> This chart illustrate the quarterly growth of household debt payments in the US </p> -->
    <!--Chart 13 --> 
 <div class="chart" id="chart13">
     <script>
@@ -195,10 +225,19 @@
       vegaEmbed('#chart13', myChart13);
     </script>
 </div>
+  </container>
+  
+  
+ <h2><span>Week 7 - Simple Scraper</span></h2>      
+  
+   <container class="bcontainer">
 
- <h2><span>Week 7 - Simple Scrapper</span></h2>      
-   <h3> Colonial Empires </h3>
-  <p> This is a chart of the 10 largest colonial empires in human history </p>
+     <div class="wrap">
+        <h3 class="rubric-launch"> This is a chart of the 10 largest colonial empires in human history, data scraped from <a class="textLink" href="https://www.worldatlas.com/geography/largest-empires-in-history.html"> 
+          World Atlas</a>. </h3> 
+     </div>
+    <!--    <h3> Colonial Empires </h3>
+ <p> This is a chart of the 10 largest colonial empires in human history </p> -->
 <!--Chart 14 -->
   <div class="chart" id="chart14">
       <script>
@@ -206,10 +245,19 @@
         vegaEmbed('#chart14', myChart14);
       </script>
   </div>
+  </container>
   
-   <h2><span>Week 8 - Data Story</span></h2>      
-   <h3> GDP Growth UK </h3>
-  <p> " " stated that the UK had one of the largest drop of output and experiencing much slower recovery amongst the advanced economies</p>
+   <h2><span>Week 8 - Data Story</span></h2>  
+  
+  <container class="bcontainer">
+
+     <div class="wrap">
+        <h3 " " stated that the UK had one of the largest drop of output and experiencing much slower recovery amongst the advanced economies. Amongst the G7 countries,
+            UK had the biggest drop in 2020 at -9.79%. Nonetheless, according to the UN, for 2021 Japan and Germany will on average have a lower expected growth than the UK.
+            By 2022 and the upcoming years, the G7 economies will follow similar trends, where the UK is expected to grow more than most of the other. /h3> 
+     </div>
+ <!--  <h3> GDP Growth UK </h3> 
+  <p> " " stated that the UK had one of the largest drop of output and experiencing much slower recovery amongst the advanced economies</p> -->
 <!--Chart 15 -->
   <div class="chart" id="chart15">
       <script>
