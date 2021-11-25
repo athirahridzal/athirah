@@ -48,7 +48,9 @@ p{
     border-color: #BADFE7 ;
     margin: auto ;
     background-color: #BADFE7  ;
-    width: 360px
+    width: 360px;
+    justify-content: center;
+    align-items: center;
     
 }
 
