@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+  
+ <!--Meta stuff-->
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
+</style>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
+</style>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+</style>
+  
+  <title> Data Science Project </title>
+</head>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+<body>
+
+  
+ <!-- taken w3schools -->
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-home"></i> Portfolio</a>
+  <a href="project"><i class="fa fa-pencil"></i> Project</a>
+  <a href="https://github.com/athirahridzal/athirahridzal.github.io"><i class="fa fa-laptop"></i> Github</a>
+  <a href="https://rapidcharts.io/datascience"><i class="fa fa-book"></i> Course</a>
+</div>
+   
+<header>
+  <h1><strong>Data Science Portfolio</strong></h1>
+ </header>
+
+
+  
+  <!--<div class="wrap">
+   <p class="rubric-launch"> Here is my <a class="textLink" href="project"> Data Science Visualisation</a> page </p> 
+    </div>-->
+      
+
+  
+ <h2><span>Week 7 - Simple Scraper</span></h2>      
+  
+   <container class="bcontainer">
+
+     <div class="wrap">
+        <h3 class="rubric-launch"> This is a chart of the 10 largest colonial empires in human history, data scraped from 
+          <a class="textLink" href="https://www.worldatlas.com/geography/largest-empires-in-history.html"> 
+          World Atlas</a>. </h3> 
+     </div>
+    <!--    <h3> Colonial Empires </h3>
+ <p> This is a chart of the 10 largest colonial empires in human history </p> -->
+<!--Chart 14 -->
+  <div class="chart" id="chart14">
+      <script>
+        var myChart15 = "chart14_largestEmpires.json";
+        vegaEmbed('#chart14', myChart14);
+      </script>
+  </div>
+  </container>
+  
+  
+  
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>
