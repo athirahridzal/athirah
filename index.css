@@ -7,8 +7,8 @@
 
 body{
     background-color: #F6F6F2;
-    margin: auto; 
-    max-width: 550px;
+    margin: 1080; 
+    max-width: 1920;
     min-width: 320px }
 
  
@@ -38,6 +38,18 @@ p{
     font-weight: 500
     
 } 
+
+.bcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 25px 25px;
+  margin-top: 25px;
+  border-style: solid;
+  border-color: #FFFCOCB;
+  padding: 25px;
+  border-radius: 35px;
+}
 
 /*#BADFE7*/
 
