@@ -75,36 +75,17 @@ p{
 
 /* taken from w3schools */
 
-/* Style the navigation bar */
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
 }
 
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
-
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: #000;
-}
-
-/* Current/active navbar link */
-.active {
-  background-color: #04AA6D;
-}
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
