@@ -74,3 +74,16 @@ p{
 }
 
 /* taken from w3schools */
+.btn {
+  background-color: #D0CCCC; /* Blue background */
+  border-color: #801018; /* Remove borders */
+  color: black; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 30px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: B6B2B2;
+}
