@@ -1,72 +1,55 @@
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
-  "data": {
-    "values": [
-            {
-        "Month": "April 2021",
-        "Steps": 1410
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+    "title": {
+        "text": "Steps per Day",
+        "subtitle": "Average daily steps from April to October 2021",
+        "fontSize": 16,
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "olivedrab"
       },
-      {
-        "Month": "May 2021",
-        "Steps": 642
-      },
-      {
-        "Month": "June 2021",
-        "Steps": 1183
-      },
-      {
-        "Month": "July 2021",
-        "Steps": 3193
-      },
-      {
-        "Month": "August 2021",
-        "Steps": 4314
-      },
-      {
-        "Month": "September 2021",
-        "Steps": 3843
-      },
-      {
-        "Month": "October 2021",
-        "Steps": 2380
-      }
-    ]
-  },
-
- "height": 300,
-  "width": 310,
-
-  "mark": {"type": "line", "color": "orangered",  "point": { "color":"orangered",
-      "filled": false,
-      "fill": "white"}},
-
-  "encoding": {
-
-    "x": {
-      "field": "Month", "timeUnit": "month", "type": "ordinal",
-      "title": null,
-            "axis": {
-        "labelAngle": 0
-        ,
-        "labelBaseline":"middle"
-      }
+      
+    "data": {
+        "values": [
+            {"Month": "April 2021","Steps": 1410},
+            {"Month": "May 2021","Steps": 642},
+            {"Month": "June 2021","Steps": 1183},
+            {"Month": "July 2021","Steps": 3193},
+            {"Month": "July 2021","Steps": 4314},
+            {"Month": "September 2021","Steps": 3843},
+            {"Month": "October 2021","Steps": 2380}
+        ]
     },
-    "y": {
-      "field": "Steps",
-      "type": "quantitative",
-      "title": null
-    }
-  },
-  "title": {
-    "text": "Steps per Day",
-    "subtitle": "Average daily steps from April to October 2021",
-    "fontSize": 16,
-    "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "start",
-    "color": "olivedrab"
-  }
+  
+   "height": 300,
+   "width": 310,
    
-
-}
+   "mark": {
+       "type": "line", 
+       "color": "orangered",  
+       "point": { 
+           "color":"orangered",
+            "filled": false,
+            "fill": "white"
+            }
+        },
+  
+    "encoding": {
+        "x": {
+            "field": "Month", 
+            "timeUnit": "month", 
+            "type": "ordinal",
+            "title": null,
+            "axis": {
+                "labelAngle": 0,
+                "labelBaseline":"middle"
+            }
+        },
+        "y": {
+            "field": "Steps",
+            "type": "quantitative",
+            "title": null
+        }
+    } 
+  }
