@@ -89,7 +89,7 @@ p{
   padding: 12px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: black; /* White text color */
-  font-size: 8; /* Increased font size */
+  font-size: 12px; /* Increased font size */
 }
 
 .icon-bar a:hover {
