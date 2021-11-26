@@ -89,11 +89,11 @@ p{
   padding: 12px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: black; /* White text color */
-  font-size: 10; /* Increased font size */
+  font-size: 8; /* Increased font size */
 }
 
 .icon-bar a:hover {
-  background-color: #E5E0E0; /* Add a hover color */
+  background-color: ##bcb5b5; /* Add a hover color */
 }
 
 .active {
