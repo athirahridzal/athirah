@@ -7,7 +7,8 @@
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
-    "color": "cadetblue"
+    "color": "cadetblue",
+    "fontSize":16
   },
  
   "data": {
