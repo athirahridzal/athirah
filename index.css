@@ -62,14 +62,15 @@ p{
 /*#BADFE7*/
 
 .chart{
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #BADFE7 ;
-    margin: auto ;
-    background-color: #BADFE7  ;
-    justify-content: center;
-    align-items: center;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #BADFE7 ;
+  margin: auto ;
+  background-color: #BADFE7  ;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
     
 }
 
