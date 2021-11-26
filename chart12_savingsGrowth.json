@@ -1,68 +1,71 @@
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Savings Growth",
-    "subtitle": "Quarterly growth of savings rate since 2000 in the US, Source: FRED",
-    "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "start",
-    "color": "darkcyan"
-  },
-  "data": {
-    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-A072RC1Q156SBEA.json",
-    "format": {"property": "observations"}
-  },
-
-"transform": [
-       {"filter": {"field": "date","range": [{"year": 2000},{"year": 2021}]}}
-    ],
-
-  "height": 300,
-  "width": 310,
-  "mark": {"type": "line", "point": false, "color": "deepskyblue"},
-  "encoding": {
-    "x": {"field": "date", "type": "ordinal", "timeUnit": "yearmonth", "title": null}
-  },
-  "layer": [
-    {
-      "encoding": {
-        "y": {"field": "value", "type": "quantitative", "title": null}
-      },
-      "layer": [
-        {"mark": {"type": "line", "align": false, "color": "deepskyblue"}},
-        {
-          "transform": [{"filter": {"selection": "hover"}}],
-          "mark": {"type": "circle", "size": 150, "color": "darkcyan"}
-        }
-      ]
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+    "title": {
+        "text": "Savings Growth",
+        "subtitle": "Quarterly growth of savings rate since 2000 in the US, Source: FRED",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "darkcyan"
     },
-    {
-      "mark": "rule",
-      "encoding": {
-        "opacity": {
-          "condition": {"value": 0, "selection": "hover"},
-          "value": 0
+
+    "data": {
+        "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-A072RC1Q156SBEA.json",
+        "format": {"property": "observations"}
+    },
+  
+    "transform": [
+        {"filter": {"field": "date","range": [{"year": 2000},{"year": 2021}]}}
+    ],
+  
+    "height": 300,
+    "width": 310,
+
+    "mark": {"type": "line", "point": false, "color": "deepskyblue"},
+
+    "encoding": {
+        "x": {"field": "date", "type": "ordinal", "timeUnit": "yearmonth", "title": null}
+    },
+
+    "layer": [
+        {
+            "encoding": {
+                "y": {"field": "value", "type": "quantitative", "title": null}
         },
-        "tooltip": [
-          {
-            "field": "date",
-            "type": "ordinal",
-            "timeUnit": "yearmonth",
-            "title": "Year"
-          },
-          {"field": "value", "type": "quantitative", "title": "Quarterly Change %"}
+        "layer": [
+            {"mark": {"type": "line", "align": false, "color": "deepskyblue"}},
+            {
+                "transform": [{"filter": {"selection": "hover"}}],
+                "mark": {"type": "circle", "size": 150, "color": "darkcyan"}
+            }
         ]
-      },
-      "selection": {
-        "hover": {
-          "type": "single",
-          "fields": ["date"],
-          "nearest": true,
-          "on": "mouseover",
-          "empty": "none",
-          "clear": "mouseout"
+        },
+        {
+            "mark": "rule",
+            "encoding": {
+            "opacity": {
+                "condition": {"value": 0, "selection": "hover"}, "value": 0
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "type": "ordinal",
+                        "timeUnit": "yearmonth",
+                        "title": "Year"
+                    },
+                    {"field": "value", "type": "quantitative", "title": "Quarterly Change %"}
+                ]
+            },
+            "selection": {
+                "hover": {
+                    "type": "single",
+                    "fields": ["date"],
+                    "nearest": true,
+                    "on": "mouseover",
+                    "empty": "none",
+                    "clear": "mouseout"
+                }
+            }
         }
-      }
-    }
-  ]
+    ]
 }
