@@ -1,64 +1,68 @@
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Projected Global Population",
-    "subtitle": "Expected population in 2030 and 2050 in Billions, Source: World Bank, UN",
-    "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "start",
-    "color": "navy",
-    "fontSize": 16
-  },
-  "data": {
-    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/expectedPop.csv",
-    "format": {"type": "csv"}
-  },
-  "height": 300,
-  "width": 310,
-  "transform": [{"calculate": "datum.Value/1000000000", "as": "Billion"}],
-  "layer": [
-    {
-      "mark": {
-        "type": "line",
-        "color": "darkturquoise",
-        "width": 10,
-        "strokeWidth": 2,
-        "opacity": 1
-      },
-      "encoding": {
-        "x": {"field": "Time", "type": "temporal", "title": null},
-        "y": {"field": "Billion", "type": "quantitative", "title": null}
-      }
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+    "title": {
+        "text": "Projected Global Population",
+        "subtitle": "Expected population in 2030 and 2050 in Billions, Source: World Bank, UN",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "navy",
+        "fontSize": 16
     },
-    { "data": {
-    "values": [
-      {"Time": "2050", "Billion": 9.8},
-      {"Time": "2030", "Billion": 8.6}
-    ]
-  },
-      "encoding": {
-        "x": {"field": "Time", "type": "temporal"},
-        "y": {
-          "field": "Billion",
-          "type": "quantitative"
-        },
-        "text": {
-          "aggregate": {"argmax": "Time"},
-          "field": "Billion",
-          "type": "nominal"
-        }
-      },
-      "layer": [
-        {"mark": {"type": "circle", "color": "turquoise", "size": 100}},
+    
+    "data": {
+        "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/expectedPop.csv",
+        "format": {"type": "csv"}
+    },
+
+    "height": 300,
+    "width": 310,
+
+    "transform": [{"calculate": "datum.Value/1000000000", "as": "Billion"}],
+
+    "layer": [
         {
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "dx": 10,
-            "color": "black"
-          }
-        }
-      ]
-    }
-  ]
-}
+            "mark": {
+                "type": "line",
+                "color": "darkturquoise",
+                "width": 10,
+                "strokeWidth": 2,
+                "opacity": 1
+            },
+            "encoding": {
+                "x": {"field": "Time", "type": "temporal", "title": null},
+                "y": {"field": "Billion", "type": "quantitative", "title": null}
+            }
+        },
+        { "data": {
+            "values": [
+                {"Time": "2050", "Billion": 9.8},
+                {"Time": "2030", "Billion": 8.6}
+            ]
+        },
+        "encoding": {
+            "x": {"field": "Time", "type": "temporal"},
+            "y": {
+                "field": "Billion",
+                "type": "quantitative"
+            },
+            "text": {
+                "aggregate": {"argmax": "Time"},
+                "field": "Billion",
+                "type": "nominal"
+            }
+        },
+        "layer": [
+            {"mark": {"type": "circle", "color": "turquoise", "size": 100}},
+            {
+                "mark": {
+                    "type": "text",
+                    "align": "left",
+                    "dx": 10,
+                    "color": "black"
+                }
+            }
+        ]
+      }
+    ]
+  }
