@@ -71,8 +71,10 @@ p{
   justify-content: center;
   align-items: center;
   padding: 5px;
-  padding-right: 5px;
-    
+}
+
+.vega-embed.has-actions {
+    padding-right: 5px;
 }
 
 /* taken from w3schools */
