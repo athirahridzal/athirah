@@ -24,12 +24,12 @@
   },
 
   "encoding": {
-    "x": {"field": "Empire", "type": "nominal", "title": null},
-    "y": {
+    "x": {
       "field": "Maximum Colonial Area",
       "type": "quantitative",
       "title": null
-    }
+    }, 
+    "y": {"field": "Empire", "type": "nominal", "title": null, "sort":""}
   },
 
   "params": [
@@ -42,7 +42,7 @@
   "layer": [
     {
       "encoding": {
-        "y": {
+        "x": {
           "field": "Maximum Colonial Area",
           "type": "quantitative",
           "title": null,
@@ -65,12 +65,7 @@
           "value": 0
         },
         "tooltip": [
-          {
-            "field": "Empire",
-            "type": "nominal",
-            "title": "Empire"
-          },
-          {
+           {
             "field": "Maximum Colonial Area",
             "type": "quantitative",
             "title": "Area in Billions km"
