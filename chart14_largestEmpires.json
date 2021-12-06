@@ -13,7 +13,6 @@
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataColoniser.csv",
     "format": {"type": "csv"}
   },
-
   "height": 300,
   "width": 310,
   "mark": {
@@ -22,22 +21,23 @@
     "stroke": "darkgray",
     "cursor": "pointer"
   },
-
   "encoding": {
-    "x": {
+    "y": {
       "field": "Maximum Colonial Area",
       "type": "quantitative",
       "title": null
-    }, 
-    "y": {"field": "Empire", "type": "nominal", "title": null, "sort":""}
+    },
+    "x": {"field": "Empire", "type": "nominal", "title": null}
   },
-  
+  "params": [
+    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}},
+    {"name": "select", "select": "point"}
+  ],
   "config": {"scale": {"bandPaddingInner": 0.2}},
-
   "layer": [
     {
       "encoding": {
-        "x": {
+        "y": {
           "field": "Maximum Colonial Area",
           "type": "quantitative",
           "title": null,
@@ -60,7 +60,12 @@
           "value": 0
         },
         "tooltip": [
-           {
+          {
+            "field": "Empire",
+            "type": "nominal",
+            "title": "Empire"
+          },
+          {
             "field": "Maximum Colonial Area",
             "type": "quantitative",
             "title": "Area in Billions km"
