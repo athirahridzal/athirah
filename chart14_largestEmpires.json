@@ -1,64 +1,92 @@
-{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    
-    "title": {
-        "text": "Top 10 Largest Colonial Empires",
-        "subtitle": "Empires Based on Land Area in Billions on km, Source: World Atlas",
-        "subtitleFontStyle": "italic",
-        "subtitleFontSize": 9,
-        "anchor": "start",
-        "fontSize": 16,
-        "color": "red"
-    },
-    
-    "data": {
-        "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataColoniser.csv", 
-        "format": {"type": "csv"}
-    },
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Top 10 Largest Colonial Empires",
+    "subtitle": "Empires Based on Land Area in Billions on km, Source: World Atlas",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 9,
+    "anchor": "start",
+    "fontSize": 16,
+    "color": "red"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataColoniser.csv",
+    "format": {"type": "csv"}
+  },
 
-    "params": [
-        {
-            "name": "highlight",
-            "select": {"type": "point", "on": "mouseover"}
-        },
-        {"name": "select", "select": "point"}
-    ],
+  "height": 300,
+  "width": 310,
+  "mark": {
+    "type": "bar",
+    "fill": "#810404",
+    "stroke": "darkgray",
+    "cursor": "pointer"
+  },
 
-    "mark": {
-        "type": "bar",
-        "fill": "#810404",
-        "stroke": "darkgray",
-        "cursor": "pointer"
-    },
-
-    "height": 300,
-    "width": 310,
-
-    "encoding": {
-        "x": {"field": "Empire", "type": "nominal", "title":null, "sort":"y"},
-        "y": {"field": "Maximum Colonial Area", "type": "quantitative","title":null},
-        "fillOpacity": {
-            "condition": {"param": "select", "value": 1},
-            "value": 0.3
-        },
-        "strokeWidth": {
-            "condition": [
-                {
-                    "param": "select",
-                    "empty": false,
-                    "value": 2
-                },
-                {
-                    "param": "highlight",
-                    "empty": false,
-                    "value": 1
-                }
-            ],
-            "value": 0
-        }
-    },
-    "config": {
-        "scale": {
-            "bandPaddingInner": 0.2
-        }
+  "encoding": {
+    "x": {"field": "Empire", "type": "nominal", "title": null},
+    "y": {
+      "field": "Maximum Colonial Area",
+      "type": "quantitative",
+      "title": null
     }
-  }
+  },
+
+  "params": [
+    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}},
+    {"name": "select", "select": "point"}
+  ],
+    
+  "config": {"scale": {"bandPaddingInner": 0.2}},
+
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Maximum Colonial Area",
+          "type": "quantitative",
+          "title": null,
+          "axis": {"grid": true}
+        }
+      },
+      "layer": [
+        {"mark": {"type": "bar", "align": false, "color": "maroon"}},
+        {
+          "transform": [{"filter": {"selection": "hover"}}],
+          "mark": {"type": "bar", "color": "red"}
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0, "selection": "hover"},
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "Empire",
+            "type": "nominal",
+            "title": "Empire"
+          },
+          {
+            "field": "Maximum Colonial Area",
+            "type": "quantitative",
+            "title": "Area in Billions km"
+          }
+        ]
+      },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["Empire"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
+    }
+  ]
+}
