@@ -31,12 +31,7 @@
     }, 
     "y": {"field": "Empire", "type": "nominal", "title": null, "sort":""}
   },
-
-  "params": [
-    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}},
-    {"name": "select", "select": "point"}
-  ],
-    
+  
   "config": {"scale": {"bandPaddingInner": 0.2}},
 
   "layer": [
