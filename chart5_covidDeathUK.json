@@ -2,9 +2,9 @@
  
   "title": {
     "text": "Deaths from COVID-19",
-    "subtitle": "Cumulative death by death date",
+    "subtitle": ["Cumulative death by death date","Source: UK gov"],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
+    "subtitleFontSize": 12,
     "anchor": "start",
     "fontSize": 16,
     "color": "indianred"
@@ -25,7 +25,7 @@
   ],
  
   "height": 300,
-  "width": 310,
+  "width": "container",
  
   "mark": {"type": "line", "point": false},
  
