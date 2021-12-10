@@ -2,9 +2,9 @@
     
     "title": {
         "text": "Household Debt Service Growth",
-        "subtitle": "Debt service payments as a percent of disposable income , Source: FRED",
+        "subtitle": ["Debt service payments as a percent of disposable income" , "Source: FRED"],
         "subtitleFontStyle": "italic",
-        "subtitleFontSize": 10,
+        "subtitleFontSize": 12,
         "anchor": "start",
         "color": "mediumseagreen",
         "fontSize": 16
@@ -16,7 +16,7 @@
     },
 
     "height": 300,
-    "width": 310,
+    "width": "container",
 
     "mark": {"type": "line", "point": false, "color": "red"},
 
