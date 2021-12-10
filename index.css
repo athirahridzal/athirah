@@ -74,11 +74,10 @@ p{
 
 .vega-embed.has-actions {
     padding-right: 5px !important;
+    width: 300px !important;
 }
 
-.chart.vega-embed.has-actions {
-  width: 300px !important;
-}
+
 
 a:-webkit-any-link {
     color: #BD6AFC;
