@@ -2,7 +2,7 @@
     
     "title": {
         "text": "Savings Growth",
-        "subtitle": ["Quarterly growth of savings rate since 2000", "Source: FRED"],
+        "subtitle": ["Quarterly growth of savings rate", "Source: FRED"],
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 12,
         "anchor": "start",
