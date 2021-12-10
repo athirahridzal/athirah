@@ -17,6 +17,10 @@
     "color": "darkred",
     "fontSize": 16
   },
+  
+  "height": 300, 
+  "width": 310, 
+
 
    
   "mark": {"type": "bar", "width": 10},
