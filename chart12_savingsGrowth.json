@@ -2,9 +2,9 @@
     
     "title": {
         "text": "Savings Growth",
-        "subtitle": "Quarterly growth of savings rate since 2000 in the US, Source: FRED",
+        "subtitle": ["Quarterly growth of savings rate since 2000", "Source: FRED"],
         "subtitleFontStyle": "italic",
-        "subtitleFontSize": 10,
+        "subtitleFontSize": 12,
         "anchor": "start",
         "color": "darkcyan",
         "fontSize":16
@@ -20,7 +20,7 @@
     ],
   
     "height": 300,
-    "width": 310,
+    "width": "container",
 
     "mark": {"type": "line", "point": false, "color": "deepskyblue"},
 
