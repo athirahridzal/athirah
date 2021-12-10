@@ -83,7 +83,7 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-/* taken from w3schools */
+/* taken from w3schools - navigation bar and media screens */
 
 .icon-bar {
   width: 100%; /* Full-width */
@@ -108,3 +108,15 @@ a:-webkit-any-link {
 .active {
   background-color: #EFADEB; /* Add an active/current color */
 }
+
+@media only screen and (max-width: 430px) {
+  body {
+    max-width: 100%
+  }
+  .chart {
+    min-width: 350px;
+    padding: 5px
+  }
+ }
+
+
