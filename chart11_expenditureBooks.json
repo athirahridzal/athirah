@@ -2,9 +2,9 @@
     
     "title": {
         "text": "Expenditure on Educational Books",
-        "subtitle": "Total Spending on Educational Books in Billions of USD, Source: FRED",
+        "subtitle": ["Total Spending on Educational Books in Billions of USD", "Source: FRED"],
         "subtitleFontStyle": "italic",
-        "subtitleFontSize": 10,
+        "subtitleFontSize": 12,
         "anchor": "start",
         "fontSize": 16,
         "color": "rosybrown"
@@ -16,7 +16,7 @@
     },
 
     "height": 300,
-    "width": 310,
+    "width": "container",
 
     "mark": {"type": "line", "point": false, "color":"burlywood"},
 
