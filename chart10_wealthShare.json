@@ -2,8 +2,8 @@
     
     "title": {
         "text": "Wealth Share of Top 1%",
-        "subtitle": "Share of total net wealth of the top 1% in the United States, Source: FRED",
-        "subtitleFontSize": 10,
+        "subtitle": ["Share of total net wealth of the top 1% in the United States", "Source: FRED"],
+        "subtitleFontSize": 12,
         "fontSize":16,
         "anchor": "start",
         "color": "purple"
@@ -16,7 +16,7 @@
   
   
     "height": 300,
-    "width": 310,
+    "width": "container",
 
     "mark": {"type": "line", "point": false, "color":"goldenrod"},
 
