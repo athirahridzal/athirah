@@ -1,7 +1,7 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     
     "title": {
-        "text": "Wealth Share of Top 1%",
+        "text": "Wealth of Top 1%",
         "subtitle": ["Share of total net wealth of the top 1%", "Source: FRED"],
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 12,
