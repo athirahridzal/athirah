@@ -30,8 +30,8 @@
                 "opacity": 1
             },
             "encoding": {
-                "x": {"field": "Time", "type": "temporal", "title": null},
-                "y": {"field": "Billion", "type": "quantitative", "title": null}
+                "x": {"field": "Time", "type": "temporal", "title": null,"axis":{"grid": false}},
+                "y": {"field": "Billion", "type": "quantitative", "title": null,"axis":{"grid": false}}
             }
         },
         { "data": {
