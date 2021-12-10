@@ -2,9 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Top 10 Largest Colonial Empires",
-    "subtitle": "Empires Based on Land Area in Billions on km, Source: World Atlas",
+    "subtitle": ["Empires Based on Land Area in Billions on km", "Source: World Atlas"],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 9,
+    "subtitleFontSize": 12,
     "anchor": "start",
     "fontSize": 16,
     "color": "red"
@@ -14,7 +14,7 @@
     "format": {"type": "csv"}
   },
   "height": 300,
-  "width": 310,
+  "width": "container",
   "mark": {
     "type": "bar",
     "fill": "#810404",
