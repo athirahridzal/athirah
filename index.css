@@ -115,6 +115,7 @@ a:-webkit-any-link {
   .vega-embed.has-actions {
    width: 360px;
    }
+}
 
 @media screen and (max-width: 389px) {
   .vega-embed.has-actions {
