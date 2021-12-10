@@ -5,7 +5,7 @@
         "subtitle": "Average daily steps from April to October 2021",
         "fontSize": 16,
         "subtitleFontStyle": "italic",
-        "subtitleFontSize": 10,
+        "subtitleFontSize": 12,
         "anchor": "start",
         "color": "olivedrab"
       },
@@ -23,7 +23,7 @@
     },
   
    "height": 300,
-   "width": 310,
+   "width": "container",
    
    "mark": {
        "type": "line", 
