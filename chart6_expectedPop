@@ -2,9 +2,9 @@
     
     "title": {
         "text": "Projected Global Population",
-        "subtitle": "Expected population in 2030 and 2050 in Billions, Source: World Bank, UN",
+        "subtitle": ["Expected population in 2030 and 2050 in Billions", "Source: World Bank, UN"],
         "subtitleFontStyle": "italic",
-        "subtitleFontSize": 10,
+        "subtitleFontSize": 12,
         "anchor": "start",
         "color": "navy",
         "fontSize": 16
