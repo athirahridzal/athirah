@@ -2,7 +2,7 @@
     
     "title": {
         "text": "Wealth Share of Top 1%",
-        "subtitle": ["Share of total net wealth of the top 1% in the United States", "Source: FRED"],
+        "subtitle": ["Share of total net wealth of the top 1%", "Source: FRED"],
         "subtitleFontSize": 12,
         "fontSize":16,
         "anchor": "start",
