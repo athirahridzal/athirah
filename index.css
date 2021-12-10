@@ -78,9 +78,9 @@ p{
 }
 
 a:-webkit-any-link {
-    color: #FFFDA1;
+    color: #BD6AFC;
     cursor: pointer;
-    text-decoration: null;
+    text-decoration: none;
 }
 
 /* taken from w3schools */
