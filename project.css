@@ -77,6 +77,12 @@ p{
     padding-right: 5px !important;
 }
 
+a:-webkit-any-link {
+    color: #BD6AFC;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /* taken from w3schools */
 
 .icon-bar {
