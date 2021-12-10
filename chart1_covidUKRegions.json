@@ -10,7 +10,7 @@
 
   "title": {
     "text": "Covid cases: UK regions",
-    "subtitle": ["Expected population in 2030 and 2050 in Billions", "Source: UK gov"],
+    "subtitle": ["Daily new cases by publish date", "Source: UK gov"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 12,
     "anchor": "start",
