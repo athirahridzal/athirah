@@ -54,7 +54,7 @@
   },
  
   "encoding": {
-    "x": {"field": "Year", "type": "temporal", "title": null},
+    "x": {"field": "Year", "type": "temporal", "title": null, "axis": {"grid": false}},
     "y": {"field": "sh_65+", "type": "quantitative", "title": null},
     "color": {
       "field": "Region",
