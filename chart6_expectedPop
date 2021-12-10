@@ -16,7 +16,7 @@
     },
 
     "height": 300,
-    "width": 310,
+    "width": "container",
 
     "transform": [{"calculate": "datum.Value/1000000000", "as": "Billion"}],
 
