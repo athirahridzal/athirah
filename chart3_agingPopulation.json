@@ -7,16 +7,16 @@
  
   "title": {
     "text": "Aging populations",
-    "subtitle": "Share of popluation that is ages 65+. Source: UN. S Korea=blue",
+    "subtitle": ["Share of popluation that is ages 65+, S Korea=blue" , "Source: UN"],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
+    "subtitleFontSize": 12,
     "anchor": "start",
     "color": "steelblue",
     "fontSize": 16
   },
  
   "height": 300,
-  "width": 310,
+  "width": "container",
  
   "mark": {"type": "line", "width": 10},
  
