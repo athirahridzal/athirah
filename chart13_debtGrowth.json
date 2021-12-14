@@ -21,7 +21,7 @@
     "mark": {"type": "line", "point": false, "color": "red"},
 
     "encoding": {
-        "x": {"field": "date", "type": "ordinal", "timeUnit": "yearmonth", "title": null}
+        "x": {"field": "date", "type": "ordinal", "timeUnit": "yearmonth", "title": null,"axis": {"format": "%Y", "labelAngle":320, "ticks": false}}
     },
 
     "layer": [
