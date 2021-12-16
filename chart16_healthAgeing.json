@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+"title": {
+        "text": "Ageing Society and Public Healthcare",
+        "subtitle": ["Spending on healthcare PPP and ratio of population 65+ to working-age population", "Source: World Bank"],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 11,
+        "anchor": "start",
+        "fontSize": 16,
+        "color": "rebeccapurple"
+    },
+
+  "height":300,
+  "width":"container",
+
+  "layer": [
+    {
+      "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataHealthAgeing.csv"},
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color":"plum"
+      },
+      "encoding": {
+        "x": {
+          "field": "Dependency",
+          "type": "quantitative",
+          "title": "Dependency Ratio",
+          "axis":{"titleColor":"black", "titleFontSize":13, "titleFontWeight":"lighter"}
+        },
+        "y": {
+          "field": "HealthExpPC",
+          "type": "quantitative",
+          "title":null
+        }
+      }
+    },
+    {
+      "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataHealthAgeingLine.csv"},
+      "mark": {
+        "type": "line",
+        "color":"grey"
+      },
+      "encoding": {
+        "x": {
+          "field": "xFitted",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "yFitted",
+          "type": "quantitative",
+          "title":null
+        }
+      }
+    },
+
+    {
+      "data": {"url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataHealthAgeing.csv"},
+      "transform": [
+        {
+          "regression": "HealthExpPC",
+          "on": "Dependency",
+          "method": "poly",
+          "order": 6,
+          "params": true
+        },
+        
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "crimson",
+        "fontSize":12,
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+  ]
+}
