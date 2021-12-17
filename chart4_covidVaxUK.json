@@ -47,7 +47,7 @@
       "type": "nominal",
       "scale": {"scheme": "tableau10"},
       "title": null,
-      "legend": {"orient": "top-right", "fillColor": null, "labelFontSize": 9.5}
+      "legend": {"orient": "top-right", "fillColor": null, "labelFontSize": 12}
     }
   }
 }
