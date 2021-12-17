@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
 "title": {
-        "text": "Ageing Society and Public Healthcare",
+        "text": "Ageing Society on Public Healthcare",
         "subtitle": ["Spending per capita PPP and ratio of 65+ to working-age population", "Source: World Bank"],
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 10,
@@ -32,7 +32,8 @@
         "y": {
           "field": "HealthExpPC",
           "type": "quantitative",
-          "title":null
+          "title": "Healthcare Spending",
+          "axis":{"titleColor":"black", "titleFontSize":13, "titleFontWeight":"lighter"}
         }
       }
     },
@@ -49,8 +50,7 @@
         },
         "y": {
           "field": "yFitted",
-          "type": "quantitative",
-          "title":null
+          "type": "quantitative"
         }
       }
     },
