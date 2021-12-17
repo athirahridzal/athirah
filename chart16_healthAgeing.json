@@ -5,9 +5,9 @@
         "text": "Ageing Society and Public Healthcare",
         "subtitle": ["Spending per capita PPP and ratio of 65+ to working-age population", "Source: World Bank"],
         "subtitleFontStyle": "italic",
-        "subtitleFontSize": 11,
+        "subtitleFontSize": 10,
         "anchor": "start",
-        "fontSize": 16,
+        "fontSize": 15,
         "color": "rebeccapurple"
     },
 
