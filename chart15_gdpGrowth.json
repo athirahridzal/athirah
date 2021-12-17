@@ -2,7 +2,7 @@
     
     "title": {
         "text": "GDP Growth G7 Countries",
-        "subtitle": ["Forecasted GDP growth of G7 countries", "Source: World Bank, IMF"],
+        "subtitle": ["Forecasted GDP growth of G7 countries, UK=Green", "Source: World Bank, IMF"],
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 12,
         "fontSize": 16,
