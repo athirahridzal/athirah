@@ -47,7 +47,7 @@
       "type": "nominal",
       "scale": {"scheme": "magma"},
       "title": null,
-      "legend": {"orient": "top-left", "fillColor": null, "labelFontSize": 9.5}
+      "legend": {"orient": "top-left", "fillColor": null, "labelFontSize": 12}
     }
   }
 }
