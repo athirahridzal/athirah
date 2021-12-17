@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Gender Wage Gap - South Korea vs OECD",
+    "subtitle": [
+      "Difference in median earnings, South Korea=Blue",
+      "Source: OECD"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "fontSize": 16,
+    "color": "mediumturquoise"
+  },
+
+  "height":300,
+  "width":"container",
+    
+  "encoding": {
+      "y": {"field": "ObsValue.value", "type": "quantitative", "title": null, "axis": {"grid": true}},
+      "x": {"field": "Time", "type": "temporal", "title": null, "axis": {"grid": false}}
+    },
+
+ "layer": [
+   {"data": {"url": "https://api.factmaven.com/xml-to-json/?xml=https%3A%2F%2Fstats.oecd.org%2Frestsdmx%2Fsdmx.ashx%2FGetData%2FDEC_I%2FKOR.MW.GWG5%2Fall%3FstartTime%3D2000%26endTime%3D2020", 
+    "format":{"property": "MessageGroup.DataSet.Series.Obs"}},
+    "mark": {"type":"line", "color":"blue"}
+    },
+
+    {"data": {"url": "https://api.factmaven.com/xml-to-json/?xml=https%3A%2F%2Fstats.oecd.org%2Frestsdmx%2Fsdmx.ashx%2FGetData%2FDEC_I%2FOECD.MW.GWG5%2Fall%3FstartTime%3D2000%26endTime%3D2020", 
+    "format":{"property": "MessageGroup.DataSet.Series.Obs"}},
+    "mark": {"type":"line", "color":"lightcoral"}
+    }
+  ]
+  
+
+}
