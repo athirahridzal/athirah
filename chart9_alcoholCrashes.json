@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Alcohol Road Crashes",
+    "subtitle": [
+      "Alcohol-related crashes (% of all traffic crashes)",
+      "Source: WHO"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "fontSize": 16,
+    "color": "orchid"
+  },
+     
+  "data": {
+    "url": "https://api.allorigins.win/raw?url=https%3A%2F%2Fapps.who.int%2Fgho%2Fathena%2Fapi%2FGHO%2FSA_0000001471.json%3Fprofile%3Dsimple",
+    "format":{"type":"json","property":"fact"}
+    },
+
+  
+  "transform":[
+    {"filter":{"field": "dim.YEAR", "range":[1995,2020]}},
+    {"filter": {
+      "field": "dim.COUNTRY", 
+      "oneOf": ["Singapore", "Germany", "Latvia", "Canada", "Republic of Korea"]}}  
+    ],
+    
+  "mark": "line",
+  
+  "height":300,
+  "width":"container",
+    
+  "encoding": {
+    "x": {"field": "dim.YEAR", "type": "ordinal", "title": null, "axis":{"labelAngle":320}},
+    "y": {"field": "Value", "type": "quantitative", "title": null },
+    "color": {
+      "field": "dim.COUNTRY",
+      "title":null, 
+      "legend":{"orient": "top-right", "labelFontSize":12}, 
+      "scale":{"scheme":"sinebow"}}
+    }
+}
