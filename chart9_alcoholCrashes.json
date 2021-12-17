@@ -33,7 +33,7 @@
   "width":"container",
     
   "encoding": {
-    "x": {"field": "dim.YEAR", "type": "ordinal", "title": null, "axis":{"labelAngle":320}},
+    "x": {"field": "dim.YEAR", "type": "ordinal", "title": null, "axis":{"labelAngle":300}},
     "y": {"field": "Value", "type": "quantitative", "title": null },
     "color": {
       "field": "dim.COUNTRY",
