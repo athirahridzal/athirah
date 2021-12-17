@@ -2,9 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "Gender Wage Gap - South Korea vs OECD",
+    "text": "Gender Wage Gap",
     "subtitle": [
-      "Difference in median earnings, South Korea=Blue",
+      "South Korea in comparison to total OECD, South Korea=Blue",
       "Source: OECD"
     ],
     "subtitleFontStyle": "italic",
