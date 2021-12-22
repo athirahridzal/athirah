@@ -36,7 +36,8 @@
         "ISR",
         "TUR",
         "MEX",
-        "NOR"
+        "NOR",
+        "GBR"
         ]
         }
       }
@@ -81,7 +82,7 @@
     "color": {
       "field": "country",
       "title": null,
-      "legend": {"orient": "top-right", "labelFontSize": 11},
+      "legend": {"orient": "bottom", "labelFontSize": 11},
       "scale": {"scheme": "turbo"}
     },
 
