@@ -4,11 +4,11 @@
   "title": {
     "text": "Youth and the Labour Market",
     "subtitle": [
-      "% of 15-29 population not in employment, education or training",
+      "% of 15-29 not in employment, education or training",
       "Source: OECD"
     ],
     "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
+    "subtitleFontSize":11,
     "anchor": "start",
     "fontSize": 16,
     "color": "cadetblue"
