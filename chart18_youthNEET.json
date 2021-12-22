@@ -5,10 +5,10 @@
     "text": "Youth and the Labour Market",
     "subtitle": [
       "% of 15-29 population not in employment, education or training",
-      "Source: OECD, OECD Average in orange"
+      "Source: OECD"
     ],
     "subtitleFontStyle":"italic",
-    "subtitleFontSize":12,
+    "subtitleFontSize":11,
     "anchor": "start",
     "fontSize": 16,
     "color": "cadetblue"
@@ -35,7 +35,6 @@
         "OAVG",
         "ISR",
         "TUR",
-        "GBR",
         "MEX",
         "NOR"
         ]
