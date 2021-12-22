@@ -52,13 +52,8 @@
                     "value": 0
                 },
                 "tooltip": [
-                    {
-                        "field": "date",
-                        "type": "ordinal",
-                        "timeUnit": "yearmonth",
-                        "title": "Year"
-                    },
-                    {"field": "value", "type": "quantitative", "title": "Quarterly Change %"}
+                    {"field": "date", "type": "ordinal", "timeUnit": "yearmonth", "title": "Year"},
+                    {"field": "value", "type": "quantitative", "format":".2f", "title": "Quarterly Change %"}
                 ]
             },
             "selection": {
