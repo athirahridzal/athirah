@@ -87,7 +87,7 @@
 
      "tooltip": [
        {"field":"country", "title": "Country", "type": "nominal"},
-       {"field": "date", "title": "Date", "type": "temporal"},
+       {"field": "date", "title": "Year", "timeUnit":"year", "type": "temporal"},
        {"field": "value", "title": "Youth %", "type": "quantitative"}
     ]
     
