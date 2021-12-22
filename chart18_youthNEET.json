@@ -1,0 +1,96 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Youth and the Labour Market",
+    "subtitle": [
+      "% of 15-29 population not in employment, education or training",
+      "Source: OECD, OECD Average in orange"
+    ],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":12,
+    "anchor": "start",
+    "fontSize": 16,
+    "color": "cadetblue"
+  },
+  
+  "data": {
+    "name":"Data",
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataYouth.csv",
+    "format": {"type":"csv"}
+    },
+
+  "width":"container",
+  "height":300,
+  
+  "mark":{"type": "line", "point":true, "strokeWidth":1},
+
+  "transform": [
+    {"calculate":"timeParse(datum.year, '%Y')", "as": "date"},
+    {"filter": "datum.year>minYear"},
+    {"filter": "datum.year<maxYear"},
+    {"filter":{
+      "field": "country",
+      "oneOf":[
+        "OAVG",
+        "ISR",
+        "TUR",
+        "GBR",
+        "MEX",
+        "NOR"
+        ]
+        }
+      }
+    ],
+
+  "params": [    
+    {"name":"minYear", "value":1997,
+    "bind":{
+      "input": "range",
+      "min": 1997, 
+      "max": 2020, 
+      "step": 1,
+       "name": "Start year:"}
+      },
+
+    {"name":"maxYear", "value":2020,
+    "bind":{
+      "input": "range",
+       "min": 1997, 
+       "max": 2020, 
+       "step": 1,
+       "name": "End year:"}
+      }
+    ],
+    
+  "encoding": {
+      
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title":null, 
+      "axis":{"grid": false}
+      },
+  
+    "y": {
+      "field": "value",                
+      "type": "quantitative",
+      "title":null,
+      "scale":{"domain":{"data": "Data","field": "value"}}
+      },
+
+    "color": {
+      "field": "country",
+      "title": null,
+      "legend": {"orient": "top-right", "labelFontSize": 11},
+      "scale": {"scheme": "turbo"}
+    },
+
+     "tooltip": [
+       {"field":"country", "title": "Country", "type": "nominal"},
+       {"field": "date", "title": "Date", "type": "temporal"},
+       {"field": "value", "title": "Youth %", "type": "quantitative"}
+    ]
+    
+  }
+}
