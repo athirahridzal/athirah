@@ -3,10 +3,7 @@
 
   "title": {
     "text": "Youth and the Labour Market",
-    "subtitle": [
-      "% of 15-29 not in employment, education or training",
-      "Source: OECD"
-    ],
+    "subtitle": ["% of 15-29 not in employment, education or training", "Source: OECD"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":11,
     "anchor": "start",
@@ -43,20 +40,20 @@
     ],
 
   "params": [    
-    {"name":"minYear", "value":1997,
+    {"name":"minYear", "value":1996,
     "bind":{
       "input": "range",
-      "min": 1997, 
-      "max": 2020, 
+      "min": 1996, 
+      "max": 2021, 
       "step": 1,
        "name": "Start year:"}
       },
 
-    {"name":"maxYear", "value":2020,
+    {"name":"maxYear", "value":2021,
     "bind":{
       "input": "range",
-       "min": 1997, 
-       "max": 2020, 
+       "min": 1996, 
+       "max": 2021, 
        "step": 1,
        "name": "End year:"}
       }
