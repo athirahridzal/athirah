@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 
 <!--The next three lines allow the Vega embed-->
 <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
@@ -18,7 +18,7 @@
 
 
 
-<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="project.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 <style>
@@ -40,16 +40,40 @@
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 <body>
-  <!-- taken w3schools -->
+<!-- taken from w3schools -->
 <div class="icon-bar">
-  <a href="index" ><i class="fa fa-home"> PORTFOLIO</i></a>
-  <a class="active" href="#" ><i class="fa fa-pencil"> PROJECT</i></a>
+  <a href="index"><i class="fa fa-home"> PORTFOLIO</i></a>
+  <a class="active" href="#"><i class="fa fa-pencil"> PROJECT</i></a>
   <a href="https://github.com/athirahridzal/athirahridzal.github.io" target="_blank"><i class="fa fa-laptop"> GITHUB</i></a>
   <a href="https://rapidcharts.io/datascience" target="_blank"><i class="fa fa-book"> COURSE</i></a>
 </div>
   
 <header>
   <h1><strong>Data Science Project</strong></h1>
+  <p> by Athirah Ridzal </p>
+</header>
+
+ <h2><span>Income and Inequality as a Measure of Government Quality</span></h2>  
+  
+ <container class="bcontainer">
+   <div class="wrap">
+   <!-- <h3> </h3> -->
+   </div>
+
+<!--Chart 1 -->
+  <div class="chart" id="chart1">
+      <script>
+        var myChart1 = "prjct_chart1_giniGdp.json";
+        vegaEmbed('#chart1', myChart1);
+      </script>
+  </div>
+    
+
+</container>
+<br>
+<br>
+
+
 
   
 </body>
