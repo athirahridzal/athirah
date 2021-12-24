@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "Income per Capita and Income Inequality",
+    "text": "Income per Capita and Inequality",
     "subtitle": [
       "Source: World Bank, Statista"
     ],
