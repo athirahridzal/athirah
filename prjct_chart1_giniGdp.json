@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Income per Capita and Income Inequality",
+    "subtitle": [
+      "Source: World Bank, Statista"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "fontSize":16,
+    "anchor": "start",
+    "color":"slateblue"
+  },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataGiniGdp.csv",
+    "format": {"type": "csv"}
+  },
+ 
+  "height": 300,
+  "width": "container",
+
+  "mark": {"type": "circle", "size": 100},
+
+  "encoding": {
+    "x": {
+      "field": "gdppc",
+      "type": "quantitative",
+      "title": "GDP per Capita",
+      "axis":{
+        "grid": false, 
+        "titleColor": "black",
+        "titleFontSize": 13,
+        "titleFontWeight": "normal"
+        }
+    },
+
+    "y": {
+      "field": "gini",
+      "type": "quantitative",
+      "title": "Gini Index",
+      "scale": {"domain": [20, 65]},
+      "axis":{
+        "grid": false, 
+        "titleColor": "black",
+        "titleFontSize": 13,
+        "titleFontWeight": "normal"
+        }
+    },
+
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "title": "Colonised By:",
+      "scale": {"scheme": "rainbow"},
+      "legend":{
+        "orient": "top-right", 
+        "labelFontSize":12, 
+        "titleFontSize":12,
+        "titleFontWeight":"normal"}
+    },
+
+    "tooltip": [
+      {"field": "country", "type": "nominal", "title": "Country"},
+      {"field": "year", "type": "nominal", "title": "Year"},
+      {"field": "gini", "type": "nominal", "title": "Gini Index"},
+      {"field": "gdppc", "type": "nominal", "title": "GDP per Capita"}
+      ]
+  }
+}
