@@ -1,0 +1,85 @@
+﻿country,gini,gdppc,year,category
+Argentina,41.3,23293.39863,2018,Spanish
+Argentina,42.9,22999.27505,2019,Spanish
+Armenia,34.4,13020.39632,2018,Russian
+Armenia,29.9,14231.18019,2019,Russian
+Azerbaijan,26.6,5158.394594,2004,Russian
+Azerbaijan,26.6,6737.146208,2019,Russian
+Belarus,25.2,19430.27877,2018,Russian
+Belarus,25.3,20094.52581,2019,Russian
+Colombia,50.4,14865.89324,2018,Spanish
+Colombia,51.3,15621.08737,2019,Spanish
+"Egypt, Arab Rep.",31.8,11512.40214,2015,British
+"Egypt, Arab Rep.",31.5,11014.48648,2017,British
+Estonia,30.4,33821.93291,2017,Russian
+Estonia,30.3,36158.81965,2018,Russian
+Fiji,40.4,7777.738694,2008,British
+Fiji,36.7,9536.326349,2013,British
+Georgia,36.4,14595.63064,2018,Russian
+Georgia,35.9,15623.15296,2019,Russian
+Guatemala,54.6,5894.584353,2006,Spanish
+Guatemala,48.3,7758.49317,2014,Spanish
+India,35.4,3912.418211,2009,British
+India,35.7,4493.669466,2011,British
+Iraq,28.6,10646.21996,2006,British
+Iraq,29.5,15163.35014,2012,British
+Ireland,32.8,71498.60101,2016,British
+Ireland,31.4,77749.20196,2017,British
+Italy,35.2,39926.95466,2016,Spanish
+Italy,35.9,41581.12079,2017,Spanish
+Jamaica,48.3,6723.677974,2002,British
+Jamaica,45.5,7300.058467,2004,British
+Kazakhstan,27.5,24862.96612,2017,Russian
+Kazakhstan,27.8,26157.65965,2018,Russian
+Kyrgyz Republic,27.7,5256.397922,2018,Russian
+Kyrgyz Republic,29.7,5480.742698,2019,Russian
+Latvia,35.6,28673.5634,2017,Russian
+Latvia,35.1,30811.07179,2018,Russian
+Lithuania,37.3,33761.87124,2017,Russian
+Lithuania,35.7,36365.36049,2018,Russian
+Luxembourg,34.5,114985.8422,2017,Spanish
+Luxembourg,35.4,117245.2789,2018,Spanish
+Malaysia,41.3,23477.99117,2013,British
+Malaysia,41.1,24801.88843,2015,British
+Malta,29.2,42644.05085,2017,British
+Malta,28.7,44482.23968,2018,British
+Mexico,46.3,19323.66587,2016,Spanish
+Mexico,45.4,20258.81045,2018,Spanish
+Moldova,25.9,11651.31745,2017,Russian
+Moldova,25.7,12659.98366,2018,Russian
+Morocco,40.7,5250.521676,2006,Spanish
+Morocco,39.5,6916.013032,2013,Spanish
+Myanmar,38.1,4105.443377,2015,British
+Myanmar,30.7,4224.545031,2017,British
+Netherlands,28.5,55088.6338,2017,Spanish
+Netherlands,28.1,57901.09701,2018,Spanish
+Nicaragua,43.9,3820.502917,2009,Spanish
+Nicaragua,46.2,4941.699702,2014,Spanish
+Paraguay,46,13135.69887,2018,Spanish
+Paraguay,45.7,13149.03857,2019,Spanish
+Peru,42.4,13088.29584,2018,Spanish
+Peru,41.5,13397.27392,2019,Spanish
+Russian Federation,37.2,25926.44385,2017,Russian
+Russian Federation,37.5,28681.78446,2018,Russian
+Singapore,38,100581.158,2018,British
+Singapore,38,102573.4018,2019,British
+South Africa,63.4,12912.12503,2010,British
+South Africa,63,13602.10264,2014,British
+Spain,34.7,39528.92539,2016,Spanish
+Spain,34.7,40686.98547,2018,Spanish
+Sri Lanka,38.7,10315.18025,2012,British
+Sri Lanka,39.3,12224.21577,2016,British
+Tajikistan,30.8,2208.889782,2009,Russian
+Tajikistan,34,3150.427114,2015,Russian
+Ukraine,26.1,12634.23555,2018,Russian
+Ukraine,26.6,13350.48232,2019,Russian
+United Kingdom,34.8,44635.29956,2016,British
+United Kingdom,35.1,46372.3866,2017,British
+Uruguay,39.7,23588.15139,2018,Spanish
+Uruguay,39.7,24006.78694,2019,Spanish
+Uzbekistan,33,2918.84535,2002,Russian
+Uzbekistan,35.3,3063.037259,2019,Russian
+"Venezuela, RB",49.5,13657.81554,2005,Spanish
+"Venezuela, RB",44.8,15219.71562,2006,Spanish
+Zimbabwe,44.3,3795.642431,2017,British
+Zimbabwe,50.3,3783.547898,2019,British
