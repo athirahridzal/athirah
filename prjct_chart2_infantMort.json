@@ -1,0 +1,96 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Health - Infant Mortality",
+    "subtitle": [
+      "Deaths per 1000 live births",
+      "Source: World Bank"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "fontSize": 16,
+    "color": "mediumpurple"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortality.csv", "format":{"type": "csv"}
+  },
+  
+  "transform": [
+    {"calculate": "timeParse(datum.year, '%Y')", "as": "date"},
+    {"filter": "datum.year>minYear"},
+    {"filter": "datum.year<maxYear"},
+     {"filter": {"selection": "category"}}
+     ],
+
+"params": [
+    {
+      "name": "minYear",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2021,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2021,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2021,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+
+  "selection": {
+    "category": {
+      "type": "single",
+      "fields": ["category"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Russian",
+          "Spanish",
+          "British"
+        ],
+        "name": "Colonial Empire"
+      }
+    }
+  },
+
+  "mark": {"type":"line","point":true},
+  "height": 300,
+  "width": "container",
+
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "timeUnit":"year",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {"field": "value", "type": "quantitative", "title": null},
+
+    "tooltip":[
+      {"field":"country", "title":"Country", "type": "nominal"},
+      {"field":"year", "title":"Year", "type": "ordinal"},
+      {"field":"value", "title":"Infant Mortality", "type": "quantitative"}
+    ],
+
+    "color": {
+      "field": "country",
+      "title": null,
+      "legend":null,
+      "scale": {"scheme": "turbo"}
+    }
+  }
+}
