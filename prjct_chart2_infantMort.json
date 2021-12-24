@@ -1,40 +1,96 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Health",
+    "text": "Health - Infant Mortality",
     "subtitle": [
+      "Deaths per 1000 live births",
       "Source: World Bank"
     ],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 12,
     "anchor": "start",
     "fontSize": 16,
-    "color": "orchid"
+    "color": "mediumpurple"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortality.csv", "format":{"type": "csv"}
   },
+  
   "transform": [
-    {"filter":{"field": "year", "range":[1990,2019]}},
-    {"filter":{"field": "category", "oneOf":["Russian"]}}
-    ],
+    {"calculate": "timeParse(datum.year, '%Y')", "as": "date"},
+    {"filter": "datum.year>minYear"},
+    {"filter": "datum.year<maxYear"},
+     {"filter": {"selection": "category"}}
+     ],
 
-  "mark": "line",
+"params": [
+    {
+      "name": "minYear",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2021,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2021,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2021,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+
+  "selection": {
+    "category": {
+      "type": "single",
+      "fields": ["category"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Russian",
+          "Spanish",
+          "British"
+        ],
+        "name": "Colonial Empire"
+      }
+    }
+  },
+
+  "mark": {"type":"line","point":true},
   "height": 300,
   "width": "container",
+
   "encoding": {
     "x": {
-      "field": "year",
-      "type": "ordinal",
+      "field": "date",
+      "type": "temporal",
+      "timeUnit":"year",
       "title": null,
-      "axis": {"labelAngle": 300}
+      "axis": {"grid": false}
     },
+
     "y": {"field": "value", "type": "quantitative", "title": null},
+
+    "tooltip":[
+      {"field":"country", "title":"Country", "type": "nominal"},
+      {"field":"year", "title":"Year", "type": "ordinal"},
+      {"field":"value", "title":"Infant Mortality", "type": "quantitative"}
+    ],
+
     "color": {
       "field": "country",
       "title": null,
-      "legend": {"labelFontSize": 12},
-      "scale": {"scheme": "rainbow"}
+      "legend":null,
+      "scale": {"scheme": "turbo"}
     }
   }
 }
