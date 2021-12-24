@@ -52,7 +52,7 @@
     "color": {
       "field": "category",
       "type": "nominal",
-      "title": "Colonised By:",
+      "title": "Colonial Empire:",
       "scale": {"scheme": "rainbow"},
       "legend":{
         "orient": "top-right", 
