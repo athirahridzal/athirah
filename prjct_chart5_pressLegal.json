@@ -44,7 +44,7 @@
       "field": "pressindex",
       "type": "quantitative",
       "title": "Press Freedom Index",
-      "scale":{"domain":[0,70]},
+      "scale":{"domain":[0,85]},
       "axis": {
         "grid": false,
         "titleColor": "black",
@@ -58,7 +58,7 @@
       "title": "Colonial Empire:",
       "scale": {"scheme": "tableau20"},
       "legend": {
-        "orient": "bottom",
+        "orient": "top-right",
         "labelFontSize": 12,
         "titleFontSize": 12,
         "titleFontWeight": "normal"
