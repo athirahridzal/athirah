@@ -1,0 +1,440 @@
+,country,year,debt2gdp,category
+4,Russian Federation,2016,14.24173958,Russian
+5,Russian Federation,2015,13.54076578,Russian
+6,Russian Federation,2014,11.20046128,Russian
+7,Russian Federation,2013,9.06725564,Russian
+8,Russian Federation,2012,8.551408593,Russian
+9,Russian Federation,2011,8.641081944,Russian
+10,Russian Federation,2010,9.098105645,Russian
+11,Russian Federation,2009,8.697866335,Russian
+12,Russian Federation,2008,6.495287438,Russian
+13,Russian Federation,2007,7.158430117,Russian
+14,Russian Federation,2006,9.89107286,Russian
+15,Russian Federation,2005,16.66086845,Russian
+18,Russian Federation,2002,41.35271686,Russian
+19,Russian Federation,2001,48.98361534,Russian
+20,Russian Federation,2000,62.14888887,Russian
+21,Russian Federation,1999,100.7441377,Russian
+22,Russian Federation,1998,143.9489995,Russian
+204,Belarus,2016,39.9601531,Russian
+205,Belarus,2015,37.59817806,Russian
+206,Belarus,2014,24.54872626,Russian
+207,Belarus,2013,23.83729556,Russian
+208,Belarus,2012,24.42931342,Russian
+209,Belarus,2011,39.41681084,Russian
+210,Belarus,2010,18.90524573,Russian
+211,Belarus,2009,18.55746198,Russian
+212,Belarus,2008,10.65663437,Russian
+213,Belarus,2007,8.909260816,Russian
+214,Belarus,2006,6.644401832,Russian
+215,Belarus,2005,6.570220588,Russian
+218,Belarus,2002,12.33668601,Russian
+219,Belarus,2001,11.44061677,Russian
+220,Belarus,2000,15.01445182,Russian
+221,Belarus,1999,15.10311745,Russian
+222,Belarus,1998,20.18054264,Russian
+223,Belarus,1997,12.17146907,Russian
+224,Belarus,1996,11.52012886,Russian
+225,Belarus,1995,16.88006062,Russian
+226,Belarus,1994,75.95571292,Russian
+227,Belarus,1993,5.187817259,Russian
+228,Belarus,1992,25.76086957,Russian
+254,Ukraine,2016,71.80954545,Russian
+255,Ukraine,2015,70.25883762,Russian
+256,Ukraine,2014,63.66531919,Russian
+257,Ukraine,2013,35.63139959,Russian
+258,Ukraine,2012,32.44591172,Russian
+259,Ukraine,2011,26.48082017,Russian
+260,Ukraine,2010,28.86663662,Russian
+261,Ukraine,2009,23.99003423,Russian
+262,Ukraine,2008,13.22995421,Russian
+270,Ukraine,2000,43.72978743,Russian
+271,Ukraine,1999,60.9764493,Russian
+354,Kyrgyz Republic,2016,60.47351087,Russian
+355,Kyrgyz Republic,2015,72.45655758,Russian
+356,Kyrgyz Republic,2014,53.88932702,Russian
+404,Georgia,2016,42.14393347,Russian
+405,Georgia,2015,38.63091204,Russian
+406,Georgia,2014,33.13520113,Russian
+407,Georgia,2013,31.84964205,Russian
+408,Georgia,2012,31.26420908,Russian
+409,Georgia,2011,31.01414122,Russian
+410,Georgia,2010,34.98139458,Russian
+411,Georgia,2009,34.61136439,Russian
+412,Georgia,2008,27.01770389,Russian
+413,Georgia,2007,22.68709765,Russian
+414,Georgia,2006,27.95814328,Russian
+415,Georgia,2005,35.07645707,Russian
+416,Georgia,2004,43.83620207,Russian
+417,Georgia,2003,53.80600413,Russian
+418,Georgia,2002,64.95842275,Russian
+419,Georgia,2001,66.66916392,Russian
+420,Georgia,2000,69.9376148,Russian
+421,Georgia,1999,71.93712844,Russian
+422,Georgia,1998,56.90448219,Russian
+423,Georgia,1997,43.40600233,Russian
+454,Moldova,2016,31.88566926,Russian
+455,Moldova,2015,21.26951998,Russian
+456,Moldova,2014,20.82653558,Russian
+457,Moldova,2013,19.91795211,Russian
+458,Moldova,2012,20.34713933,Russian
+459,Moldova,2011,19.76667385,Russian
+460,Moldova,2010,21.93256136,Russian
+461,Moldova,2009,27.63222644,Russian
+462,Moldova,2008,18.44251613,Russian
+463,Moldova,2007,23.23956579,Russian
+464,Moldova,2006,29.17929124,Russian
+465,Moldova,2005,32.42510358,Russian
+466,Moldova,2004,51.9542957,Russian
+467,Moldova,2003,52.53376299,Russian
+468,Moldova,2002,59.55925064,Russian
+469,Moldova,2001,60.77464326,Russian
+470,Moldova,2000,73.01886856,Russian
+471,Moldova,1999,77.89845339,Russian
+472,Moldova,1998,82.83278227,Russian
+473,Moldova,1997,48.08693531,Russian
+474,Moldova,1996,40.12318209,Russian
+475,Moldova,1995,37.62866114,Russian
+504,Kazakhstan,2016,16.76927586,Russian
+505,Kazakhstan,2015,19.30791606,Russian
+506,Kazakhstan,2014,12.64696963,Russian
+507,Kazakhstan,2013,10.84063915,Russian
+508,Kazakhstan,2012,10.49811385,Russian
+509,Kazakhstan,2011,8.801310072,Russian
+510,Kazakhstan,2010,9.522963251,Russian
+660,Azerbaijan,2010,6.385575792,Russian
+661,Azerbaijan,2009,6.295012401,Russian
+662,Azerbaijan,2008,4.576537975,Russian
+704,United Kingdom,2016,113.7659312,British
+705,United Kingdom,2015,104.1646083,British
+706,United Kingdom,2014,105.4092877,British
+707,United Kingdom,2013,94.55127973,British
+708,United Kingdom,2012,98.72658458,British
+709,United Kingdom,2011,94.69556618,British
+710,United Kingdom,2010,81.1760364,British
+711,United Kingdom,2009,68.50962032,British
+712,United Kingdom,2008,54.94129171,British
+713,United Kingdom,2007,44.577673,British
+714,United Kingdom,2006,43.57069238,British
+715,United Kingdom,2005,44.04325063,British
+716,United Kingdom,2004,42.65188483,British
+717,United Kingdom,2003,39.27125249,British
+718,United Kingdom,2002,39.45045769,British
+719,United Kingdom,2001,38.39003242,British
+720,United Kingdom,2000,42.49695039,British
+721,United Kingdom,1999,42.6191733,British
+722,United Kingdom,1998,46.12828778,British
+723,United Kingdom,1997,44.95577822,British
+724,United Kingdom,1996,43.43941062,British
+725,United Kingdom,1995,43.76450374,British
+726,United Kingdom,1994,40.48008846,British
+727,United Kingdom,1993,35.31355001,British
+728,United Kingdom,1992,30.39975006,British
+729,United Kingdom,1991,29.19489603,British
+730,United Kingdom,1990,30.20337095,British
+776,Malta,1994,69.8052684,British
+777,Malta,1993,66.64051706,British
+778,Malta,1992,56.87790644,British
+779,Malta,1991,52.92658573,British
+780,Malta,1990,46.91169936,British
+804,Singapore,2016,109.1593193,British
+805,Singapore,2015,103.3208398,British
+806,Singapore,2014,99.60979867,British
+807,Singapore,2013,99.44648886,British
+808,Singapore,2012,107.8280936,British
+809,Singapore,2011,104.7851838,British
+810,Singapore,2010,101.4497824,British
+811,Singapore,2009,106.3724683,British
+812,Singapore,2008,96.40996475,British
+813,Singapore,2007,77.2760743,British
+814,Singapore,2006,82.83748054,British
+815,Singapore,2005,94.96669378,British
+816,Singapore,2004,101.779019,British
+817,Singapore,2003,108.5899838,British
+818,Singapore,2002,106.3325409,British
+819,Singapore,2001,93.93631251,British
+820,Singapore,2000,83.84229173,British
+821,Singapore,1999,87.86037846,British
+822,Singapore,1998,82.59911664,British
+823,Singapore,1997,71.36072927,British
+824,Singapore,1996,72.73533406,British
+825,Singapore,1995,72.78049031,British
+826,Singapore,1994,70.28183455,British
+827,Singapore,1993,72.87963718,British
+828,Singapore,1992,81.88275581,British
+829,Singapore,1991,78.97732192,British
+830,Singapore,1990,77.85531186,British
+854,Ireland,2016,85.34015427,British
+855,Ireland,2015,88.53308986,British
+856,Ireland,2014,121.2211798,British
+857,Ireland,2013,131.7621094,British
+858,Ireland,2012,129.7899907,British
+859,Ireland,2011,111.9106689,British
+860,Ireland,2010,82.78469079,British
+861,Ireland,2009,66.92554983,British
+862,Ireland,2008,46.9289834,British
+863,Ireland,2007,26.99150709,British
+864,Ireland,2006,27.05387001,British
+865,Ireland,2005,30.76683419,British
+866,Ireland,2004,30.89083267,British
+867,Ireland,2003,32.42479742,British
+868,Ireland,2002,33.74831672,British
+869,Ireland,2001,35.0170278,British
+870,Ireland,2000,38.86159518,British
+871,Ireland,1999,49.14186984,British
+872,Ireland,1998,60.00933921,British
+907,India,2013,50.31182736,British
+908,India,2012,50.67803056,British
+909,India,2011,51.55655366,British
+910,India,2010,51.5919103,British
+911,India,2009,55.25644611,British
+912,India,2008,57.29221428,British
+913,India,2007,57.49753639,British
+914,India,2006,59.66673028,British
+915,India,2005,62.2265261,British
+916,India,2004,62.59297674,British
+917,India,2003,62.1900539,British
+918,India,2002,62.5527713,British
+919,India,2001,59.0179098,British
+920,India,2000,55.0042465,British
+921,India,1999,51.35295144,British
+922,India,1998,50.31921817,British
+923,India,1997,50.36543613,British
+924,India,1996,45.7233077,British
+925,India,1995,47.4916413,British
+926,India,1994,49.5942827,British
+927,India,1993,51.75980829,British
+928,India,1992,49.68090136,British
+929,India,1991,50.01008036,British
+930,India,1990,50.78325379,British
+954,Malaysia,2016,51.89052753,British
+955,Malaysia,2015,53.57446973,British
+956,Malaysia,2014,52.67584873,British
+957,Malaysia,2013,52.99925192,British
+958,Malaysia,2012,51.64643162,British
+959,Malaysia,2011,50.02868164,British
+960,Malaysia,2010,49.55982307,British
+961,Malaysia,2009,50.8357456,British
+962,Malaysia,2008,39.79970284,British
+963,Malaysia,2007,40.08812577,British
+964,Malaysia,2006,40.58839614,British
+965,Malaysia,2005,42.06755976,British
+966,Malaysia,2004,45.69663832,British
+967,Malaysia,2003,45.0766413,British
+968,Malaysia,2002,43.04733921,British
+975,Malaysia,1995,41.06970284,British
+976,Malaysia,1994,47.61972977,British
+977,Malaysia,1993,55.69183595,British
+978,Malaysia,1992,64.37729789,British
+979,Malaysia,1991,73.31932151,British
+980,Malaysia,1990,79.53661793,British
+1012,South Africa,2008,23.60188102,British
+1020,South Africa,2000,39.63905838,British
+1021,South Africa,1999,42.1780316,British
+1022,South Africa,1998,44.65426177,British
+1023,South Africa,1997,43.175546,British
+1024,South Africa,1996,44.22987592,British
+1025,South Africa,1995,44.86861899,British
+1026,South Africa,1994,44.81696974,British
+1027,South Africa,1993,39.95077209,British
+1028,South Africa,1992,40.30641895,British
+1029,South Africa,1991,36.99484288,British
+1030,South Africa,1990,35.33988246,British
+1076,Fiji,1994,36.62825932,British
+1077,Fiji,1993,36.53835481,British
+1078,Fiji,1992,33.67358458,British
+1079,Fiji,1991,36.84182174,British
+1113,"Egypt, Arab Rep.",2007,85.78853383,British
+1254,Jamaica,2016,122.6556781,British
+1255,Jamaica,2015,124.6483008,British
+1256,Jamaica,2014,132.4138046,British
+1257,Jamaica,2013,135.885095,British
+1258,Jamaica,2012,137.9346699,British
+1259,Jamaica,2011,133.9784598,British
+1260,Jamaica,2010,136.2243349,British
+1261,Jamaica,2009,134.6787698,British
+1262,Jamaica,2008,120.3398246,British
+1263,Jamaica,2007,112.9899902,British
+1264,Jamaica,2006,117.6988115,British
+1265,Jamaica,2005,121.0024762,British
+1266,Jamaica,2004,122.0080686,British
+1267,Jamaica,2003,127.4332556,British
+1268,Jamaica,2002,127.777467,British
+1269,Jamaica,2001,117.5350336,British
+1270,Jamaica,2000,98.33415571,British
+1271,Jamaica,1999,88.96364365,British
+1272,Jamaica,1998,81.6705597,British
+1273,Jamaica,1997,73.70000908,British
+1274,Jamaica,1996,72.25219524,British
+1275,Jamaica,1995,83.86118418,British
+1276,Jamaica,1994,94.66074289,British
+1277,Jamaica,1993,112.1971751,British
+1278,Jamaica,1992,123.6069513,British
+1279,Jamaica,1991,232.8322106,British
+1280,Jamaica,1990,138.7413276,British
+1304,Iraq,2016,29.47606783,British
+1305,Iraq,2015,27.39189089,British
+1355,Sri Lanka,2015,77.65039412,British
+1356,Sri Lanka,2014,71.33279838,British
+1357,Sri Lanka,2013,70.82110606,British
+1358,Sri Lanka,2012,68.71039465,British
+1359,Sri Lanka,2011,71.10810938,British
+1360,Sri Lanka,2010,71.58531844,British
+1361,Sri Lanka,2009,86.06349191,British
+1363,Sri Lanka,2007,84.99441695,British
+1364,Sri Lanka,2006,88.69948412,British
+1365,Sri Lanka,2005,90.60491311,British
+1366,Sri Lanka,2004,102.3285367,British
+1367,Sri Lanka,2003,102.270712,British
+1368,Sri Lanka,2002,105.5249908,British
+1369,Sri Lanka,2001,103.2192741,British
+1370,Sri Lanka,2000,96.90403265,British
+1371,Sri Lanka,1999,95.10815461,British
+1372,Sri Lanka,1998,89.19582391,British
+1373,Sri Lanka,1997,86.10593167,British
+1374,Sri Lanka,1996,92.34398434,British
+1375,Sri Lanka,1995,94.6498206,British
+1376,Sri Lanka,1994,94.85532323,British
+1377,Sri Lanka,1993,96.7978141,British
+1378,Sri Lanka,1992,95.36191195,British
+1379,Sri Lanka,1991,98.48339578,British
+1380,Sri Lanka,1990,96.58062551,British
+1404,Spain,2016,104.5729153,Spanish
+1405,Spain,2015,104.7445681,Spanish
+1406,Spain,2014,112.2099235,Spanish
+1407,Spain,2013,99.92258912,Spanish
+1408,Spain,2012,84.58157359,Spanish
+1409,Spain,2011,62.31779755,Spanish
+1410,Spain,2010,54.02453755,Spanish
+1411,Spain,2009,51.20769602,Spanish
+1412,Spain,2008,37.38083184,Spanish
+1413,Spain,2007,32.26070764,Spanish
+1414,Spain,2006,36.07848304,Spanish
+1415,Spain,2005,40.60653433,Spanish
+1416,Spain,2004,43.26986773,Spanish
+1417,Spain,2003,44.07196206,Spanish
+1418,Spain,2002,47.84565175,Spanish
+1419,Spain,2001,48.77072184,Spanish
+1420,Spain,2000,52.73554174,Spanish
+1421,Spain,1999,55.21022362,Spanish
+1422,Spain,1998,60.14194031,Spanish
+1423,Spain,1997,59.62255614,Spanish
+1424,Spain,1996,60.10043978,Spanish
+1425,Spain,1995,54.35579651,Spanish
+1449,Spain,1971,1767.385574,Spanish
+1477,Luxembourg,1993,2.901345146,Spanish
+1478,Luxembourg,1992,2.622157604,Spanish
+1479,Luxembourg,1991,1.956575018,Spanish
+1480,Luxembourg,1990,2.520160788,Spanish
+1528,Italy,1992,77.46365903,Spanish
+1529,Italy,1991,71.42308813,Spanish
+1576,Netherlands,1994,54.29444265,Spanish
+1577,Netherlands,1993,56.53138788,Spanish
+1578,Netherlands,1992,56.08873186,Spanish
+1579,Netherlands,1991,55.28956191,Spanish
+1580,Netherlands,1990,54.80317756,Spanish
+1620,Mexico,2000,19.06948682,Spanish
+1621,Mexico,1999,20.48505514,Spanish
+1622,Mexico,1998,22.24362868,Spanish
+1623,Mexico,1997,20.6491359,Spanish
+1624,Mexico,1996,25.16601782,Spanish
+1625,Mexico,1995,32.45838138,Spanish
+1626,Mexico,1994,28.1564318,Spanish
+1627,Mexico,1993,20.37512775,Spanish
+1628,Mexico,1992,28.14705402,Spanish
+1629,Mexico,1991,38.21823649,Spanish
+1630,Mexico,1990,46.62685739,Spanish
+1654,Peru,2016,23.18324961,Spanish
+1655,Peru,2015,22.57857357,Spanish
+1656,Peru,2014,19.34365633,Spanish
+1657,Peru,2013,18.39442038,Spanish
+1658,Peru,2012,19.21665946,Spanish
+1659,Peru,2011,20.72021657,Spanish
+1660,Peru,2010,23.68179134,Spanish
+1661,Peru,2009,26.40086588,Spanish
+1662,Peru,2008,26.07632235,Spanish
+1663,Peru,2007,28.52881839,Spanish
+1664,Peru,2006,32.53945754,Spanish
+1676,Peru,1994,55.49153471,Spanish
+1677,Peru,1993,70.61609845,Spanish
+1678,Peru,1992,80.14272904,Spanish
+1679,Peru,1991,78.21675121,Spanish
+1680,Peru,1990,189.2462856,Spanish
+1709,Morocco,2011,55.62772032,Spanish
+1710,Morocco,2010,50.96249924,Spanish
+1711,Morocco,2009,47.50363068,Spanish
+1712,Morocco,2008,45.4427659,Spanish
+1713,Morocco,2007,50.93555511,Spanish
+1714,Morocco,2006,54.80562993,Spanish
+1715,Morocco,2005,59.26999277,Spanish
+1718,Morocco,2002,54.03033855,Spanish
+1721,Morocco,1999,61.61713382,Spanish
+1722,Morocco,1998,61.18593461,Spanish
+1723,Morocco,1997,64.46241514,Spanish
+1725,Morocco,1995,68.39491528,Spanish
+1726,Morocco,1994,69.82591552,Spanish
+1727,Morocco,1993,74.12313156,Spanish
+1728,Morocco,1992,70.93786898,Spanish
+1729,Morocco,1991,62.06741628,Spanish
+1730,Morocco,1990,87.19675998,Spanish
+1804,Guatemala,2016,22.98888606,Spanish
+1805,Guatemala,2015,23.57273539,Spanish
+1806,Guatemala,2014,23.64738975,Spanish
+1807,Guatemala,2013,25.20994956,Spanish
+1808,Guatemala,2012,24.70074241,Spanish
+1809,Guatemala,2011,24.56395978,Spanish
+1810,Guatemala,2010,24.81695941,Spanish
+1811,Guatemala,2009,23.3939732,Spanish
+1812,Guatemala,2008,20.38340804,Spanish
+1813,Guatemala,2007,21.98699753,Spanish
+1814,Guatemala,2006,22.23477296,Spanish
+1815,Guatemala,2005,21.60212014,Spanish
+1816,Guatemala,2004,22.14445739,Spanish
+1817,Guatemala,2003,21.03844097,Spanish
+1818,Guatemala,2002,18.69247732,Spanish
+1819,Guatemala,2001,20.26902332,Spanish
+1820,Guatemala,2000,16.98382301,Spanish
+1821,Guatemala,1999,13.47018859,Spanish
+1822,Guatemala,1998,11.28016784,Spanish
+1823,Guatemala,1997,11.34521767,Spanish
+1824,Guatemala,1996,11.24183287,Spanish
+1825,Guatemala,1995,11.40499902,Spanish
+1826,Guatemala,1994,13.16194904,Spanish
+1827,Guatemala,1993,13.62250812,Spanish
+1828,Guatemala,1992,15.83121931,Spanish
+1829,Guatemala,1991,17.75179131,Spanish
+1830,Guatemala,1990,24.48068514,Spanish
+1904,Colombia,2016,57.40564934,Spanish
+1905,Colombia,2015,66.66781912,Spanish
+1906,Colombia,2014,79.68305695,Spanish
+1907,Colombia,2013,67.10291195,Spanish
+1908,Colombia,2012,65.22769588,Spanish
+1909,Colombia,2011,62.86013282,Spanish
+1910,Colombia,2010,72.45266993,Spanish
+1911,Colombia,2009,68.99900334,Spanish
+1912,Colombia,2008,65.24508031,Spanish
+1917,Colombia,2003,52.53541953,Spanish
+1920,Colombia,2000,17.70902168,Spanish
+1921,Colombia,1999,19.06535087,Spanish
+1922,Colombia,1998,5.403915491,Spanish
+2004,Uruguay,2016,46.65662974,Spanish
+2005,Uruguay,2015,51.18648002,Spanish
+2006,Uruguay,2014,44.35796133,Spanish
+2007,Uruguay,2013,42.740851,Spanish
+2008,Uruguay,2012,43.40345045,Spanish
+2009,Uruguay,2011,45.35145122,Spanish
+2010,Uruguay,2010,44.22270175,Spanish
+2011,Uruguay,2009,49.27332921,Spanish
+2012,Uruguay,2008,57.25268252,Spanish
+2013,Uruguay,2007,58.51206053,Spanish
+2014,Uruguay,2006,69.02689635,Spanish
+2015,Uruguay,2005,76.11445971,Spanish
+2016,Uruguay,2004,85.42559412,Spanish
+2017,Uruguay,2003,105.6027809,Spanish
+2018,Uruguay,2002,95.26786072,Spanish
+2019,Uruguay,2001,40.64333486,Spanish
+2026,Uruguay,1994,24.53018807,Spanish
+2027,Uruguay,1993,21.87914304,Spanish
+2028,Uruguay,1992,23.60477732,Spanish
+2029,Uruguay,1991,24.59057576,Spanish
+2030,Uruguay,1990,31.59596304,Spanish
