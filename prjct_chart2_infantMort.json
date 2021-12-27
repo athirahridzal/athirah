@@ -81,9 +81,10 @@
     "y": {"field": "value", "type": "quantitative", "title": null},
 
     "tooltip":[
-      {"field":"country", "title":"Country", "type": "nominal"},
-      {"field":"year", "title":"Year", "type": "ordinal"},
-      {"field":"value", "title":"Infant Mortality", "type": "quantitative"}
+      {"field": "year", "title": "Year", "type": "ordinal"},
+      {"field": "country", "title": "Country", "type": "nominal"},
+      {"field": "value", "title": "Infant Mortality", "type": "quantitative"},
+      {"field": "category", "title": "Colonised by", "type": "nominal"}
     ],
 
     "color": {
