@@ -4,7 +4,7 @@
     "text": "Press Freedom and Legal Rights",
     "subtitle": ["Legal rights (0=Weak, 12=Strong)", "Press freedom (0=Free, 100=High Censorship)","No data for 2016 , Source: World Bank, Reporters Without Borders"],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 12,
+    "subtitleFontSize": 10,
     "fontSize": 16,
     "anchor": "start",
     "color": "crimson"
