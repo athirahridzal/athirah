@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Press Freedom and Legal Rights",
+    "subtitle": ["Legal rights (0=Weak, 12=Strong)", "Press freedom (0=Free, 100=High Censorship)","No data for 2016 , Source: World Bank, Reporters Without Borders"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "fontSize": 16,
+    "anchor": "start",
+    "color": "crimson"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataPressLegal.csv",
+    "format": {"type": "csv"}
+  },
+  "height": 300,
+  "width": 300,
+
+  "mark": {"type": "circle", "size": 100},
+
+  "transform": [{"filter": "datum.year==year"}],
+
+  "params": [    
+    {
+    "name":"year", "value":2013,
+    "bind":{"input": "range","min": 2013, "max": 2019, "step": 1,"name": "Select year:"}
+    }
+    ],
+
+  "encoding": {
+    "x": {
+      "field": "legalrights",
+      "type": "quantitative",
+      "title": "Legal Rights Index",
+      "scale":{"domain":[0,12]},
+      "axis": {
+        "grid": false,
+        "titleColor": "black",
+        "titleFontSize": 13,
+        "titleFontWeight": "normal"
+      }
+    },
+    "y": {
+      "field": "pressindex",
+      "type": "quantitative",
+      "title": "Press Freedom Index",
+      "scale":{"domain":[0,70]},
+      "axis": {
+        "grid": false,
+        "titleColor": "black",
+        "titleFontSize": 13,
+        "titleFontWeight": "normal"
+      }
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "title": "Colonial Empire:",
+      "scale": {"scheme": "tableau20"},
+      "legend": {
+        "orient": "bottom",
+        "labelFontSize": 12,
+        "titleFontSize": 12,
+        "titleFontWeight": "normal"
+      }
+    },
+    "tooltip": [
+      {"field": "country", "type": "nominal", "title": "Country"},
+      {"field": "pressindex", "type": "nominal", "title": "Press Freedom Index"},
+      {"field": "legalrights", "type": "nominal", "title": "Legal Rights Index"}
+    ]
+  }
+}
