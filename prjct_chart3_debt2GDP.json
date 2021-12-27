@@ -57,7 +57,7 @@
       "field": "category",
       "type": "nominal",
       "title": "Colonial Empire:",
-      "scale": {"scheme": "dark2"},
+      "scale": {"scheme": "set1"},
       "legend": {
         "orient": "bottom-right",
         "labelFontSize": 12,
