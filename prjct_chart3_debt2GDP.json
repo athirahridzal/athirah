@@ -17,7 +17,7 @@
     "format": {"type": "csv"}
   },
   "height": 500,
-  "width": 210,
+  "width": "container",
   "mark": {"type": "bar"},
   "transform": [{"filter": "datum.year==year"}],
   "params": [
