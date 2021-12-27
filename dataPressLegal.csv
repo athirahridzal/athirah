@@ -1,0 +1,295 @@
+country,year,legalrights,pressindex,category
+Argentina,2013,2,25.27,Spanish
+Armenia,2013,4,29.07,Russian
+Azerbaijan,2013,2,52.87,Russian
+Belarus,2013,1,47.82,Russian
+Colombia,2013,3,36.68,Spanish
+"Egypt, Arab Rep.",2013,2,51.89,British
+Estonia,2013,7,9.63,Russian
+Fiji,2013,5,32.57,British
+Georgia,2013,9,29.78,Russian
+Guatemala,2013,9,36.61,Spanish
+India,2013,6,40.34,British
+Iraq,2013,0,45.44,British
+Ireland,2013,7,10.87,British
+Italy,2013,2,23.75,Spanish
+Jamaica,2013,6,10.9,British
+Kazakhstan,2013,3,54.94,Russian
+Kyrgyz Republic,2013,8,31.24,Russian
+Latvia,2013,9,21.1,Russian
+Lithuania,2013,6,19.2,Russian
+Luxembourg,2013,3,6.7,Spanish
+Malaysia,2013,7,42.73,British
+Malta,2013,2,23.84,British
+Mexico,2013,7,45.04,Spanish
+Moldova,2013,8,39.72,Russian
+Morocco,2013,2,25.35,Spanish
+Myanmar,2013,2,41.43,British
+Netherlands,2013,2,6.46,Spanish
+Nicaragua,2013,1,27.7,Spanish
+Paraguay,2013,2,31.81,Spanish
+Peru,2013,7,31.7,Spanish
+Russian Federation,2013,4,42.78,Russian
+Singapore,2013,8,44.29,British
+South Africa,2013,5,23.19,British
+Spain,2013,5,20.63,Spanish
+Sri Lanka,2013,2,59.13,British
+Tajikistan,2013,1,34.86,Russian
+Ukraine,2013,8,36.93,Russian
+United Kingdom,2013,7,19.93,British
+Uruguay,2013,4,16.08,Spanish
+Uzbekistan,2013,1,61.01,Russian
+"Venezuela, RB",2013,1,35.37,Spanish
+Zimbabwe,2013,5,39.19,British
+Argentina,2014,2,26.11,Spanish
+Armenia,2014,4,28.43,Russian
+Azerbaijan,2014,2,58.41,Russian
+Belarus,2014,1,47.98,Russian
+Colombia,2014,11,39.08,Spanish
+"Egypt, Arab Rep.",2014,2,50.17,British
+Estonia,2014,7,11.19,Russian
+Fiji,2014,5,31.28,British
+Georgia,2014,9,27.7,Russian
+Guatemala,2014,9,37.92,Spanish
+India,2014,6,40.49,British
+Iraq,2014,0,47.76,British
+Ireland,2014,7,11.2,British
+Italy,2014,2,27.94,Spanish
+Jamaica,2014,10,11.18,British
+Kazakhstan,2014,3,53.46,Russian
+Kyrgyz Republic,2014,8,30.69,Russian
+Latvia,2014,9,18.12,Russian
+Lithuania,2014,6,18.8,Russian
+Luxembourg,2014,3,13.61,Spanish
+Malaysia,2014,7,43.29,British
+Malta,2014,2,24.16,British
+Mexico,2014,8,43.69,Spanish
+Moldova,2014,8,39.19,Russian
+Morocco,2014,2,27.85,Spanish
+Myanmar,2014,2,42.08,British
+Netherlands,2014,2,9.22,Spanish
+Nicaragua,2014,1,27.94,Spanish
+Paraguay,2014,1,33.74,Spanish
+Peru,2014,7,31.21,Spanish
+Russian Federation,2014,4,44.97,Russian
+Singapore,2014,8,45.87,British
+South Africa,2014,5,22.06,British
+Spain,2014,5,19.95,Spanish
+Sri Lanka,2014,2,60.28,British
+Tajikistan,2014,1,36.19,Russian
+Ukraine,2014,8,39.1,Russian
+United Kingdom,2014,7,20,British
+Uruguay,2014,4,15.94,Spanish
+Uzbekistan,2014,1,61.14,Russian
+"Venezuela, RB",2014,1,40.61,Spanish
+Zimbabwe,2014,5,39.19,British
+Argentina,2015,2,25.09,Spanish
+Armenia,2015,4,28.79,Russian
+Azerbaijan,2015,2,57.89,Russian
+Belarus,2015,1,54.32,Russian
+Colombia,2015,11,44.11,Spanish
+"Egypt, Arab Rep.",2015,2,54.45,British
+Estonia,2015,7,14.31,Russian
+Fiji,2015,5,29.37,British
+Georgia,2015,9,27.96,Russian
+Guatemala,2015,9,38.03,Spanish
+India,2015,6,43.17,British
+Iraq,2015,0,54.35,British
+Ireland,2015,7,12.4,British
+Italy,2015,2,28.93,Spanish
+Jamaica,2015,9,12.45,British
+Kazakhstan,2015,4,54.55,Russian
+Kyrgyz Republic,2015,8,30.16,Russian
+Latvia,2015,9,17.38,Russian
+Lithuania,2015,6,19.95,Russian
+Luxembourg,2015,3,14.43,Spanish
+Malaysia,2015,7,46.57,British
+Malta,2015,2,23.84,British
+Mexico,2015,10,49.33,Spanish
+Moldova,2015,8,42.64,Russian
+Morocco,2015,2,28.83,Spanish
+Myanmar,2015,2,45.48,British
+Netherlands,2015,2,8.76,Spanish
+Nicaragua,2015,1,28.82,Spanish
+Paraguay,2015,1,33.63,Spanish
+Peru,2015,7,29.99,Spanish
+Russian Federation,2015,7,49.03,Russian
+Singapore,2015,8,52.96,British
+South Africa,2015,5,21.92,British
+Spain,2015,5,19.92,Spanish
+Sri Lanka,2015,2,44.96,British
+Tajikistan,2015,1,50.34,Russian
+Ukraine,2015,8,32.93,Russian
+United Kingdom,2015,7,21.7,British
+Uruguay,2015,4,15.88,Spanish
+Uzbekistan,2015,6,61.15,Russian
+"Venezuela, RB",2015,1,44.77,Spanish
+Zimbabwe,2015,5,40.41,British
+Argentina,2016,2,,Spanish
+Armenia,2016,6,,Russian
+Azerbaijan,2016,2,,Russian
+Belarus,2016,1,,Russian
+Colombia,2016,11,,Spanish
+"Egypt, Arab Rep.",2016,2,,British
+Estonia,2016,7,,Russian
+Fiji,2016,5,,British
+Georgia,2016,9,,Russian
+Guatemala,2016,9,,Spanish
+India,2016,6,,British
+Iraq,2016,0,,British
+Ireland,2016,7,,British
+Italy,2016,2,,Spanish
+Jamaica,2016,9,,British
+Kazakhstan,2016,4,,Russian
+Kyrgyz Republic,2016,8,,Russian
+Latvia,2016,9,,Russian
+Lithuania,2016,6,,Russian
+Luxembourg,2016,3,,Spanish
+Malaysia,2016,7,,British
+Malta,2016,2,,British
+Mexico,2016,10,,Spanish
+Moldova,2016,8,,Russian
+Morocco,2016,2,,Spanish
+Myanmar,2016,2,,British
+Netherlands,2016,2,,Spanish
+Nicaragua,2016,1,,Spanish
+Paraguay,2016,1,,Spanish
+Peru,2016,7,,Spanish
+Russian Federation,2016,7,,Russian
+Singapore,2016,8,,British
+South Africa,2016,5,,British
+Spain,2016,5,,Spanish
+Sri Lanka,2016,2,,British
+Tajikistan,2016,1,,Russian
+Ukraine,2016,8,,Russian
+United Kingdom,2016,7,,British
+Uruguay,2016,4,,Spanish
+Uzbekistan,2016,6,,Russian
+"Venezuela, RB",2016,1,,Spanish
+Zimbabwe,2016,5,,British
+Argentina,2017,2,25.07,Spanish
+Armenia,2017,6,30.38,Russian
+Azerbaijan,2017,2,56.4,Russian
+Belarus,2017,3,52.43,Russian
+Colombia,2017,11,41.47,Spanish
+"Egypt, Arab Rep.",2017,2,55.78,British
+Estonia,2017,7,13.55,Russian
+Fiji,2017,5,28.64,British
+Georgia,2017,9,27.76,Russian
+Guatemala,2017,9,39.33,Spanish
+India,2017,8,42.94,British
+Iraq,2017,0,54.03,British
+Ireland,2017,7,14.08,British
+Italy,2017,2,26.26,Spanish
+Jamaica,2017,9,12.73,British
+Kazakhstan,2017,6,54.01,Russian
+Kyrgyz Republic,2017,9,30.92,Russian
+Latvia,2017,9,18.62,Russian
+Lithuania,2017,6,21.37,Russian
+Luxembourg,2017,3,14.72,Spanish
+Malaysia,2017,7,46.89,British
+Malta,2017,2,24.76,British
+Mexico,2017,10,48.97,Spanish
+Moldova,2017,8,42.42,Russian
+Morocco,2017,2,30.41,Spanish
+Myanmar,2017,2,41.82,British
+Netherlands,2017,2,11.28,Spanish
+Nicaragua,2017,1,31.01,Spanish
+Paraguay,2017,1,35.64,Spanish
+Peru,2017,7,30.98,Spanish
+Russian Federation,2017,9,49.45,Russian
+Singapore,2017,8,51.1,British
+South Africa,2017,5,20.12,British
+Spain,2017,5,18.69,Spanish
+Sri Lanka,2017,2,44.34,British
+Tajikistan,2017,1,50.27,Russian
+Ukraine,2017,8,33.19,Russian
+United Kingdom,2017,7,22.26,British
+Uruguay,2017,4,17.43,Spanish
+Uzbekistan,2017,6,66.11,Russian
+"Venezuela, RB",2017,1,42.94,Spanish
+Zimbabwe,2017,5,41.44,British
+Argentina,2018,2,26.05,Spanish
+Armenia,2018,6,29.99,Russian
+Azerbaijan,2018,8,59.73,Russian
+Belarus,2018,3,52.59,Russian
+Colombia,2018,11,41.03,Spanish
+"Egypt, Arab Rep.",2018,5,56.72,British
+Estonia,2018,7,14.08,Russian
+Fiji,2018,5,26.55,British
+Georgia,2018,9,27.34,Russian
+Guatemala,2018,9,36.17,Spanish
+India,2018,9,43.24,British
+Iraq,2018,0,56.56,British
+Ireland,2018,7,14.59,British
+Italy,2018,2,24.12,Spanish
+Jamaica,2018,9,11.33,British
+Kazakhstan,2018,6,54.41,Russian
+Kyrgyz Republic,2018,9,31,Russian
+Latvia,2018,9,19.63,Russian
+Lithuania,2018,6,22.2,Russian
+Luxembourg,2018,3,14.72,Spanish
+Malaysia,2018,7,47.41,British
+Malta,2018,2,27.44,British
+Mexico,2018,10,48.91,Spanish
+Moldova,2018,8,43.13,Russian
+Morocco,2018,2,30.01,Spanish
+Myanmar,2018,2,43.15,British
+Netherlands,2018,2,10.01,Spanish
+Nicaragua,2018,2,30.41,Spanish
+Paraguay,2018,1,32.32,Spanish
+Peru,2018,7,30.27,Spanish
+Russian Federation,2018,9,49.96,Russian
+Singapore,2018,8,50.95,British
+South Africa,2018,5,20.39,British
+Spain,2018,5,20.51,Spanish
+Sri Lanka,2018,2,41.37,British
+Tajikistan,2018,1,50.06,Russian
+Ukraine,2018,8,31.16,Russian
+United Kingdom,2018,7,23.25,British
+Uruguay,2018,4,15.56,Spanish
+Uzbekistan,2018,6,60.84,Russian
+"Venezuela, RB",2018,1,46.03,Spanish
+Zimbabwe,2018,5,40.53,British
+Argentina,2019,2,28.3,Spanish
+Armenia,2019,6,28.98,Russian
+Azerbaijan,2019,12,59.13,Russian
+Belarus,2019,3,51.66,Russian
+Colombia,2019,11,42.82,Spanish
+"Egypt, Arab Rep.",2019,5,56.47,British
+Estonia,2019,7,12.27,Russian
+Fiji,2019,5,27.18,British
+Georgia,2019,9,28.98,Russian
+Guatemala,2019,9,35.94,Spanish
+India,2019,9,45.67,British
+Iraq,2019,0,52.6,British
+Ireland,2019,7,15,British
+Italy,2019,2,24.98,Spanish
+Jamaica,2019,9,11.13,British
+Kazakhstan,2019,8,52.82,Russian
+Kyrgyz Republic,2019,9,29.92,Russian
+Latvia,2019,9,19.53,Russian
+Lithuania,2019,6,22.06,Russian
+Luxembourg,2019,3,15.66,Spanish
+Malaysia,2019,7,36.74,British
+Malta,2019,2,29.74,British
+Mexico,2019,10,46.78,Spanish
+Moldova,2019,8,43.98,Russian
+Morocco,2019,2,31.21,Spanish
+Myanmar,2019,2,44.92,British
+Netherlands,2019,2,8.63,Spanish
+Nicaragua,2019,2,35.53,Spanish
+Paraguay,2019,1,32.4,Spanish
+Peru,2019,7,30.22,Spanish
+Russian Federation,2019,9,50.31,Russian
+Singapore,2019,8,51.41,British
+South Africa,2019,5,22.19,British
+Spain,2019,5,21.99,Spanish
+Sri Lanka,2019,2,39.61,British
+Tajikistan,2019,11,54.02,Russian
+Ukraine,2019,8,32.46,Russian
+United Kingdom,2019,7,22.23,British
+Uruguay,2019,4,16.06,Spanish
+Uzbekistan,2019,6,53.52,Russian
+"Venezuela, RB",2019,1,49.1,Spanish
+Zimbabwe,2019,6,42.23,British
