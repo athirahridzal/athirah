@@ -14,7 +14,7 @@
     "format": {"type": "csv"}
   },
   "height": 300,
-  "width": 300,
+  "width": "container",
 
   "mark": {"type": "circle", "size": 100},
 
