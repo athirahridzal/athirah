@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Infant Mortality",
+    "text": "Infant Mortality - Developing Countries",
     "subtitle": ["Deaths per 1000 live births", "Source: World Bank"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 12,
