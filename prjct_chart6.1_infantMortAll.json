@@ -1,11 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Health - Infant Mortality",
-    "subtitle": [
-      "Deaths per 1000 live births",
-      "Source: World Bank"
-    ],
+    "text": "Infant Mortality",
+    "subtitle": ["Deaths per 1000 live births", "Source: World Bank"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 12,
     "anchor": "start",
@@ -13,17 +10,16 @@
     "color": "mediumpurple"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortality.csv", "format":{"type": "csv"}
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortAll.csv",
+    "format": {"type": "csv"}
   },
-  
   "transform": [
     {"calculate": "timeParse(datum.year, '%Y')", "as": "date"},
     {"filter": "datum.year>minYear"},
     {"filter": "datum.year<maxYear"},
-     {"filter": {"selection": "category"}}
-     ],
-
-"params": [
+    {"filter": {"selection": "category"}}
+  ],
+  "params": [
     {
       "name": "minYear",
       "value": 2000,
@@ -47,50 +43,39 @@
       }
     }
   ],
-
   "selection": {
     "category": {
       "type": "single",
       "fields": ["category"],
       "bind": {
         "input": "select",
-        "options": [
-          null,
-          "Russian",
-          "Spanish",
-          "British"
-        ],
+        "options": [null, "Russian", "Spanish", "British"],
         "name": "Colonial Empire"
       }
     }
   },
-
-  "mark": {"type":"line","point":true, "strokeWidth":0.5},
+  "mark": {"type": "line", "point": true, "strokeWidth": 0.5},
   "height": 300,
   "width": "container",
-
   "encoding": {
     "x": {
       "field": "date",
       "type": "temporal",
-      "timeUnit":"year",
+      "timeUnit": "year",
       "title": null,
       "axis": {"grid": false}
     },
-
     "y": {"field": "value", "type": "quantitative", "title": null},
-
-    "tooltip":[
+    "tooltip": [
       {"field": "year", "title": "Year", "type": "ordinal"},
       {"field": "country", "title": "Country", "type": "nominal"},
       {"field": "value", "title": "Infant Mortality", "type": "quantitative"},
       {"field": "category", "title": "Colonised by", "type": "nominal"}
     ],
-
     "color": {
       "field": "country",
       "title": null,
-      "legend":null,
+      "legend": null,
       "scale": {"scheme": "turbo"}
     }
   }
