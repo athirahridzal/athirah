@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Corruption Perception on Income per Capita",
+    "text": "Corruption on Income per Capita",
     "subtitle": [
       "CPI (0=High , 100=Low Perceived Corruption)",
       "Source: World Bank, Transparency International"
@@ -9,7 +9,7 @@
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 11.5,
     "anchor": "start",
-    "fontSize": 14,
+    "fontSize": 15,
     "color": "tomato"
   },
 
