@@ -4,6 +4,7 @@
   "title": {
     "text": "Income per Capita and Inequality",
     "subtitle": [
+      "GDP per capita PPP in current international $",
       "Source: World Bank, Statista"
     ],
     "subtitleFontStyle": "italic",
