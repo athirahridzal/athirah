@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Internet Servers",
+    "subtitle": ["Secure internet servers per 1 million populations", "Source: World Bank"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "fontSize": 16,
+    "anchor": "start",
+    "color": "dimgray"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataIntAll.csv",
+    "format": {"type": "csv"}
+  },
+  "height": 500,
+  "width": "container",
+  "mark": {"type": "bar"},
+  "transform": [{"filter": "datum.year==year"}],
+  "params": [
+    {
+      "name": "year",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2020,
+        "step": 1,
+        "name": "Select year:"
+      }
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "title": null,
+      "axis": {"grid": false, "labelFontSize": 12},
+      "sort": "-x"
+      
+    },
+    "x": {
+      "field": "intserver",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "grid": false,
+        "titleColor": "black",
+        "titleFontSize": 13,
+        "titleFontWeight": "normal",
+        "labelFontSize": 12
+      }
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "title": "Colonial Empire:",
+      "scale": {"scheme": "sinebow"},
+      "legend": {
+        "orient": "bottom-right",
+        "labelFontSize": 12,
+        "titleFontSize": 12,
+        "titleFontWeight": "normal"
+      }
+    },
+    "tooltip": [
+      {"field": "category", "type": "nominal", "title": "Colonised by"},
+      {"field": "country", "type": "nominal", "title": "Country"},
+      {
+        "field": "intserver",
+        "type": "quantitative",
+        "title": "Internet Server",
+        "format": ".2f"
+      }
+    ]
+  }
+}
