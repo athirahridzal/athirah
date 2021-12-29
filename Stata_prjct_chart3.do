@@ -63,6 +63,8 @@ save 3.corrupt.clean.dta, replace
 /* Create scatter plot and best fit line */
 tw (scatter gdppc cpi) (lfit gdppc cpi)
 
+/* Export final dataset */
+
 /* Actual regression is made in Python in Colab Notebook */
 
 log close
