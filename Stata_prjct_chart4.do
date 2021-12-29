@@ -126,4 +126,6 @@ drop if taxrev==.
 /* Save cleaned data */
 save 1.taxburden.clean.dta, replace
 
+/* Export final dataset */
+
 log close
