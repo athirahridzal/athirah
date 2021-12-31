@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Internet Servers - Developing Countries",
-    "subtitle": ["Secure internet servers per 1 million populations", "Source: World Bank"],
+    "subtitle": ["Secure internet servers per 1 million people", "Source: World Bank"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 12,
     "fontSize": 15,
