@@ -1,0 +1,253 @@
+country,year,pressindex,legalrights,category
+Argentina,2013,25.27,2,Spanish
+Argentina,2014,26.11,2,Spanish
+Argentina,2015,25.09,2,Spanish
+Argentina,2017,25.07,2,Spanish
+Argentina,2018,26.05,2,Spanish
+Argentina,2019,28.3,2,Spanish
+Armenia,2013,29.07,4,Russian
+Armenia,2014,28.43,4,Russian
+Armenia,2015,28.79,4,Russian
+Armenia,2017,30.38,6,Russian
+Armenia,2018,29.99,6,Russian
+Armenia,2019,28.98,6,Russian
+Azerbaijan,2013,52.87,2,Russian
+Azerbaijan,2014,58.41,2,Russian
+Azerbaijan,2015,57.89,2,Russian
+Azerbaijan,2017,56.4,2,Russian
+Azerbaijan,2018,59.73,8,Russian
+Azerbaijan,2019,59.13,12,Russian
+Belarus,2013,47.82,1,Russian
+Belarus,2014,47.98,1,Russian
+Belarus,2015,54.32,1,Russian
+Belarus,2017,52.43,3,Russian
+Belarus,2018,52.59,3,Russian
+Belarus,2019,51.66,3,Russian
+Colombia,2013,36.68,3,Spanish
+Colombia,2014,39.08,11,Spanish
+Colombia,2015,44.11,11,Spanish
+Colombia,2017,41.47,11,Spanish
+Colombia,2018,41.03,11,Spanish
+Colombia,2019,42.82,11,Spanish
+"Egypt, Arab Rep.",2013,51.89,2,British
+"Egypt, Arab Rep.",2014,50.17,2,British
+"Egypt, Arab Rep.",2015,54.45,2,British
+"Egypt, Arab Rep.",2017,55.78,2,British
+"Egypt, Arab Rep.",2018,56.72,5,British
+"Egypt, Arab Rep.",2019,56.47,5,British
+Estonia,2013,9.630000000000001,7,Russian
+Estonia,2014,11.19,7,Russian
+Estonia,2015,14.31,7,Russian
+Estonia,2017,13.55,7,Russian
+Estonia,2018,14.08,7,Russian
+Estonia,2019,12.27,7,Russian
+Fiji,2013,32.57,5,British
+Fiji,2014,31.28,5,British
+Fiji,2015,29.37,5,British
+Fiji,2017,28.64,5,British
+Fiji,2018,26.55,5,British
+Fiji,2019,27.18,5,British
+Georgia,2013,29.78,9,Russian
+Georgia,2014,27.7,9,Russian
+Georgia,2015,27.96,9,Russian
+Georgia,2017,27.76,9,Russian
+Georgia,2018,27.34,9,Russian
+Georgia,2019,28.98,9,Russian
+Guatemala,2013,36.61,9,Spanish
+Guatemala,2014,37.92,9,Spanish
+Guatemala,2015,38.03,9,Spanish
+Guatemala,2017,39.33,9,Spanish
+Guatemala,2018,36.17,9,Spanish
+Guatemala,2019,35.94,9,Spanish
+India,2013,40.34,6,British
+India,2014,40.49,6,British
+India,2015,43.17,6,British
+India,2017,42.94,8,British
+India,2018,43.24,9,British
+India,2019,45.67,9,British
+Iraq,2013,45.44,0,British
+Iraq,2014,47.76,0,British
+Iraq,2015,54.35,0,British
+Iraq,2017,54.03,0,British
+Iraq,2018,56.56,0,British
+Iraq,2019,52.6,0,British
+Ireland,2013,10.87,7,British
+Ireland,2014,11.2,7,British
+Ireland,2015,12.4,7,British
+Ireland,2017,14.08,7,British
+Ireland,2018,14.59,7,British
+Ireland,2019,15,7,British
+Italy,2013,23.75,2,Spanish
+Italy,2014,27.94,2,Spanish
+Italy,2015,28.93,2,Spanish
+Italy,2017,26.26,2,Spanish
+Italy,2018,24.12,2,Spanish
+Italy,2019,24.98,2,Spanish
+Jamaica,2013,10.9,6,British
+Jamaica,2014,11.18,10,British
+Jamaica,2015,12.45,9,British
+Jamaica,2017,12.73,9,British
+Jamaica,2018,11.33,9,British
+Jamaica,2019,11.13,9,British
+Kazakhstan,2013,54.94,3,Russian
+Kazakhstan,2014,53.46,3,Russian
+Kazakhstan,2015,54.55,4,Russian
+Kazakhstan,2017,54.01,6,Russian
+Kazakhstan,2018,54.41,6,Russian
+Kazakhstan,2019,52.82,8,Russian
+Kyrgyz Republic,2013,31.24,8,Russian
+Kyrgyz Republic,2014,30.69,8,Russian
+Kyrgyz Republic,2015,30.16,8,Russian
+Kyrgyz Republic,2017,30.92,9,Russian
+Kyrgyz Republic,2018,31,9,Russian
+Kyrgyz Republic,2019,29.92,9,Russian
+Latvia,2013,21.1,9,Russian
+Latvia,2014,18.12,9,Russian
+Latvia,2015,17.38,9,Russian
+Latvia,2017,18.62,9,Russian
+Latvia,2018,19.63,9,Russian
+Latvia,2019,19.53,9,Russian
+Lithuania,2013,19.2,6,Russian
+Lithuania,2014,18.8,6,Russian
+Lithuania,2015,19.95,6,Russian
+Lithuania,2017,21.37,6,Russian
+Lithuania,2018,22.2,6,Russian
+Lithuania,2019,22.06,6,Russian
+Luxembourg,2013,6.7,3,Spanish
+Luxembourg,2014,13.61,3,Spanish
+Luxembourg,2015,14.43,3,Spanish
+Luxembourg,2017,14.72,3,Spanish
+Luxembourg,2018,14.72,3,Spanish
+Luxembourg,2019,15.66,3,Spanish
+Malaysia,2013,42.73,7,British
+Malaysia,2014,43.29,7,British
+Malaysia,2015,46.57,7,British
+Malaysia,2017,46.89,7,British
+Malaysia,2018,47.41,7,British
+Malaysia,2019,36.74,7,British
+Malta,2013,23.84,2,British
+Malta,2014,24.16,2,British
+Malta,2015,23.84,2,British
+Malta,2017,24.76,2,British
+Malta,2018,27.44,2,British
+Malta,2019,29.74,2,British
+Mexico,2013,45.04,7,Spanish
+Mexico,2014,43.69,8,Spanish
+Mexico,2015,49.33,10,Spanish
+Mexico,2017,48.97,10,Spanish
+Mexico,2018,48.91,10,Spanish
+Mexico,2019,46.78,10,Spanish
+Moldova,2013,25.35,8,Russian
+Moldova,2014,27.85,8,Russian
+Moldova,2015,28.83,8,Russian
+Moldova,2017,30.41,8,Russian
+Moldova,2018,30.01,8,Russian
+Moldova,2019,31.21,8,Russian
+Morocco,2013,39.72,2,Spanish
+Morocco,2014,39.19,2,Spanish
+Morocco,2015,42.64,2,Spanish
+Morocco,2017,42.42,2,Spanish
+Morocco,2018,43.13,2,Spanish
+Morocco,2019,43.98,2,Spanish
+Myanmar,2013,41.43,2,British
+Myanmar,2014,42.08,2,British
+Myanmar,2015,45.48,2,British
+Myanmar,2017,41.82,2,British
+Myanmar,2018,43.15,2,British
+Myanmar,2019,44.92,2,British
+Netherlands,2013,6.46,2,Spanish
+Netherlands,2014,9.220000000000001,2,Spanish
+Netherlands,2015,8.76,2,Spanish
+Netherlands,2017,11.28,2,Spanish
+Netherlands,2018,10.01,2,Spanish
+Netherlands,2019,8.630000000000001,2,Spanish
+Nicaragua,2013,27.7,1,Spanish
+Nicaragua,2014,27.94,1,Spanish
+Nicaragua,2015,28.82,1,Spanish
+Nicaragua,2017,31.01,1,Spanish
+Nicaragua,2018,30.41,2,Spanish
+Nicaragua,2019,35.53,2,Spanish
+Paraguay,2013,31.81,2,Spanish
+Paraguay,2014,33.74,1,Spanish
+Paraguay,2015,33.63,1,Spanish
+Paraguay,2017,35.64,1,Spanish
+Paraguay,2018,32.32,1,Spanish
+Paraguay,2019,32.4,1,Spanish
+Peru,2013,31.7,7,Spanish
+Peru,2014,31.21,7,Spanish
+Peru,2015,29.99,7,Spanish
+Peru,2017,30.98,7,Spanish
+Peru,2018,30.27,7,Spanish
+Peru,2019,30.22,7,Spanish
+Russian Federation,2013,42.78,4,Russian
+Russian Federation,2014,44.97,4,Russian
+Russian Federation,2015,49.03,7,Russian
+Russian Federation,2017,49.45,9,Russian
+Russian Federation,2018,49.96,9,Russian
+Russian Federation,2019,50.31,9,Russian
+Singapore,2013,44.29,8,British
+Singapore,2014,45.87,8,British
+Singapore,2015,52.96,8,British
+Singapore,2017,51.1,8,British
+Singapore,2018,50.95,8,British
+Singapore,2019,51.41,8,British
+South Africa,2013,23.19,5,British
+South Africa,2014,22.06,5,British
+South Africa,2015,21.92,5,British
+South Africa,2017,20.12,5,British
+South Africa,2018,20.39,5,British
+South Africa,2019,22.19,5,British
+Spain,2013,20.63,5,Spanish
+Spain,2014,19.95,5,Spanish
+Spain,2015,19.92,5,Spanish
+Spain,2017,18.69,5,Spanish
+Spain,2018,20.51,5,Spanish
+Spain,2019,21.99,5,Spanish
+Sri Lanka,2013,59.13,2,British
+Sri Lanka,2014,60.28,2,British
+Sri Lanka,2015,44.96,2,British
+Sri Lanka,2017,44.34,2,British
+Sri Lanka,2018,41.37,2,British
+Sri Lanka,2019,39.61,2,British
+Tajikistan,2013,34.86,1,Russian
+Tajikistan,2014,36.19,1,Russian
+Tajikistan,2015,50.34,1,Russian
+Tajikistan,2017,50.27,1,Russian
+Tajikistan,2018,50.06,1,Russian
+Tajikistan,2019,54.02,11,Russian
+Ukraine,2013,36.93,8,Russian
+Ukraine,2014,39.1,8,Russian
+Ukraine,2015,32.93,8,Russian
+Ukraine,2017,33.19,8,Russian
+Ukraine,2018,31.16,8,Russian
+Ukraine,2019,32.46,8,Russian
+United Kingdom,2013,19.93,7,British
+United Kingdom,2014,20,7,British
+United Kingdom,2015,21.7,7,British
+United Kingdom,2017,22.26,7,British
+United Kingdom,2018,23.25,7,British
+United Kingdom,2019,22.23,7,British
+Uruguay,2013,16.08,4,Spanish
+Uruguay,2014,15.94,4,Spanish
+Uruguay,2015,15.88,4,Spanish
+Uruguay,2017,17.43,4,Spanish
+Uruguay,2018,15.56,4,Spanish
+Uruguay,2019,16.06,4,Spanish
+Uzbekistan,2013,61.01,1,Russian
+Uzbekistan,2014,61.14,1,Russian
+Uzbekistan,2015,61.15,6,Russian
+Uzbekistan,2017,66.11,6,Russian
+Uzbekistan,2018,60.84,6,Russian
+Uzbekistan,2019,53.52,6,Russian
+"Venezuela, RB",2013,35.37,1,Spanish
+"Venezuela, RB",2014,40.61,1,Spanish
+"Venezuela, RB",2015,44.77,1,Spanish
+"Venezuela, RB",2017,42.94,1,Spanish
+"Venezuela, RB",2018,46.03,1,Spanish
+"Venezuela, RB",2019,49.1,1,Spanish
+Zimbabwe,2013,39.19,5,British
+Zimbabwe,2014,39.19,5,British
+Zimbabwe,2015,40.41,5,British
+Zimbabwe,2017,41.44,5,British
+Zimbabwe,2018,40.53,5,British
+Zimbabwe,2019,42.23,6,British
