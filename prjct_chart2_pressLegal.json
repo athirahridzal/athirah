@@ -66,7 +66,7 @@
     },
     "tooltip": [
       {"field": "country", "type": "nominal", "title": "Country"},
-      {"field": "pressindex", "type": "nominal", "title": "Press Freedom Index"},
+      {"field": "pressindex", "type": "nominal", "title": "Press Freedom Index", "format": ".2f"},
       {"field": "legalrights", "type": "nominal", "title": "Legal Rights Index"}
     ]
   }
