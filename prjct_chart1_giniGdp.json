@@ -66,7 +66,7 @@
       {"field": "country", "type": "nominal", "title": "Country"},
       {"field": "year", "type": "nominal", "title": "Year"},
       {"field": "gini", "type": "nominal", "title": "Gini Index"},
-      {"field": "gdppc", "type": "nominal", "title": "GDP per Capita"}
+      {"field": "gdppc", "type": "nominal", "title": "GDP per Capita", "format": ".2f"}
       ]
   }
 }
