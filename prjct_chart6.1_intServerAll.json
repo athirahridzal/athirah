@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
   "title": {
     "text": "Internet Servers",
     "subtitle": ["Secure internet servers per 1 million people", "Source: World Bank"],
@@ -9,14 +10,18 @@
     "anchor": "start",
     "color": "dimgray"
   },
+  
   "data": {
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataIntAll.csv",
     "format": {"type": "csv"}
   },
+  
   "height": 500,
   "width": "container",
   "mark": {"type": "bar"},
+  
   "transform": [{"filter": "datum.year==year"}],
+  
   "params": [
     {
       "name": "year",
@@ -30,6 +35,7 @@
       }
     }
   ],
+  
   "encoding": {
     "y": {
       "field": "country",
@@ -37,7 +43,6 @@
       "title": null,
       "axis": {"grid": false, "labelFontSize": 11},
       "sort": "-x"
-      
     },
     "x": {
       "field": "intserver",
