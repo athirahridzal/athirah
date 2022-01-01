@@ -35,7 +35,7 @@
       "field": "country",
       "type": "nominal",
       "title": null,
-      "axis": {"grid": false, "labelFontSize": 12},
+      "axis": {"grid": false, "labelFontSize": 11},
       "sort": "-x"
       
     },
@@ -48,7 +48,7 @@
         "titleColor": "black",
         "titleFontSize": 13,
         "titleFontWeight": "normal",
-        "labelFontSize": 12
+        "labelFontSize": 11
       }
     },
     "color": {
