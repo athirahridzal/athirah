@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "School Enrollment",
+    "subtitle": ["Net secondary school enrollment %", "Source: World Bank"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "fontSize": 16,
+    "color": "hotpink"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataEduAll.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {"calculate": "timeParse(datum.year, '%Y')", "as": "date"},
+    {"filter": "datum.year>minYear"},
+    {"filter": "datum.year<maxYear"},
+    {"filter": {"selection": "category"}}
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2019,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2019,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+  "selection": {
+    "category": {
+      "type": "single",
+      "fields": ["category"],
+      "bind": {
+        "input": "select",
+        "options": [null, "Russian", "Spanish", "British"],
+        "name": "Colonial Empire"
+      }
+    }
+  },
+  "mark": {"type": "line", "point": true, "strokeWidth": 0.5},
+  "height": 300,
+  "width": "container",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "timeUnit": "year",
+      "title": null,
+      "axis": {"grid": false, "labelFontSize":11}
+    },
+    "y": {
+      "field": "netedu", 
+      "type": "quantitative", 
+      "title": null,
+      "axis": {"grid": true, "labelFontSize":11}
+      },
+    "tooltip": [
+      {"field": "year", "title": "Year", "type": "ordinal"},
+      {"field": "country", "title": "Country", "type": "nominal"},
+      {"field": "netedu", "title": "Enrollment", "type": "quantitative", "format":".2f"},
+      {"field": "category", "title": "Colonised by", "type": "nominal"}
+    ],
+    "color": {
+      "field": "country",
+      "title": null,
+      "legend": null,
+      "scale": {"scheme": "accent"}
+    }
+  }
+}
