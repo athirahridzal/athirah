@@ -72,10 +72,10 @@
       "axis": {"grid": true, "labelFontSize":11}
       },
     "tooltip": [
-      {"field": "year", "title": "Year", "type": "ordinal"},
+      {"field": "category", "title": "Colonised by", "type": "nominal"},
       {"field": "country", "title": "Country", "type": "nominal"},
-      {"field": "netedu", "title": "Enrollment", "type": "quantitative", "format":".2f"},
-      {"field": "category", "title": "Colonised by", "type": "nominal"}
+      {"field": "year", "title": "Year", "type": "ordinal"},
+      {"field": "netedu", "title": "Enrollment", "type": "quantitative", "format":".2f"}
     ],
     "color": {
       "field": "country",
