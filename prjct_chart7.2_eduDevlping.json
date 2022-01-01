@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
   "title": {
     "text": "School Enrollment - Developing Countries",
     "subtitle": ["Net secondary school enrollment %", "Source: World Bank"],
@@ -9,16 +10,23 @@
     "fontSize": 15,
     "color": "hotpink"
   },
+  
   "data": {
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataEduDevlping.csv",
     "format": {"type": "csv"}
   },
+  
+  "height": 300,
+  "width": "container",
+  "mark": {"type": "line", "point": true, "strokeWidth": 0.5},
+  
   "transform": [
     {"calculate": "timeParse(datum.year, '%Y')", "as": "date"},
     {"filter": "datum.year>minYear"},
     {"filter": "datum.year<maxYear"},
     {"filter": {"selection": "category"}}
   ],
+  
   "params": [
     {
       "name": "minYear",
@@ -43,6 +51,7 @@
       }
     }
   ],
+  
   "selection": {
     "category": {
       "type": "single",
@@ -54,9 +63,7 @@
       }
     }
   },
-  "mark": {"type": "line", "point": true, "strokeWidth": 0.5},
-  "height": 300,
-  "width": "container",
+
   "encoding": {
     "x": {
       "field": "date",
