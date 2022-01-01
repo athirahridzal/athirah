@@ -29,7 +29,8 @@
           "axis": {
             "titleColor": "black",
             "titleFontSize": 13,
-            "titleFontWeight": "lighter"
+            "titleFontWeight": "lighter", 
+            "grid": false
           }
         },
         "y": {
@@ -40,7 +41,8 @@
           "axis": {
             "titleColor": "black",
             "titleFontSize": 13,
-            "titleFontWeight": "lighter"
+            "titleFontWeight": "lighter",
+            "grid": false
           }
         },
         "tooltip": [
