@@ -13,6 +13,11 @@
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortDevlping.csv",
     "format": {"type": "csv"}
   },
+  
+  "height": 300,
+  "width": "container",
+  "mark": {"type": "line", "point": true, "strokeWidth": 0.5},
+  
   "transform": [
     {"calculate": "timeParse(datum.year, '%Y')", "as": "date"},
     {"filter": "datum.year>minYear"},
@@ -54,9 +59,7 @@
       }
     }
   },
-  "mark": {"type": "line", "point": true, "strokeWidth": 0.5},
-  "height": 300,
-  "width": "container",
+
   "encoding": {
     "x": {
       "field": "date",
