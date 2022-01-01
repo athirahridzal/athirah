@@ -33,7 +33,8 @@
         "grid": false, 
         "titleColor": "black",
         "titleFontSize": 13,
-        "titleFontWeight": "normal"
+        "titleFontWeight": "normal",
+        "labelFontSize":11
         }
     },
 
@@ -46,7 +47,8 @@
         "grid": false, 
         "titleColor": "black",
         "titleFontSize": 13,
-        "titleFontWeight": "normal"
+        "titleFontWeight": "normal",
+        "labelFontSize":11
         }
     },
 
