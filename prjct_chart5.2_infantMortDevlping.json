@@ -70,7 +70,7 @@
       {"field": "category", "title": "Colonised by", "type": "nominal"},
       {"field": "country", "title": "Country", "type": "nominal"},
       {"field": "year", "title": "Year", "type": "ordinal"},
-      {"field": "value", "title": "Infant Mortality", "type": "quantitative"},
+      {"field": "value", "title": "Infant Mortality", "type": "quantitative"}
     ],
     "color": {
       "field": "country",
