@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
   "title": {
     "text": "Press Freedom and Legal Rights",
     "subtitle": ["Legal rights (0=Weak, 12=Strong)", "Press freedom (0=Free, 100=High Censorship)","No data for 2016 , Source: World Bank, Reporters Without Borders"],
@@ -9,13 +10,14 @@
     "anchor": "start",
     "color": "crimson"
   },
+  
   "data": {
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataPressLegal.csv",
     "format": {"type": "csv"}
   },
+  
   "height": 300,
   "width": "container",
-
   "mark": {"type": "circle", "size": 100},
 
   "transform": [{"filter": "datum.year==year"}],
