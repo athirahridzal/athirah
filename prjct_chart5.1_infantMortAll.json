@@ -65,7 +65,12 @@
       "title": null,
       "axis": {"grid": false}
     },
-    "y": {"field": "value", "type": "quantitative", "title": null},
+    "y": {
+      "field": "value", 
+      "type": "quantitative", 
+      "title": null,
+      "axis": {"grid": true, "labelFontSize": 11}
+    },
     "tooltip": [
       {"field": "category", "title": "Colonised by", "type": "nominal"},
       {"field": "country", "title": "Country", "type": "nominal"},
