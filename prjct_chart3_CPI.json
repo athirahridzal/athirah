@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
   "title": {
     "text": "Corruption on Income per Capita",
     "subtitle": [
@@ -12,14 +13,18 @@
     "fontSize": 16,
     "color": "tomato"
   },
+  
   "height": 300,
   "width": "container",
+  
   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataCPIgdp.csv"
       },
+      
       "mark": {"type": "point", "size": 100, "filled": true},
+      
       "encoding": {
         "x": {
           "field": "cpi",
@@ -75,7 +80,9 @@
       "data": {
         "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataCPILine.csv"
       },
+      
       "mark": {"type": "line", "color": "grey"},
+      
       "encoding": {
         "x": {"field": "xFitted", "type": "quantitative"},
         "y": {"field": "yFitted", "type": "quantitative"}
@@ -85,6 +92,7 @@
       "data": {
         "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataCPIgdp.csv"
       },
+      
       "transform": [
         {
           "regression": "gdppc",
@@ -95,6 +103,7 @@
         },
         {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
       ],
+      
       "mark": {
         "type": "text",
         "color": "crimson",
@@ -104,6 +113,7 @@
         "fontWeight": "bolder",
         "y": -5
       },
+      
       "encoding": {"text": {"type": "nominal", "field": "R2"}}
     }
   ]
