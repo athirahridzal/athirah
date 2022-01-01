@@ -63,9 +63,14 @@
       "type": "temporal",
       "timeUnit": "year",
       "title": null,
-      "axis": {"grid": false}
+      "axis": {"grid": false, "labelFontSize": 11}
     },
-    "y": {"field": "value", "type": "quantitative", "title": null},
+    "y": {
+      "field": "value", 
+      "type": "quantitative", 
+      "title": null,
+      "axis": {"grid": true, "labelFontSize": 11}
+    },
     "tooltip": [
       {"field": "category", "title": "Colonised by", "type": "nominal"},
       {"field": "country", "title": "Country", "type": "nominal"},
