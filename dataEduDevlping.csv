@@ -1,0 +1,411 @@
+country,year,netedu,category
+Russian Federation,2017,90.67886,Russian
+Russian Federation,2014,93.07093,Russian
+Russian Federation,2013,91.69423999999999,Russian
+Belarus,2018,95.63948000000001,Russian
+Belarus,2017,96.37553,Russian
+Belarus,2016,97.60838,Russian
+Belarus,2015,98.50839000000001,Russian
+Belarus,2014,98.06344,Russian
+Belarus,2013,97.40129,Russian
+Belarus,2012,96.37232,Russian
+Belarus,2011,95.19412,Russian
+Belarus,2010,94.90998999999999,Russian
+Ukraine,2014,85.67634,Russian
+Ukraine,2013,85.02414,Russian
+Ukraine,2012,84.48572,Russian
+Ukraine,2011,84.20283999999999,Russian
+Ukraine,2010,85.99148,Russian
+Ukraine,2009,85.75843,Russian
+Ukraine,2008,86.4859,Russian
+Ukraine,2007,86.76809,Russian
+Ukraine,2006,86.92265,Russian
+Ukraine,2005,85.67247,Russian
+Ukraine,2004,90.22745,Russian
+Ukraine,2003,91.04401,Russian
+Ukraine,2002,90.48178,Russian
+Ukraine,2001,94.6328,Russian
+Ukraine,2000,93.57133,Russian
+Armenia,2011,87.74122,Russian
+Armenia,2010,92.50998,Russian
+Armenia,2009,92.32107000000001,Russian
+Armenia,2008,86.10852,Russian
+Armenia,2007,91.63539,Russian
+Armenia,2006,88.92706,Russian
+Armenia,2005,86.53279999999999,Russian
+Kyrgyz Republic,2018,84.38733000000001,Russian
+Kyrgyz Republic,2017,83.16127,Russian
+Kyrgyz Republic,2016,82.18479000000001,Russian
+Kyrgyz Republic,2015,80.51887000000001,Russian
+Kyrgyz Republic,2014,80.23971,Russian
+Kyrgyz Republic,2007,80.37718,Russian
+Kyrgyz Republic,2006,80.60553,Russian
+Kyrgyz Republic,2005,80.63642,Russian
+Kyrgyz Republic,2004,82.2807,Russian
+Georgia,2018,95.94754,Russian
+Georgia,2017,94.21028,Russian
+Georgia,2016,92.4141,Russian
+Georgia,2015,91.29973,Russian
+Georgia,2014,90.22179,Russian
+Georgia,2013,88.75413,Russian
+Georgia,2009,87.67605,Russian
+Georgia,2008,91.34336999999999,Russian
+Georgia,2007,91.36429,Russian
+Georgia,2006,88.2985,Russian
+Georgia,2005,88.04291000000001,Russian
+Georgia,2000,85.2912,Russian
+Georgia,1999,82.18443000000001,Russian
+Georgia,1997,76.91283,Russian
+Georgia,1996,73.62613,Russian
+Moldova,2018,77.95594,Russian
+Moldova,2017,77.85475,Russian
+Moldova,2016,76.59363999999999,Russian
+Moldova,2015,76.40056,Russian
+Moldova,2014,76.86421,Russian
+Moldova,2013,77.19155000000001,Russian
+Moldova,2012,77.90900000000001,Russian
+Moldova,2011,77.74841000000001,Russian
+Moldova,2010,78.62414,Russian
+Moldova,2009,79.55915,Russian
+Moldova,2008,83.49852,Russian
+Moldova,2007,80.55401000000001,Russian
+Moldova,2006,81.34887999999999,Russian
+Moldova,2005,81.78982999999999,Russian
+Moldova,2004,81.07953000000001,Russian
+Moldova,2003,80.06647,Russian
+Moldova,2002,78.91573,Russian
+Moldova,2001,78.03685,Russian
+Moldova,2000,78.24249,Russian
+Kazakhstan,2019,99.83989,Russian
+Kazakhstan,2018,99.83695,Russian
+Kazakhstan,2017,99.83544000000001,Russian
+Kazakhstan,2016,98.66864,Russian
+Kazakhstan,2015,98.20578,Russian
+Kazakhstan,2014,96.95453000000001,Russian
+Kazakhstan,2013,93.57774000000001,Russian
+Kazakhstan,2012,93.62616,Russian
+Kazakhstan,2011,92.91494,Russian
+Kazakhstan,2010,92.55571999999999,Russian
+Kazakhstan,2006,94.71818,Russian
+Kazakhstan,2000,88.66677,Russian
+Tajikistan,2011,83.21746,Russian
+Tajikistan,2010,82.50797,Russian
+Tajikistan,2009,81.79476,Russian
+Tajikistan,2008,81.59779,Russian
+Tajikistan,2007,80.24330999999999,Russian
+Tajikistan,2006,78.81148,Russian
+Tajikistan,2005,78.1815,Russian
+Tajikistan,2004,78.10509,Russian
+Tajikistan,2002,75.00605,Russian
+Tajikistan,2001,72.13133999999999,Russian
+Tajikistan,2000,70.18143000000001,Russian
+Tajikistan,1999,61.97265,Russian
+Uzbekistan,2017,90.85635000000001,Russian
+Uzbekistan,2016,89.80656,Russian
+Uzbekistan,2015,88.74141,Russian
+Uzbekistan,2014,88.07015,Russian
+Uzbekistan,2013,88.51988,Russian
+Uzbekistan,2012,88.29952,Russian
+Uzbekistan,2011,86.60566,Russian
+Uzbekistan,2010,85.91028,Russian
+Azerbaijan,2018,88.53256,Russian
+India,2013,61.63147,British
+Malaysia,2018,72.21113,British
+Malaysia,2017,74.39816999999999,British
+Malaysia,2016,73.40114,British
+Malaysia,2014,74.65151,British
+Malaysia,2013,76.2547,British
+Malaysia,2012,75.75679,British
+Malaysia,2011,74.16752,British
+Malaysia,2010,74.33844999999999,British
+Malaysia,2009,74.00103,British
+Malaysia,2008,74.09303,British
+Malaysia,2007,74.47215,British
+Malaysia,2006,78.44768000000001,British
+Malaysia,2005,76.92735999999999,British
+Malaysia,2004,80.88979,British
+Malaysia,2003,80.32219000000001,British
+Malaysia,2002,74.68553,British
+Malaysia,2001,75.24777,British
+Malaysia,2000,75.30455000000001,British
+Malaysia,1999,75.69148,British
+Malaysia,1998,76.19632,British
+Malaysia,1972,41.50132,British
+Malaysia,1971,39.67309,British
+South Africa,2017,71.92661,British
+South Africa,2015,90.54401,British
+South Africa,2005,66.15872,British
+South Africa,2004,65.07832999999999,British
+South Africa,2003,63.53457,British
+South Africa,2002,61.81554,British
+South Africa,2001,59.68998,British
+South Africa,2000,58.85436,British
+South Africa,1999,59.62755,British
+South Africa,1994,51.186,British
+Fiji,2012,84.52339000000001,British
+Fiji,2011,85.09220999999999,British
+Fiji,2009,80.43713,British
+Fiji,2007,81.22868,British
+Fiji,2006,85.43666,British
+Fiji,2004,83.30853,British
+Fiji,2003,76.51975,British
+Fiji,2002,75.86326,British
+Fiji,2001,74.79579,British
+Fiji,2000,72.26564,British
+Fiji,1999,75.58069,British
+"Egypt, Arab Rep.",2018,82.77634999999999,British
+"Egypt, Arab Rep.",2017,81.65996,British
+"Egypt, Arab Rep.",2016,80.74153,British
+"Egypt, Arab Rep.",2014,76.81479,British
+"Egypt, Arab Rep.",1994,64.50530000000001,British
+"Egypt, Arab Rep.",1974,28.74886,British
+"Egypt, Arab Rep.",1973,28.90658,British
+"Egypt, Arab Rep.",1972,26.14083,British
+"Egypt, Arab Rep.",1971,26.38686,British
+Zimbabwe,2013,48.73362,British
+Zimbabwe,2012,47.8753,British
+Zimbabwe,2003,37.23859,British
+Zimbabwe,2002,41.22522,British
+Zimbabwe,2001,43.33936,British
+Zimbabwe,2000,42.45882,British
+Zimbabwe,1999,42.41554,British
+Myanmar,2018,64.05857,British
+Myanmar,2017,59.62371,British
+Myanmar,2016,56.31635,British
+Myanmar,2014,48.71663,British
+Myanmar,2010,45.05213,British
+Myanmar,2009,44.79402,British
+Myanmar,2008,45.29753,British
+Myanmar,2007,43.45929,British
+Myanmar,2006,43.17034,British
+Myanmar,2005,41.00243,British
+Myanmar,2004,40.44941,British
+Myanmar,2003,36.09419,British
+Myanmar,2002,35.51076,British
+Myanmar,2001,35.76385,British
+Myanmar,2000,32.95794,British
+Myanmar,1999,29.66754,British
+Jamaica,2018,73.96802,British
+Jamaica,2017,73.20201,British
+Jamaica,2016,72.66633,British
+Jamaica,2015,71.87973,British
+Jamaica,2014,72.78254,British
+Jamaica,2013,72.92916,British
+Jamaica,2011,76.80378,British
+Jamaica,2005,80.61632,British
+Jamaica,2004,80.86763000000001,British
+Jamaica,2003,75.90072000000001,British
+Jamaica,2002,75.81995000000001,British
+Jamaica,2001,75.43941,British
+Jamaica,2000,76.31856999999999,British
+Jamaica,1999,81.20214,British
+Jamaica,1986,58.11748,British
+Jamaica,1985,60.48277,British
+Jamaica,1984,59.63479,British
+Jamaica,1983,61.58163,British
+Jamaica,1981,64.41112,British
+Jamaica,1977,59.18727,British
+Jamaica,1976,57.82786,British
+Jamaica,1975,55.32495,British
+Iraq,2007,45.16146,British
+Iraq,2004,40.46964,British
+Iraq,2003,35.89668,British
+Iraq,2000,32.53811,British
+Iraq,1999,30.64769,British
+Iraq,1993,35.21856,British
+Iraq,1989,38.54725,British
+Iraq,1988,39.2585,British
+Iraq,1987,40.59831,British
+Iraq,1985,40.53301,British
+Iraq,1982,45.07588,British
+Iraq,1981,43.72145,British
+Iraq,1980,43.18319,British
+Iraq,1979,39.67244,British
+Iraq,1978,34.34707,British
+Iraq,1977,28.62355,British
+Iraq,1976,26.26112,British
+Iraq,1975,25.77166,British
+Sri Lanka,2018,91.03783,British
+Sri Lanka,2017,89.04228999999999,British
+Sri Lanka,2011,85.2998,British
+Sri Lanka,2010,84.03138,British
+Sri Lanka,1986,58.67977,British
+Mexico,2017,81.15595999999999,Spanish
+Mexico,2016,81.22278,Spanish
+Mexico,2015,80.02575,Spanish
+Mexico,2014,77.66257,Spanish
+Mexico,2013,75.56968000000001,Spanish
+Mexico,2012,71.82661,Spanish
+Mexico,2011,70.65515000000001,Spanish
+Mexico,2010,70.08479,Spanish
+Mexico,2009,69.68225,Spanish
+Mexico,2008,69.60395,Spanish
+Mexico,2007,68.93456999999999,Spanish
+Mexico,2006,67.83848999999999,Spanish
+Mexico,2005,66.67768,Spanish
+Mexico,2004,65.15369,Spanish
+Mexico,2003,63.26205,Spanish
+Mexico,2002,60.41548,Spanish
+Mexico,2000,56.09204,Spanish
+Mexico,1999,54.98575,Spanish
+Mexico,1996,51.15111,Spanish
+Mexico,1995,49.32331,Spanish
+Mexico,1994,47.71012,Spanish
+Mexico,1991,46.10101,Spanish
+Mexico,1990,46.72132,Spanish
+Mexico,1989,45.88711,Spanish
+Mexico,1988,47.44333,Spanish
+Mexico,1987,47.94386,Spanish
+Mexico,1986,47.10249,Spanish
+Peru,2018,89.30974999999999,Spanish
+Peru,2017,85.58522000000001,Spanish
+Peru,2016,82.80665999999999,Spanish
+Peru,2015,79.18143000000001,Spanish
+Peru,2014,79.52639000000001,Spanish
+Peru,2013,79.99309,Spanish
+Peru,2012,75.31964000000001,Spanish
+Peru,2011,78.92787,Spanish
+Peru,2010,77.70725,Spanish
+Peru,2009,77.71898,Spanish
+Peru,2008,74.67779,Spanish
+Peru,2007,72.88175,Spanish
+Peru,2006,69.37305000000001,Spanish
+Peru,2005,67.21536,Spanish
+Peru,2004,66.03303,Spanish
+Peru,2002,65.88343,Spanish
+Peru,2001,65.00322,Spanish
+Peru,2000,62.00506,Spanish
+Peru,1999,59.7418,Spanish
+Peru,1998,59.02289,Spanish
+Peru,1997,53.44598,Spanish
+Peru,1996,53.24848,Spanish
+Peru,1995,52.1665,Spanish
+Peru,1981,44.54678,Spanish
+Morocco,2018,64.4924,Spanish
+Morocco,2017,63.46699,Spanish
+Morocco,2012,56.69899,Spanish
+Morocco,2011,53.84359,Spanish
+Morocco,2010,51.01615,Spanish
+Morocco,2008,47.38257,Spanish
+Morocco,2007,45.26555,Spanish
+Morocco,2006,42.48918,Spanish
+Morocco,2005,40.1431,Spanish
+Argentina,2017,90.79604999999999,Spanish
+Argentina,2016,89.88468,Spanish
+Argentina,2015,88.44047999999999,Spanish
+Argentina,2014,87.63249999999999,Spanish
+Argentina,2013,87.09754,Spanish
+Argentina,2012,85.89363,Spanish
+Argentina,2011,83.52316999999999,Spanish
+Argentina,2010,82.09918,Spanish
+Argentina,2009,80.56529,Spanish
+Argentina,2008,78.65304,Spanish
+Argentina,2007,77.68491,Spanish
+Argentina,2006,77.80916999999999,Spanish
+Argentina,2005,77.93492999999999,Spanish
+Argentina,2004,78.53653,Spanish
+Argentina,2003,78.51365,Spanish
+Argentina,2002,78.81052,Spanish
+Argentina,2001,78.94955,Spanish
+Argentina,2000,78.48781,Spanish
+Argentina,1999,76.26566,Spanish
+Argentina,1998,74.40915,Spanish
+Argentina,1975,41.97323,Spanish
+Argentina,1974,40.49867,Spanish
+Guatemala,2018,43.77665,Spanish
+Guatemala,2017,43.59611,Spanish
+Guatemala,2016,43.92075,Spanish
+Guatemala,2015,44.13192,Spanish
+Guatemala,2014,43.12295,Spanish
+Guatemala,2013,42.87372,Spanish
+Guatemala,2012,42.66609,Spanish
+Guatemala,2011,42.21131,Spanish
+Guatemala,2010,41.79092,Spanish
+Guatemala,2009,38.34263,Spanish
+Guatemala,2008,36.74233,Spanish
+Guatemala,2002,28.33468,Spanish
+Guatemala,2001,27.54215,Spanish
+Guatemala,2000,24.4983,Spanish
+Guatemala,1999,22.06259,Spanish
+Guatemala,1982,13.42526,Spanish
+Guatemala,1980,12.10072,Spanish
+Guatemala,1979,13.46789,Spanish
+Guatemala,1975,9.30466,Spanish
+Guatemala,1974,8.80494,Spanish
+Guatemala,1972,7.40452,Spanish
+Nicaragua,2010,48.4211,Spanish
+Nicaragua,2006,45.4727,Spanish
+Nicaragua,2005,43.93625,Spanish
+Nicaragua,2004,41.63398,Spanish
+Nicaragua,2002,38.66694,Spanish
+Nicaragua,2001,36.46335,Spanish
+Nicaragua,2000,34.65554,Spanish
+Nicaragua,1989,20.90677,Spanish
+Nicaragua,1987,20.11334,Spanish
+Nicaragua,1986,18.05797,Spanish
+Nicaragua,1985,16.74021,Spanish
+Nicaragua,1984,17.72496,Spanish
+Nicaragua,1983,19.09523,Spanish
+Nicaragua,1980,19.91828,Spanish
+Nicaragua,1971,11.80614,Spanish
+Colombia,2018,77.47078,Spanish
+Colombia,2017,76.56180000000001,Spanish
+Colombia,2016,76.20192,Spanish
+Colombia,2015,75.60236999999999,Spanish
+Colombia,2014,75.58286,Spanish
+Colombia,2013,76.31162999999999,Spanish
+Colombia,2012,75.66677,Spanish
+Colombia,2011,77.26227,Spanish
+Colombia,2010,75.30739,Spanish
+Colombia,2009,74.13558999999999,Spanish
+Colombia,2008,71.39134,Spanish
+Colombia,2007,70.40955,Spanish
+Colombia,2006,67.7345,Spanish
+Colombia,2005,63.648,Spanish
+"Venezuela, RB",2017,73.24477,Spanish
+"Venezuela, RB",2016,73.3043,Spanish
+"Venezuela, RB",2015,74.55316000000001,Spanish
+"Venezuela, RB",2014,75.72595,Spanish
+"Venezuela, RB",2013,75.07477,Spanish
+"Venezuela, RB",2012,74.79369,Spanish
+"Venezuela, RB",2011,73.03337999999999,Spanish
+"Venezuela, RB",2010,71.94629,Spanish
+"Venezuela, RB",2009,71.68989000000001,Spanish
+"Venezuela, RB",2008,69.97967,Spanish
+"Venezuela, RB",2007,68.83938000000001,Spanish
+"Venezuela, RB",2006,66.58989,Spanish
+"Venezuela, RB",2005,63.14279,Spanish
+"Venezuela, RB",2004,61.33545,Spanish
+"Venezuela, RB",2003,58.95968,Spanish
+"Venezuela, RB",2002,57.32278,Spanish
+"Venezuela, RB",2001,54.80014,Spanish
+"Venezuela, RB",2000,51.45313,Spanish
+"Venezuela, RB",1999,48.53344,Spanish
+"Venezuela, RB",1972,26.8205,Spanish
+"Venezuela, RB",1971,24.58102,Spanish
+Uruguay,2017,88.21272999999999,Spanish
+Uruguay,2016,83.27916,Spanish
+Uruguay,2015,81.60692,Spanish
+Uruguay,2014,76.6716,Spanish
+Uruguay,2012,74.70228,Spanish
+Uruguay,2011,73.45892000000001,Spanish
+Uruguay,2009,71.36421,Spanish
+Uruguay,2008,69.47614,Spanish
+Uruguay,2007,67.65482,Spanish
+Uruguay,1984,56.16876,Spanish
+Paraguay,2012,65.88458,Spanish
+Paraguay,2011,62.70972,Spanish
+Paraguay,2010,60.94171,Spanish
+Paraguay,2009,59.90882,Spanish
+Paraguay,2008,59.36683,Spanish
+Paraguay,2007,58.11186,Spanish
+Paraguay,2006,57.42306,Spanish
+Paraguay,2005,57.02914,Spanish
+Paraguay,2004,56.20782,Spanish
+Paraguay,2003,54.13995,Spanish
+Paraguay,2002,52.87572,Spanish
+Paraguay,2001,51.65877,Spanish
+Paraguay,1999,45.66068,Spanish
+Paraguay,1998,42.79821,Spanish
+Paraguay,1996,38.07619,Spanish
+Paraguay,1994,33.22648,Spanish
