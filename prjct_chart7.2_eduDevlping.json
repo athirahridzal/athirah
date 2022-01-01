@@ -4,7 +4,7 @@
     "text": "School Enrollment - Developing Countries",
     "subtitle": ["Net secondary school enrollment %", "Source: World Bank"],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 12,
+    "subtitleFontSize": 11,
     "anchor": "start",
     "fontSize": 16,
     "color": "hotpink"
