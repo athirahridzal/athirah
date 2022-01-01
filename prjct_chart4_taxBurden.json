@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
   "title": {
     "text": "Tax Burden",
     "subtitle": [
@@ -13,14 +14,18 @@
     "anchor": "start",
     "color": "mediumorchid"
   },
+  
   "data": {
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurden.csv",
     "format": {"type": "csv"}
   },
+  
   "height": 500,
   "width": "container",
   "mark": {"type": "bar"},
+  
   "transform": [{"filter": "datum.year==year"}],
+  
   "params": [
     {
       "name": "year",
@@ -34,6 +39,7 @@
       }
     }
   ],
+  
   "encoding": {
     "y": {
       "field": "country",
