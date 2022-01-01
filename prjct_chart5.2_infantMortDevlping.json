@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
   "title": {
     "text": "Infant Mortality - Developing Countries",
     "subtitle": ["Deaths per 1000 live births", "Source: World Bank"],
@@ -9,6 +10,7 @@
     "fontSize": 16,
     "color": "mediumpurple"
   },
+  
   "data": {
     "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortDevlping.csv",
     "format": {"type": "csv"}
@@ -24,6 +26,7 @@
     {"filter": "datum.year<maxYear"},
     {"filter": {"selection": "category"}}
   ],
+  
   "params": [
     {
       "name": "minYear",
@@ -48,6 +51,7 @@
       }
     }
   ],
+  
   "selection": {
     "category": {
       "type": "single",
