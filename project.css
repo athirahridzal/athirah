@@ -72,11 +72,14 @@ p{
   padding: 5px;
 }
 
+#transpcontainer{
+border-color: transparent; 
+}
+
 .vega-embed.has-actions {
     padding-right: 5px !important;
     width: 380px
 }
-
 
 
 a:-webkit-any-link {
