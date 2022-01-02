@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Tax Burden",
+    "subtitle": [
+      "Tax revenue per capita in PPP and fiscal freedom",
+      "Fiscal freedom score (=0, no data available)",
+      "Source: World Bank, Heritage Index of Economic Freedom"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "fontSize": 16,
+    "anchor": "start",
+    "color": "mediumorchid"
+  },
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurdenDevlping.csv",
+    "format": {"type": "csv"}
+  },
+  
+  "height": 500,
+  "width": "container",
+  "mark": {"type": "bar"},
+  
+  "transform": [{"filter": "datum.year==year"}],
+  
+  "params": [
+    {
+      "name": "year",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 1990,
+        "max": 2019,
+        "step": 1,
+        "name": "Select year:"
+      }
+    }
+  ],
+  
+  "encoding": {
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "title": null,
+      "axis": {"grid": false, "labelFontSize":11},
+      "sort":"-x"
+    },
+    "x": {
+      "field": "taxrpc",
+      "type": "quantitative",
+      "title":null,
+      "axis": {
+        "grid": false,
+        "titleColor": "black",
+        "titleFontSize": 13,
+        "titleFontWeight": "normal",
+        "labelFontSize":11
+      }
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "title": "Colonial Empire:",
+      "scale": {"scheme": "set1"},
+      "legend": {
+        "orient": "bottom-right",
+        "labelFontSize": 12,
+        "titleFontSize": 12,
+        "titleFontWeight": "normal"
+      }
+    },
+    "tooltip": [
+      {"field": "category", "type": "nominal", "title": "Colonised by"},
+      {"field": "country", "type": "nominal", "title": "Country"},
+      {"field": "taxrpc", "type": "quantitative", "title": "Tax Revenue per Capita"},
+      {"field": "taxburden", "type": "quantitative", "title": "Fiscal Freedom Score"}
+      
+    ]
+  }
+}
