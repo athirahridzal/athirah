@@ -60,7 +60,7 @@
       "field": "category",
       "type": "nominal",
       "title": "Colonial Empire:",
-      "scale": {"scheme": "sinebow"},
+      "scale": {"scheme": "accent"},
       "legend": {
         "orient": "bottom-right",
         "labelFontSize": 12,
