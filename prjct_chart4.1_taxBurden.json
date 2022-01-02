@@ -16,7 +16,7 @@
   },
   
   "data": {
-    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurden.csv",
+    "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurdenAll.csv",
     "format": {"type": "csv"}
   },
   
