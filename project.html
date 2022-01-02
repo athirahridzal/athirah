@@ -54,7 +54,12 @@
 
 <container class="bcontainer">
   <h2><b><span style="color:#8A1F38">How do different colonial powers affect government quality of colonised countries?</span></b></h2>
-  <h3> The main aim of this project is to observe patterns in government quality emerging from countries under the same colonial powers. 
+</container>
+<br>
+<br>
+  
+ <container class="bcontainer">
+    <h3> The main aim of this project is to observe patterns in government quality emerging from countries under the same colonial powers. 
     This project is motivated by the paper The Quality of Government by La Porta et al. (1999), that concluded that legal origins of is a major 
     factor government quality. The research question is explored through different measures of government quality based on former colonies of the British, 
     Spanish and Russian empires. The visualisations used in this project are scatter plots, bar and line charts with sliders and drop-down lists to condense 
@@ -62,11 +67,9 @@
 </container>
 <br>
 <br>
- 
   
   
-  
-  <h2><span>Data</span></h2> 
+ <h2><span>Data</span></h2> 
  <container class="bcontainer">
    <h3> The data for this project is mainly from the World Bank downloaded using Python in  
      <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_DownloadWB_Project.ipynb" target="_blank"> Colab</a> using the API. 
@@ -130,7 +133,11 @@
   
 <container class="bcontainer">
    <div class="wrap">
-   <!-- <h3> </h3> -->
+     <h3>This visualisation regresses perceived corruption and GDP per capita in 2020 with a polynomial order of 3.  Lower perceived corruption correlates to a higher income per capita. 
+       Countries under the British and Spanish category vary across both variables, while under the Russian empire, the countries have higher perceived corruption and hence lower GDP per capita. 
+       The minor data cleaning and fitted lines were created using Python in 
+       <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_Regression_Project.ipynb" target="_blank"> Colab</a>
+       and <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart3.do" target="_blank"> Stata</a>. </h3>
    </div>
 
  <!--Chart 3 -->
@@ -151,7 +158,9 @@
   
  <container class="bcontainer">
    <div class="wrap">
-   <!-- <h3> </h3> -->
+     <h3>This visualisation plots the tax burden, the slider allows selection of observations for a specific year. The highest values for tax burden are developed economies, 
+       and no specific patterns emerge for the rest. Typically, higher financing is coupled with higher outcomes of public goods. The data was cleaned and merged using 
+       <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart4.do" target="_blank"> Stata</a>.</h3>
    </div>
 
 <!--Chart 4.1 -->
@@ -178,10 +187,16 @@
   
 <container class="bcontainer">
    <div class="wrap">
-   <!-- <h3> </h3> -->
+     <h3> These three visualisations plot the outputs of basic public goods – healthcare, infrastructure and education. Each visualisation includes two separate charts, 
+       one of the whole dataset and the other of developing countries, as the higher outcomes of public goods are dominated by developed economies. The sliders enable 
+       the selection of a range of years to be observed. As expected, the tax burden data matches the outcomes of public goods – countries with higher tax burden have 
+       higher outputs in public goods. The data for developing countries were cleaned using 
+       <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart5_6_7.do" target="_blank"> Stata</a>. </h3>
    </div>
   
   <container class="bcontainer" id="transpcontainer">
+    <h3>Countries under the British category varies largely with relatively higher infant mortality compared to Spanish and Russian. Former Spanish colonies have 
+      higher mortality than former Russian colonies. The drop-down list allows the selection of an empire, where any patterns of the countries can be observed.</h3>
    <!--Chart 5.1 -->
   <div class="chart" id="chart6">
       <script>
@@ -200,6 +215,7 @@
 </container>
  
 <container class="bcontainer" id="transpcontainer">
+  <h3> Former colonies of the Russian empire have relatively higher secure internet servers per 1 million, whereas the other two are scattered countries across the ranks. </h3>
 <!--Chart 6.1 -->
 <div class="chart" id="chart8">
     <script>
@@ -218,6 +234,8 @@
 </container>
   
 <container class="bcontainer" id="transpcontainer">
+  <h3>Secondary school enrolment for countries under the Russian empire are also relatively higher than the British and Spanish that have high variations across countries. 
+    The drop-down list allows the selection of an empire, where any patterns of enrolment can be observed amongst the countries. </h3>
 <!--Chart 7.1 -->
 <div class="chart" id="chart10">
     <script>
@@ -239,6 +257,16 @@
 </container>
 <br>
 <br>
+
+<h2><span>Conclusion</span></h2> 
+<container class="bcontainer">
+  <h3> Minor patterns emerged for each colonial empire, more so under the Russian empire. The apparent effect on former colonies under the Russian empire is likely since the 
+    countries gained independence most recently in 1991. Moreover, the Soviet Union operated as a single country rather than the common definition of colonialism of foreign 
+    political control. Surprisingly, countries under the British empire show the least similarities, showing high variation across variables. Therefore, colonial empires impact 
+    the government quality of the colonies in varying ways – relatively higher inequality, freer press or higher outcomes of public goods. Nonetheless, every country has different 
+    resources, experienced varying degrees of economic crisis and have accumulated centuries of history and culture. These visualisations are only able to describe one factor that 
+    affects the variation in government quality over the years.  </h3>
+</container>
   
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
