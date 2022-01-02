@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "Tax Burden",
+    "text": "Tax Burden - Developing Countries",
     "subtitle": [
       "Tax revenue per capita in PPP and fiscal freedom",
       "Fiscal freedom score (=0, no data available)",
@@ -10,7 +10,7 @@
     ],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 11,
-    "fontSize": 16,
+    "fontSize": 15,
     "anchor": "start",
     "color": "mediumorchid"
   },
