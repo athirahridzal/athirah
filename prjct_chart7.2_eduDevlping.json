@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "School Enrollment - Developing Countries",
-    "subtitle": ["Net secondary school enrollment %", "Source: World Bank"],
+    "text": "School Enrolment - Developing Countries",
+    "subtitle": ["Net secondary school enrolment %", "Source: World Bank"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 12,
     "anchor": "start",
