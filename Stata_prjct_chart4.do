@@ -126,6 +126,14 @@ drop if taxrev==.
 /* Save cleaned data */
 save 1.taxburden.clean.dta, replace
 
-/* Export final dataset */
+/* Export dataset for whole dataset */
+
+/* Drop developed economies */
+drop if country == "Estonia" | country == "Latvia"| country == "Lithuania"| country == "United Kingdom"| country == "Malta"| country == "Singapore" | country == "Ireland" |  country == "Spain"| country == "Luxembourg"| country == "Italy"| country == "Netherlands"
+
+/* Save cleaned data */
+save 3.taxburden.clean.dta, replace
+
+/* Export dataset for developing economies */
 
 log close
