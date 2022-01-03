@@ -110,14 +110,10 @@ p{
     border: 6px solid #F3DADA;
     color: #737373 !important;
     font-family: 'Raleway', sans-serif;
-    border-radius: 150px;
+    border-radius: 20px;
     font-size: 15px;
-    text-decoration: none;
-    max-width: 100px;
-    outline-offset: 2px;
     padding: 5px 12px;
     text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 #buttoncode{
@@ -139,14 +135,12 @@ a:-webkit-any-link {
 /* Horizontal line */
 
 hr{
-    border: none;
-    border-top: 10px dotted #FFC0CB;
-    color: #FFC0CB;
-    background-color: transparent;
-    height: 3px;
-    width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
+    border: transparent;
+    color: #FFC0CB;
+    width: 100%;
+    border-top: 10px dotted #FFC0CB;
 }
   
 
