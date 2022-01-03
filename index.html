@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 
-
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 <head>
+    <!--Meta stuff-->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
- <!--Meta stuff-->
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
+    </style>
 
-<!--The next three lines allow the Vega embed-->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
+    </style>
 
-
-
-<link rel="stylesheet" href="index.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    </style>
   
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
-</style>
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
-</style>
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-</style>
-  
-  <title> Data Science Project </title>
+    <title> Data Science Project </title>
 </head>
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
@@ -39,293 +37,293 @@
 
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
+
 <body>
-  <!-- taken w3schools -->
-<div class="icon-bar">
-  <a class="active" href="#"><i class="fa fa-home"> PORTFOLIO</i></a>
-  <a href="project"><i class="fa fa-pencil"> PROJECT</i></a>
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io" target="_blank"><i class="fa fa-laptop"> GITHUB</i></a>
-  <a href="https://rapidcharts.io/datascience" target="_blank"><i class="fa fa-book"> COURSE</i></a>
-</div>
+    <!-- icon bar from w3schools -->
+    <div class="icon-bar">
+        <a class="active" href="#"><i class="fa fa-home"> PORTFOLIO</i></a>
+        <a href="project"><i class="fa fa-pencil"> PROJECT</i></a>
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io" target="_blank"><i class="fa fa-laptop"> GITHUB</i></a>
+        <a href="https://rapidcharts.io/datascience" target="_blank"><i class="fa fa-book"> COURSE</i></a>
+    </div>
   
-<header>
-  <h1><strong>Portfolio</strong></h1>
-</header>
+    <header>
+        <h1><strong>Portfolio</strong></h1>
+    </header>
 
- <h2><span>Week 1 - Getting Started</span></h2>  
+    <h2><span>Week 1 - Getting Started</span></h2>  
   
- <container class="containerborder">
-   <div class="wrap">
-     <h3> These charts were taken from <a class="textLink" href="https://rapidcharts.io/launch" target="_blank"> Rapid Charts</a> website. 
-        The charts plots the COVID-19 cases by UK regions, UK labour productivity and the increasing trend of aging populations. </h3> 
-   </div>
+    <container class="containerborder">
 
-<!--Chart 1 -->
-  <div class="chart" id="chart1">
-      <script>
-        var myChart1 = "chart1_covidUKRegions.json";
-        vegaEmbed('#chart1', myChart1);
-      </script>
-  </div>
+        <div class="wrap">
+            <h3> These charts were taken from <a class="textLink" href="https://rapidcharts.io/launch" target="_blank"> Rapid Charts</a> website. 
+            The charts plots the COVID-19 cases by UK regions, UK labour productivity and the increasing trend of aging populations. </h3> 
+        </div>
+
+        <!--Chart 1 -->
+        <div class="chart" id="chart1">
+            <script>
+            var myChart1 = "chart1_covidUKRegions.json";
+            vegaEmbed('#chart1', myChart1);
+            </script>
+        </div>
     
-<!--Chart 2 -->
-<div class="chart" id="chart2">
-    <script>
-      var myChart2 = "chart2_ukProductivity.json";
-      vegaEmbed('#chart2', myChart2);
-    </script>
-</div>
+        <!--Chart 2 -->
+        <div class="chart" id="chart2">
+            <script>
+            var myChart2 = "chart2_ukProductivity.json";
+            vegaEmbed('#chart2', myChart2);
+            </script>
+        </div>
 
-  <!--Chart 3 -->
-<div class="chart" id="chart3">
-    <script>
-      var myChart3 = "chart3_agingPopulation.json";
-      vegaEmbed('#chart3', myChart3);
-    </script>
-</div>
+        <!--Chart 3 -->
+        <div class="chart" id="chart3">
+            <script>
+            var myChart3 = "chart3_agingPopulation.json";
+            vegaEmbed('#chart3', myChart3);
+            </script>
+        </div>
 
-</container>
-<br>
-<br>
+    </container>
 
+    <br>
+    <br>
 
-<h2><span>Week 2 - Hosting Data</span></h2>  
+    <h2><span>Week 2 - Hosting Data</span></h2>  
 
-<container class="containerborder">
-
-<div class="wrap">
-    <h3> The charts shows the number of first dose vaccinations and death dates from COVID-19 in three UK cities. </h3> 
-</div>
+    <container class="containerborder">
+        
+        <div class="wrap">
+            <h3> The charts shows the number of first dose vaccinations and death dates from COVID-19 in three UK cities. </h3> 
+        </div>
   
-   <!--Chart 4 by API-->
-<div class="chart" id="chart4">
-    <script>
-      var myChart4 = "chart4_covidVaxUK.json";
-      vegaEmbed('#chart4', myChart4);
-    </script>
-</div>
+        <!--Chart 4 by API-->
+        <div class="chart" id="chart4">
+            <script>
+            var myChart4 = "chart4_covidVaxUK.json";
+            vegaEmbed('#chart4', myChart4);
+            </script>
+        </div>
   
-   <!--Chart 5 --> 
-<div class="chart" id="chart5">
-    <script>
-      var myChart5 = "chart5_covidDeathUK.json";
-      vegaEmbed('#chart5', myChart5);
-    </script>
-</div>
+        <!--Chart 5 --> 
+        <div class="chart" id="chart5">
+            <script>
+            var myChart5 = "chart5_covidDeathUK.json";
+            vegaEmbed('#chart5', myChart5);
+            </script>
+        </div>
 
-</container>
-<br>
-<br>
+    </container>
+
+    <br>
+    <br>
+ 
+    <h2><span>Week 3 - Editing Data</span></h2>  
+ 
+    <container class="containerborder">
+        
+        <div class="wrap">
+            <h3> The first chart plots the predicted global population added into the csv file. The second shows the average daily steps I've taken from 
+            April to October, data manually written in JSON format.</h3> 
+        </div>
+
+        <!--Chart 6 --> 
+        <div class="chart" id="chart6">
+            <script>
+            var myChart6 = "chart6_expectedPop.json";
+            vegaEmbed('#chart6', myChart6);
+            </script>
+        </div>
+
+        <!--Chart 7 --> 
+        <div class="chart" id="chart7">
+            <script>
+            var myChart7 = "chart7_walkingSteps.json";
+            vegaEmbed('#chart7', myChart7);
+            </script>
+        </div>
+
+    </container>
+
+    <br>
+    <br>  
+  
+    <h2><span>Week 4 - API Driven Charts</span></h2>  
+
+    <container class="containerborder">
+
+        <div class="wrap">
+            <h3> These charts are hosted by APIs. The first chart is from OECD that plots the gender wage gap for South Korea and total OECD countries. The OECD API has an
+            uncommon JSON structure, thus an XML converter was used. The second chart is from WHO, showing the share of alcohol related crashes for five countries across 
+            20 years. The WHO API can't be access directly through Vega, hence a CORS reverse proxy was used. </h3> 
+        </div>
  
 
-<h2><span>Week 3 - Editing Data</span></h2>  
-  
- 
-<container class="containerborder">
-
-<div class="wrap">
-     <h3> The first chart plots the predicted global population added into the csv file. The second shows the average daily steps I've taken from 
-          April to October, data manually written in JSON format.</h3> 
-</div>
-
-   <!--Chart 6 --> 
-<div class="chart" id="chart6">
-    <script>
-      var myChart6 = "chart6_expectedPop.json";
-      vegaEmbed('#chart6', myChart6);
-    </script>
-</div>
-
-   <!--Chart 7 --> 
- <div class="chart" id="chart7">
-    <script>
-      var myChart7 = "chart7_walkingSteps.json";
-      vegaEmbed('#chart7', myChart7);
-    </script>
-</div>
-
- </container>
-<br>
-<br>  
-
-  
-<h2><span>Week 4 - API Driven Charts</span></h2>  
-
-<container class="containerborder">
-
-<div class="wrap">
-  <h3> These charts are hosted by APIs. The first chart is from OECD that plots the gender wage gap for South Korea and total OECD countries. The OECD API has an
-       uncommon JSON structure, thus an XML converter was used. The second chart is from WHO, showing the share of alcohol related crashes for five countries across 
-       20 years. The WHO API can't be access directly through Vega, hence a CORS reverse proxy was used. </h3> 
-</div>
- 
-
-<div class="chart" id="chart8">
-    <script>
-      var myChart8 = "chart8_wageGap.json";
-      vegaEmbed('#chart8', myChart8);
-    </script>
-</div>
+        <div class="chart" id="chart8">
+            <script>
+            var myChart8 = "chart8_wageGap.json";
+            vegaEmbed('#chart8', myChart8);
+             </script>
+        </div>
     
-<div class="chart" id="chart9">
-    <script>
-      var myChart9 = "chart9_alcoholCrashes.json";
-      vegaEmbed('#chart9', myChart9);
-    </script>
-</div>
-
+        <div class="chart" id="chart9">
+            <script>
+            var myChart9 = "chart9_alcoholCrashes.json";
+            vegaEmbed('#chart9', myChart9);
+            </script>
+        </div>
   
-</container>   
-<br>
-<br>
+    </container>   
 
+    <br>
+    <br>
 
-<h2><span>Week 5 - Raw Data from Github </span></h2>  
+    <h2><span>Week 5 - Raw Data from Github </span></h2>  
   
-<container class="containerborder">
+    <container class="containerborder">
+        
+        <div class="wrap">
+            <h3> These charts are US based data that shows the increasing trend of the wealth share of the top 1%, total expenditure on educational books, 
+            the savings rate and the slight decreasing growth of debt service for households. The data for these were batch downloaded using a for loop 
+            using Python in <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_DownloadFRED.ipynb" target="_blank"> Colab</a>. 
+            </h3> 
+        </div>
 
-<div class="wrap">
-    <h3> These charts are US based data that shows the increasing trend of the wealth share of the top 1%, total expenditure on educational books, 
-         the savings rate and the slight decreasing growth of debt service for households. The data for these were batch downloaded using a for loop 
-        using Python in <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_DownloadFRED.ipynb" target="_blank"> Colab</a>. 
-    </h3> 
-</div>
-
-   <!--Chart 10 --> 
-<div class="chart" id="chart10">
-    <script>
-      var myChart10 = "chart10_wealthShare.json";
-      vegaEmbed('#chart10', myChart10);
-    </script>
-</div>
+        <!--Chart 10 --> 
+        <div class="chart" id="chart10">
+            <script>
+            var myChart10 = "chart10_wealthShare.json";
+            vegaEmbed('#chart10', myChart10);
+            </script>
+        </div>
   
-   <!--Chart 11 --> 
-<div class="chart" id="chart11">
-    <script>
-      var myChart11 = "chart11_expenditureBooks.json";
-      vegaEmbed('#chart11', myChart11);
-    </script>
-</div>
+        <!--Chart 11 --> 
+        <div class="chart" id="chart11">
+            <script>
+            var myChart11 = "chart11_expenditureBooks.json";
+            vegaEmbed('#chart11', myChart11);
+            </script>
+        </div>
   
-   <!--Chart 12 --> 
-<div class="chart" id="chart12">
-    <script>
-      var myChart12 = "chart12_savingsGrowth.json";
-      vegaEmbed('#chart12', myChart12);
-    </script>
-</div>
+        <!--Chart 12 --> 
+        <div class="chart" id="chart12">
+            <script>
+            var myChart12 = "chart12_savingsGrowth.json";
+            vegaEmbed('#chart12', myChart12);
+            </script>
+        </div>
   
-   <!--Chart 13 --> 
-<div class="chart" id="chart13">
-    <script>
-      var myChart13 = "chart13_debtGrowth.json";
-      vegaEmbed('#chart13', myChart13);
-    </script>
-</div>
+        <!--Chart 13 --> 
+        <div class="chart" id="chart13">
+            <script>
+            var myChart13 = "chart13_debtGrowth.json";
+            vegaEmbed('#chart13', myChart13);
+            </script>
+        </div>
 
- </container>
-<br>
-<br> 
+    </container>
+
+    <br>
+    <br> 
   
+    <h2><span>Week 7 - Simple Scraper</span></h2>      
   
- <h2><span>Week 7 - Simple Scraper</span></h2>      
+    <container class="containerborder">
+        
+        <div class="wrap">
+            <h3 class="rubric-launch"> This is a chart of the 10 largest colonial empires in human history, data scraped from 
+            <a class="textLink" href="https://www.worldatlas.com/geography/largest-empires-in-history.html" target="_blank"> World Atlas</a>. </h3> 
+        </div>
   
-<container class="containerborder">
+        <!--Chart 14 -->
+        <div class="chart" id="chart14">
+            <script>
+            var myChart14 = "chart14_largestEmpires.json";
+            vegaEmbed('#chart14', myChart14);
+            </script>
+        </div>
 
-<div class="wrap">
-    <h3 class="rubric-launch"> This is a chart of the 10 largest colonial empires in human history, data scraped from 
-        <a class="textLink" href="https://www.worldatlas.com/geography/largest-empires-in-history.html" target="_blank"> World Atlas</a>. </h3> 
-</div>
+    </container>
+
+    <br>
+    <br>
+
+    <h2><span>Week 8 - Data Story</span></h2>  
   
-<!--Chart 14 -->
-<div class="chart" id="chart14">
-    <script>
-      var myChart14 = "chart14_largestEmpires.json";
-      vegaEmbed('#chart14', myChart14);
-    </script>
-</div>
+    <container class="containerborder">
 
-</container>
-<br>
-<br>
+        <div class="wrap">
+            <h3> At the Talking Economics event, one of the panelist, Jagjit Chadha, the director of the NIESR stated that the UK had one of the largest drop of output 
+            and is experiencing much slower recovery amongst the advanced economies. Amongst the G7 countries, UK had the biggest drop in 2020 at -9.79%. Nonetheless, 
+            according to the UN, for 2021 Japan and Germany will on average have a lower expected growth than the UK. By 2022 and the upcoming years, the G7 economies 
+            will follow similar trends, where the UK is expected to grow more than most of the other countries. </h3> 
+        </div>
+
+        <!--Chart 15 -->
+        <div class="chart" id="chart15">
+            <script>
+            var myChart15 = "chart15_gdpGrowth.json";
+            vegaEmbed('#chart15', myChart15);
+            </script>
+        </div>
   
+    </container> 
 
-<h2><span>Week 8 - Data Story</span></h2>  
+    <br>
+    <br>
   
-<container class="containerborder">
+    <h2><span>Week 9 - Advanced Analytics </span></h2>  
 
-<div class="wrap">
-    <h3> At the Talking Economics event, one of the panelist, Jagjit Chadha, the director of the NIESR stated that the UK had one of the largest drop of output 
-        and is experiencing much slower recovery amongst the advanced economies. Amongst the G7 countries, UK had the biggest drop in 2020 at -9.79%. Nonetheless, 
-        according to the UN, for 2021 Japan and Germany will on average have a lower expected growth than the UK. By 2022 and the upcoming years, the G7 economies 
-        will follow similar trends, where the UK is expected to grow more than most of the other countries. </h3> 
-</div>
-
-<!--Chart 15 -->
-<div class="chart" id="chart15">
-    <script>
-      var myChart15 = "chart15_gdpGrowth.json";
-      vegaEmbed('#chart15', myChart15);
-    </script>
-</div>
+    <container class="containerborder">
+        
+        <div class="wrap">
+            <h3> This first chart regresses the public healthcare expenditure per capita on the dependency ratio of the older population using a polynomial at the 6th degree. 
+            The polynomial regression fits the observations best than the common linear regression and any lower degree polynomial, with an R<sup>2</sup> of 0.56. The second
+            chart is the linear regression of the dataset with an R<sup>2</sup> of 0.48. The polynomial regression takes account the variation observations across the dataset, 
+            hence better describing the data. In general, both charts describe the increase of public spending as the dependency ratio of the older population increases.
+            The data cleaning where an outlier with an dependency ratio of 45 was removes and the fitted lines were created using Python in 
+            <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_Regression.ipynb" target="_blank"> Colab</a>. </h3> 
+        </div>
   
-</container>   
-<br>
-<br>
+        <div class="chart" id="chart16">
+            <script>
+            var myChart16 = "chart16_healthAgeing.json";
+            vegaEmbed('#chart16', myChart16);
+            </script>
+        </div> 
+
+        <div class="chart" id="chart17">
+            <script>
+            var myChart17 = "chart17_healthAgeingLine.json";
+            vegaEmbed('#chart17', myChart17);
+            </script>
+        </div>
   
+    </container>   
 
-<h2><span>Week 9 - Advanced Analytics </span></h2>  
+    <br>
+    <br>
 
-<container class="containerborder">
+    <h2><span>Week 10 - Interactive </span></h2>  
 
-<div class="wrap">
-  <h3> This first chart regresses the public healthcare expenditure per capita on the dependency ratio of the older population using a polynomial at the 6th degree. 
-       The polynomial regression fits the observations best than the common linear regression and any lower degree polynomial, with an R<sup>2</sup> of 0.56. The second
-       chart is the linear regression of the dataset with an R<sup>2</sup> of 0.48. The polynomial regression takes account the variation observations across the dataset, 
-       hence better describing the data. In general, both charts describe the increase of public spending as the dependency ratio of the older population increases.
-       The data cleaning where an outlier with an dependency ratio of 45 was removes and the fitted lines were created using Python in 
-       <a class="textLink" href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_Regression.ipynb" target="_blank"> Colab</a>. </h3> 
-</div>
-  
-<div class="chart" id="chart16">
-    <script>
-      var myChart16 = "chart16_healthAgeing.json";
-      vegaEmbed('#chart16', myChart16);
-    </script>
-</div> 
+    <container class="containerborder">
 
-<div class="chart" id="chart17">
-    <script>
-      var myChart17 = "chart17_healthAgeingLine.json";
-      vegaEmbed('#chart17', myChart17);
-    </script>
-</div>
-
-  
-</container>   
-<br>
-<br>
-   
-
-<h2><span>Week 10 - Interactive </span></h2>  
-
-<container class="containerborder">
-
-<div class="wrap">
-  <h3> This is an interactive chart showing the percentage of youth that are not in employment, education or training for 4 OECD countries and the OECD average. 
-  The range of years can be changed using the sliders and the value of each data point can be observed by hovering over the lines. </h3> 
-</div>
+        <div class="wrap">
+            <h3> This is an interactive chart showing the percentage of youth that are not in employment, education or training for 4 OECD countries and the OECD average. 
+            The range of years can be changed using the sliders and the value of each data point can be observed by hovering over the lines. </h3> 
+        </div>
  
-<div class="chart" id="chart18">
-    <script>
-      var myChart18= "chart18_youthNEET.json";
-      vegaEmbed('#chart18', myChart18);
-    </script>
-</div>
+        <div class="chart" id="chart18">
+            <script>
+            var myChart18= "chart18_youthNEET.json";
+            vegaEmbed('#chart18', myChart18);
+            </script>
+        </div>
   
-</container>   
-<br>
-<br>
+    </container>   
+
+    <br>
+    <br>
   
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
