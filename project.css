@@ -55,7 +55,7 @@ p{
     justify-content: center;
 }
 
-#codecontainer{
+#containerbutton{
     flex-flow: row wrap;
     justify-content: center;
     text-align: center;
@@ -158,7 +158,7 @@ hr{
   
 
   
-/* from w3schools - navigation bar */
+/* from w3schools - icon bar */
 
 /* main icon bar */
 .icon-bar {
