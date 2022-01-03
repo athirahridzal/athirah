@@ -102,8 +102,8 @@ hr{
 }
 
 .button{
-    background-color: ##FFDADA;
-    border: 2px solid #DFB8B8;
+    background-color: transparent;
+    border: 6px solid #F3DADA;
     color: #737373 !important;
     font-family: 'Raleway', sans-serif;
     border-radius: 150px;
