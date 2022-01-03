@@ -24,9 +24,8 @@ h1{
 
 h2{
      color: #708090;
-     font-size: 15;
-     font-weight; 100px;
      font-family: 'Raleway', sans-serif;
+     font-weight: bold;
      text-align: center;
 } 
 
@@ -34,7 +33,6 @@ h2{
 h3{
     color: #6FB3B8;
     font-family: 'Montserrat', sans-serif;
-    font-style: bold;
     text-align: center;
 } 
 
@@ -116,12 +114,12 @@ a:-webkit-any-link {
 }
 
 .button{
-    background-color: transparent;
-    border: 1px solid rgb(126, 114, 114);
-    color: rgb(126, 114, 114) !important;
+    background-color: #FFDF86;
+    border: 2px solid #FF9830;
+    color: #737373 !important;
     font-family: 'Raleway', sans-serif;
     border-radius: 150px;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     max-width: 100px;
     outline-offset: 2px;
