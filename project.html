@@ -4,34 +4,34 @@
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 <head>
+    <!--Meta stuff-->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+
+
+    <link rel="stylesheet" href="project.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
- <!--Meta stuff-->
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
+    </style>
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
+    </style>
 
-<!--The next three lines allow the Vega embed-->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
-
-
-
-<link rel="stylesheet" href="project.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    </style>
   
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
-</style>
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:ital,wght@0,600;1,600;1,900&display=swap');
-</style>
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-</style>
-  
-  <title> Data Science Project </title>
+    <title> Data Science Project </title>
 </head>
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
@@ -39,340 +39,367 @@
 
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
+
 <body>
-<!-- taken from w3schools -->
-<div class="icon-bar">
-  <a href="index"><i class="fa fa-home"> PORTFOLIO</i></a>
-  <a class="active" href="#"><i class="fa fa-pencil"> PROJECT</i></a>
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io" target="_blank"><i class="fa fa-laptop"> GITHUB</i></a>
-  <a href="https://rapidcharts.io/datascience" target="_blank"><i class="fa fa-book"> COURSE</i></a>
-</div>
+    <!-- icon bar taken from w3schools -->
+    <div class="icon-bar">
+        <a href="index"><i class="fa fa-home"> PORTFOLIO</i></a>
+        <a class="active" href="#"><i class="fa fa-pencil"> PROJECT</i></a>
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io" target="_blank"><i class="fa fa-laptop"> GITHUB</i></a>
+        <a href="https://rapidcharts.io/datascience" target="_blank"><i class="fa fa-book"> COURSE</i></a>
+    </div>
   
-<header>
-  <h1><strong>Project</strong></h1>
-</header>
+    <header>
+        <h1><strong>Project</strong></h1>
+    </header>
 
-<container class="containerborder">
-  <h2><b><span style="color:#8A1F38">How do different colonial powers affect government quality of colonised countries?</span></b></h2>
-</container>
-<br>
-<br>
-  
- <container class="containerborder">
-    <h3> The main aim of this project is to observe patterns in government quality emerging from countries under the same colonial powers. 
-      This project is motivated by the paper <i>The Quality of Government</i> by La Porta et al. (1999), that concluded that legal origins of is a major 
-    factor government quality. The research question is explored through different measures of government quality based on former colonies of the British, 
-    Spanish and Russian empires. The visualisations used in this project are scatter plots, bar and line charts with sliders and drop-down lists to condense 
-    the dataset into a single chart. The value of each observation can be found by hovering over the charts </h3>
-</container>
-<br>
-<br>
-  
-  
- <h2><span>Data</span></h2> 
-  <div class="wrapper">
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_DownloadWB_Project.ipynb" target="_blank" class="button">COLAB</a>
- </div>
- <container class="containerborder">
-   <h3> The data for this project is mainly from the World Bank downloaded using Python in Colab using the API, and datasets from other sources are downloaded directly 
-     from TCdata360. The datasets are cleaned and merged using Stata. The selected sample for the former colonies for the Russian empire were countries under the Soviet Union 
-     state, whereas for the <a class="textLink" href="https://www.worldatlas.com/articles/former-british-colonies.html" target="_blank"> British</a> and 
-     <a class="textLink" href="https://www.worldatlas.com/articles/former-spanish-colonies.html" target="_blank"> Spanish</a> are a random selection of countries 
-     that were previously colonised by the respective empires. Colonisation by different empires can occurred simultaneously in different areas of a country, therefore 
-     the selected sample of countries are defined by the colonisation of the whole land.  </h3>
-</container>
-<br>
-<br>
-  
- <h2><span>Income and Inequality</span></h2> 
- <div class="wrapper">
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart1.do" target="_blank" class="button">STATA</a>
- </div>
-  
- <container class="containerborder">
-   <div class="wrap">
-     <h3>This visualisation plots the Gini index and the GDP per capita for the two most recent available data. Former colonies of the Russian empire have relatively 
-       lower inequality albeit lower income per capita, while for the Spanish inequality is relatively higher. </h3>
-   </div> 
-<container>
-<!--Chart 1 -->
-  <div class="chart" id="chart1">
-      <script>
-        var myChart1 = "prjct_chart1_giniGdp.json";
-        vegaEmbed('#chart1', myChart1);
-      </script>
-  </div>
-  <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart1_giniGdp.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataGiniGdp.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD" target="_blank" class="button" id="buttoncode">W Bank</a>
-        <a href="https://data.worldbank.org/indicator/SI.POV.GINI" target="_blank" class="button" id="buttoncode">W Bank</a>
-  </div>
-  </container>    
+    <container class="containerborder">
+        <h2><b><span style="color:#8A1F38">How do different colonial powers affect government quality of colonised countries?</span></b></h2>
+    </container>
+    
+    <br>
+    <br>
+    
+    <container class="containerborder">
+        <h3> The main aim of this project is to observe patterns in government quality emerging from countries under the same colonial powers. 
+        This project is motivated by the paper <i>The Quality of Government</i> by La Porta et al. (1999), that concluded that legal origins of is a major 
+        factor government quality. The research question is explored through different measures of government quality based on former colonies of the British, 
+        Spanish and Russian empires. The visualisations used in this project are scatter plots, bar and line charts with sliders and drop-down lists to condense 
+        the dataset into a single chart. The value of each observation can be found by hovering over the charts </h3>
+    </container>
 
-</container>
-<br>
-<br>
+    <br>
+    <br>
+    
+    <h2><span>Data</span></h2> 
 
+    <div class="wrapper">
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_DownloadWB_Project.ipynb" target="_blank" class="button">COLAB</a>
+    </div>
 
-<h2><span>Political Freedom</span></h2>
-<div class="wrapper">
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart2.do" target="_blank" class="button">STATA</a>
-</div>
+    <container class="containerborder">
+        <h3> The data for this project is mainly from the World Bank downloaded using Python in Colab using the API, and datasets from other sources are downloaded directly 
+        from TCdata360. The datasets are cleaned and merged using Stata. The selected sample for the former colonies for the Russian empire were countries under the Soviet Union 
+         state, whereas for the <a class="textLink" href="https://www.worldatlas.com/articles/former-british-colonies.html" target="_blank"> British</a> and 
+        <a class="textLink" href="https://www.worldatlas.com/articles/former-spanish-colonies.html" target="_blank"> Spanish</a> are a random selection of countries 
+        that were previously colonised by the respective empires. Colonisation by different empires can occurred simultaneously in different areas of a country, therefore 
+        the selected sample of countries are defined by the colonisation of the whole land.  </h3>
+    </container>
+
+    <br>
+    <br>
   
-<container class="containerborder">
-   <div class="wrap">
-     <h3>This visualisation plots the press freedom and legal rights scores. The slider allows data for multiple years to be observed. Countries colonised by the 
-       Spanish generally have lower legal right scores, but relatively freer press, while colonies under the Russian category have higher legal rights index. </h3>
-   </div>
+    <h2><span>Income and Inequality</span></h2> 
 
- <!--Chart 2 -->
-  <container>
-<div class="chart" id="chart2">
-    <script>
-      var myChart2 = "prjct_chart2_pressLegal.json";
-      vegaEmbed('#chart2', myChart2);
-    </script>
-</div>
-  <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart2_pressLegal.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataPressLegal.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/IC.LGL.CRED.XQ" target="_blank" class="button" id="buttoncode">W Bank</a>
-        <a href="https://govdata360.worldbank.org/indicators/h3f86901f?country=BRA&indicator=32416&viz=line_chart&years=2001,2021" target="_blank" class="button" id="buttoncode">TCdata360</a>
-  </div>
-  </container>        
-
-</container>
-<br>
-<br>
+    <div class="wrapper">
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart1.do" target="_blank" class="button">STATA</a>
+    </div>
   
+    <container class="containerborder">
+
+        <div class="wrap">
+            <h3>This visualisation plots the Gini index and the GDP per capita for the two most recent available data. Former colonies of the Russian empire have relatively 
+            lower inequality albeit lower income per capita, while for the Spanish inequality is relatively higher. </h3>
+        </div> 
+        
+        <container>
+            <!--Chart 1 -->
+            <div class="chart" id="chart1">
+                <script>
+                var myChart1 = "prjct_chart1_giniGdp.json";
+                vegaEmbed('#chart1', myChart1);
+                </script>
+            </div>
+
+            <div class="container" id="codecontainer">
+                <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart1_giniGdp.json" target="_blank" class="button" id="buttoncode">Code</a>
+                <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataGiniGdp.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD" target="_blank" class="button" id="buttoncode">W Bank</a>
+                <a href="https://data.worldbank.org/indicator/SI.POV.GINI" target="_blank" class="button" id="buttoncode">W Bank</a>
+            </div>
+        </container>    
+
+    </container>
+
+    <br>
+    <br>
+
+    <h2><span>Political Freedom</span></h2>
+    
+    <div class="wrapper">
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart2.do" target="_blank" class="button">STATA</a>
+    </div>
+  
+    <container class="containerborder">
+        <div class="wrap">
+            <h3>This visualisation plots the press freedom and legal rights scores. The slider allows data for multiple years to be observed. Countries colonised by the 
+            Spanish generally have lower legal right scores, but relatively freer press, while colonies under the Russian category have higher legal rights index. </h3>
+        </div>
+        
+        <container>
+            <!--Chart 2 -->
+            <div class="chart" id="chart2">
+                <script>
+                var myChart2 = "prjct_chart2_pressLegal.json";
+                vegaEmbed('#chart2', myChart2);
+                </script>
+            </div>
+            
+            <div class="container" id="codecontainer">
+                <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart2_pressLegal.json" target="_blank" class="button" id="buttoncode">Code</a>
+                <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataPressLegal.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                <a href="https://data.worldbank.org/indicator/IC.LGL.CRED.XQ" target="_blank" class="button" id="buttoncode">W Bank</a>
+                <a href="https://govdata360.worldbank.org/indicators/h3f86901f?country=BRA&indicator=32416&viz=line_chart&years=2001,2021" target="_blank" class="button" id="buttoncode">TCdata360</a>
+            </div>
+        </container>        
+
+    </container>
+
+    <br>
+    <br>
  
-<h2><span>Perceived Corruption</span></h2>  
-<div class="wrapper">
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart3.do" target="_blank" class="button">STATA</a>
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_Regression_Project.ipynb" target="_blank" class="button">COLAB</a>
-</div>
-  
-<container class="containerborder">
-   <div class="wrap">
-     <h3>This visualisation regresses perceived corruption and GDP per capita in 2020 with a polynomial order of 3.  Lower perceived corruption correlates to a higher income per capita. 
-       Countries under the British and Spanish category vary across both variables, while under the Russian empire, the countries have higher perceived corruption and hence lower GDP 
-       per capita. The regressed fitted line was created in Colab.</h3>
-   </div>
-
-  <container>
- <!--Chart 3 -->
-<div class="chart" id="chart3">
-    <script>
-      var myChart3 = "prjct_chart3_CPI.json";
-      vegaEmbed('#chart3', myChart3);
-    </script>
-</div>
-  <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart3_CPI.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataCPIgdp.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD" target="_blank" class="button" id="buttoncode">W Bank</a>
-        <a href="https://tcdata360.worldbank.org/indicators/h345264a2?country=BRA&indicator=32534&viz=line_chart&years=2012,2020" target="_blank" class="button" id="buttoncode">TCdata360</a>
-  </div>
-  </container>          
-
-</container>
-<br>
-<br>
-  
-  
-<h2><span>Financing Public Goods</span></h2>  
-<div class="wrapper">
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart4.do" target="_blank" class="button">STATA</a>
-</div>
-
-  
- <container class="containerborder">
-   <div class="wrap">
-     <h3>This visualisation plots the tax burden, the slider allows selection of observations for a specific year. The highest values for tax burden are developed economies, 
-       and no specific patterns emerge for the developing countries. Typically, higher financing is coupled with higher outcomes of public goods. </h3>
-   </div>
-
-  <container>
-<!--Chart 4.1 -->
-  <div class="chart" id="chart4">
-      <script>
-        var myChart4 = "prjct_chart4.1_taxBurdenAll.json";
-        vegaEmbed('#chart4', myChart4);
-      </script>
-  </div>
+    <h2><span>Perceived Corruption</span></h2>  
     
-  <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart4.1_taxBurdenAll.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurdenAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS" target="_blank" class="button" id="buttoncode">W Bank</a>
-        <a href="https://tcdata360.worldbank.org/indicators/fisc.free.scr?country=BRA&indicator=752&viz=line_chart&years=2013,2016" target="_blank" class="button" id="buttoncode">TCdata360</a>
-  </div>
+    <div class="wrapper">
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart3.do" target="_blank" class="button">STATA</a>
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Colab_Regression_Project.ipynb" target="_blank" class="button">COLAB</a>
+    </div>
+  
+    <container class="containerborder">
+        
+        <div class="wrap">
+            <h3>This visualisation regresses perceived corruption and GDP per capita in 2020 with a polynomial order of 3.  Lower perceived corruption correlates to a higher income per capita. 
+            Countries under the British and Spanish category vary across both variables, while under the Russian empire, the countries have higher perceived corruption and hence lower GDP 
+            per capita. The regressed fitted line was created in Colab.</h3>
+        </div>
+        
+        <container>
+            <!--Chart 3 -->
+            <div class="chart" id="chart3">
+                <script>
+                var myChart3 = "prjct_chart3_CPI.json";
+                vegaEmbed('#chart3', myChart3);
+                </script>
+            </div>
+            
+            <div class="container" id="codecontainer">
+                <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart3_CPI.json" target="_blank" class="button" id="buttoncode">Code</a>
+                <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataCPIgdp.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD" target="_blank" class="button" id="buttoncode">W Bank</a>
+                <a href="https://tcdata360.worldbank.org/indicators/h345264a2?country=BRA&indicator=32534&viz=line_chart&years=2012,2020" target="_blank" class="button" id="buttoncode">TCdata360</a>
+            </div>
+        </container>          
 
-  </container>
+    </container>
+
+    <br>
+    <br>
   
-  <container>
- <!--Chart 4.2 -->
-  <div class="chart" id="chart5">
-      <script>
-        var myChart5 = "prjct_chart4.2_taxBurdenDevlping.json";
-        vegaEmbed('#chart5', myChart5);
-      </script>
-  </div>  
-  
-  <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart4.2_taxBurdenDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurdenDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS" target="_blank" class="button" id="buttoncode">W Bank</a>
-        <a href="https://tcdata360.worldbank.org/indicators/fisc.free.scr?country=BRA&indicator=752&viz=line_chart&years=2013,2016" target="_blank" class="button" id="buttoncode">TCdata360</a>
-  </div>
-  </container>
+    <h2><span>Financing Public Goods</span></h2>
     
-  </container>
+    <div class="wrapper">
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart4.do" target="_blank" class="button">STATA</a>
+    </div>
+    
+    <container class="containerborder">
+        <div class="wrap">
+            <h3>This visualisation plots the tax burden, the slider allows selection of observations for a specific year. The highest values for tax burden are developed economies, 
+            and no specific patterns emerge for the developing countries. Typically, higher financing is coupled with higher outcomes of public goods. </h3>
+        </div>
+
+        <container>
+            <!--Chart 4.1 -->
+            <div class="chart" id="chart4">
+                <script>
+                var myChart4 = "prjct_chart4.1_taxBurdenAll.json";
+                vegaEmbed('#chart4', myChart4);
+                </script>
+            </div>
+    
+            <div class="container" id="codecontainer">
+                <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart4.1_taxBurdenAll.json" target="_blank" class="button" id="buttoncode">Code</a>
+                <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurdenAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                <a href="https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS" target="_blank" class="button" id="buttoncode">W Bank</a>
+                <a href="https://tcdata360.worldbank.org/indicators/fisc.free.scr?country=BRA&indicator=752&viz=line_chart&years=2013,2016" target="_blank" class="button" id="buttoncode">TCdata360</a>
+            </div>
+
+        </container>
+  
+        <container>
+            <!--Chart 4.2 -->
+            <div class="chart" id="chart5">
+                <script>
+                var myChart5 = "prjct_chart4.2_taxBurdenDevlping.json";
+                vegaEmbed('#chart5', myChart5);
+                </script>
+            </div>  
+  
+        <div class="container" id="codecontainer">
+            <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart4.2_taxBurdenDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
+            <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataTaxBurdenDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
+            <a href="https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS" target="_blank" class="button" id="buttoncode">W Bank</a>
+            <a href="https://tcdata360.worldbank.org/indicators/fisc.free.scr?country=BRA&indicator=752&viz=line_chart&years=2013,2016" target="_blank" class="button" id="buttoncode">TCdata360</a>
+        </div>
+        </container>
+    
+    </container>
    
-<br>
-<br>
+    <br>
+    <br>
 
-<h2><span>Output of Public Goods</span></h2>  
-<div class="wrapper">
-  <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart5_6_7.do" target="_blank" target="_blank" class="button">STATA</a> 
-</div>
-  
-<container class="containerborder">
-   <div class="wrap">
-     <h3> These three visualisations plot the outputs of basic public goods – healthcare, infrastructure and education. Each visualisation includes two separate charts, 
-       one of the whole dataset and the other of developing countries, as the higher outcomes of public goods are dominated by developed economies. The sliders enable 
-       the selection of a range of years to be observed. As expected, the tax burden data matches the outcomes of public goods – countries with higher tax burden have 
-       higher outputs in public goods. </h3>
-   </div>
-  
-  <hr>
-  
-  <container class="containerborder" id="transpcontainer">
-    <h3>Countries under the British category varies largely with relatively higher infant mortality compared to Spanish and Russian. Former Spanish colonies have 
-      higher mortality than former Russian colonies. The drop-down list allows the selection of an empire, where any patterns of the countries can be observed.</h3>
-   <!--Chart 5.1 -->
-  <container>
-  <div class="chart" id="chart6">
-      <script>
-        var myChart6 = "prjct_chart5.1_infantMortAll.json";
-        vegaEmbed('#chart6', myChart6);
-      </script>
-  </div>
-  
-  <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart5.1_infantMortAll.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/SP.DYN.IMRT.IN" target="_blank" class="button" id="buttoncode">W Bank</a>
-  </div>
+    <h2><span>Output of Public Goods</span></h2>  
 
+    <div class="wrapper">
+        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/Stata_prjct_chart5_6_7.do" target="_blank" target="_blank" class="button">STATA</a> 
+    </div>
+  
+    <container class="containerborder">
+        
+        <div class="wrap">
+            <h3> These three visualisations plot the outputs of basic public goods – healthcare, infrastructure and education. Each visualisation includes two separate charts, 
+            one of the whole dataset and the other of developing countries, as the higher outcomes of public goods are dominated by developed economies. The sliders enable 
+            the selection of a range of years to be observed. As expected, the tax burden data matches the outcomes of public goods – countries with higher tax burden have 
+            higher outputs in public goods. </h3>
+        </div>
+        
+        <hr>
+        
+        <container class="containerborder" id="transpcontainer">
+            
+            <h3>Countries under the British category varies largely with relatively higher infant mortality compared to Spanish and Russian. Former Spanish colonies have 
+            higher mortality than former Russian colonies. The drop-down list allows the selection of an empire, where any patterns of the countries can be observed.</h3>
     
-   </container>
-
-    <container>
- <!--Chart 5.2 -->
-<div class="chart" id="chart7">
-    <script>
-      var myChart7 = "prjct_chart5.2_infantMortDevlping.json";
-      vegaEmbed('#chart7', myChart7);
-    </script>
-</div>
- 
-  <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart5.2_infantMortDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/SP.DYN.IMRT.IN" target="_blank" class="button" id="buttoncode">W Bank</a>
-  </div>
-    
-   </container>
-</container>
+            <container>
+                <!--Chart 5.1 -->
+                <div class="chart" id="chart6">
+                    <script>
+                    var myChart6 = "prjct_chart5.1_infantMortAll.json";
+                    vegaEmbed('#chart6', myChart6);
+                    </script>
+                </div>
   
-<hr>
+                <div class="container" id="codecontainer">
+                    <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart5.1_infantMortAll.json" target="_blank" class="button" id="buttoncode">Code</a>
+                    <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                    <a href="https://data.worldbank.org/indicator/SP.DYN.IMRT.IN" target="_blank" class="button" id="buttoncode">W Bank</a>
+                </div>  
+            </container>
+
+            <container>
+                <!--Chart 5.2 -->
+                    <div class="chart" id="chart7">
+                    <script>
+                    var myChart7 = "prjct_chart5.2_infantMortDevlping.json";
+                    vegaEmbed('#chart7', myChart7);
+                    </script>
+                </div>
  
-<container class="containerborder" id="transpcontainer">
-  <h3> Former colonies of the Russian empire have relatively higher secure internet servers per 1 million, whereas the other two are scattered countries across the ranks. </h3>
-  <container>
-<!--Chart 6.1 -->
-<div class="chart" id="chart8">
-    <script>
-      var myChart8 = "prjct_chart6.1_intServerAll.json";
-      vegaEmbed('#chart8', myChart8);
-    </script>
-</div>
- 
- <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart6.1_intServerAll.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataIntAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/IT.NET.SECR.P6" target="_blank" class="button" id="buttoncode">W Bank</a>
-  </div>
-  </container>   
+                <div class="container" id="codecontainer">
+                    <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart5.2_infantMortDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
+                    <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataInfantMortDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                    <a href="https://data.worldbank.org/indicator/SP.DYN.IMRT.IN" target="_blank" class="button" id="buttoncode">W Bank</a>
+                </div>
+            </container>
+
+        </container>
   
-  <container>
- <!--Chart 6.2 -->
-<div class="chart" id="chart9">
-    <script>
-      var myChart9 = "prjct_chart6.2_intServerDevlping.json";
-      vegaEmbed('#chart9', myChart9);
-    </script>
-</div>
- <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart6.2_intServerDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataIntDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/IT.NET.SECR.P6" target="_blank" class="button" id="buttoncode">W Bank</a>
-  </div>
-  </container>      
+        <hr>
+ 
+        <container class="containerborder" id="transpcontainer">
+        
+            <h3> Former colonies of the Russian empire have relatively higher secure internet servers per 1 million, whereas the other two are scattered countries across the ranks. </h3>
+
+            <container>
+                <!--Chart 6.1 -->
+                <div class="chart" id="chart8">
+                    <script>
+                    var myChart8 = "prjct_chart6.1_intServerAll.json";
+                    vegaEmbed('#chart8', myChart8);
+                    </script>
+                </div>
+            
+                <div class="container" id="codecontainer">
+                    <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart6.1_intServerAll.json" target="_blank" class="button" id="buttoncode">Code</a>
+                    <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataIntAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                    <a href="https://data.worldbank.org/indicator/IT.NET.SECR.P6" target="_blank" class="button" id="buttoncode">W Bank</a>
+                </div>
+            </container>   
+  
+            <container>
+                <!--Chart 6.2 -->
+                <div class="chart" id="chart9">
+                    <script>
+                    var myChart9 = "prjct_chart6.2_intServerDevlping.json";
+                    vegaEmbed('#chart9', myChart9);
+                    </script>
+                </div>
+
+                <div class="container" id="codecontainer">
+                    <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart6.2_intServerDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
+                    <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataIntDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                    <a href="https://data.worldbank.org/indicator/IT.NET.SECR.P6" target="_blank" class="button" id="buttoncode">W Bank</a>
+                </div>
+            </container>      
     
-</container>
+        </container>
   
-<hr>
- 
-<container class="containerborder" id="transpcontainer">
-  <h3>Secondary school enrolment for countries under the Russian empire are also relatively higher than the British and Spanish that have high variations across countries. 
-    The drop-down list allows the selection of an empire, where any patterns of enrolment can be observed amongst the countries. </h3>
-  <container>
-<!--Chart 7.1 -->
-<div class="chart" id="chart10">
-    <script>
-      var myChart10 = "prjct_chart7.1_eduAll.json";
-      vegaEmbed('#chart10', myChart10);
-    </script>
-</div>
-     <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart7.1_eduAll.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataEduAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/SE.SEC.NENR" target="_blank" class="button" id="buttoncode">W Bank</a>
-  </div>
-  </container>  
-  <container>
- <!--Chart 7.2 -->
-<div class="chart" id="chart11">
-    <script>
-      var myChart11 = "prjct_chart7.2_eduDevlping.json";
-      vegaEmbed('#chart11', myChart11);
-    </script>
-</div>
-         <div class="container" id="codecontainer">
-        <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart7.2_eduDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
-        <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataEduDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
-        <a href="https://data.worldbank.org/indicator/SE.SEC.NENR" target="_blank" class="button" id="buttoncode">W Bank</a>
-  </div>
-  </container>  
-</container>
+        <hr>
+        
+        <container class="containerborder" id="transpcontainer">
+            
+            <h3>Secondary school enrolment for countries under the Russian empire are also relatively higher than the British and Spanish that have high variations across countries. 
+            The drop-down list allows the selection of an empire, where any patterns of enrolment can be observed amongst the countries. </h3>
+
+            <container>
+                <!--Chart 7.1 -->
+                <div class="chart" id="chart10">
+                    <script>
+                    var myChart10 = "prjct_chart7.1_eduAll.json";
+                    vegaEmbed('#chart10', myChart10);
+                    </script>
+                </div>
+
+                <div class="container" id="codecontainer">
+                    <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart7.1_eduAll.json" target="_blank" class="button" id="buttoncode">Code</a>
+                    <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataEduAll.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                    <a href="https://data.worldbank.org/indicator/SE.SEC.NENR" target="_blank" class="button" id="buttoncode">W Bank</a>
+                </div>
+             </container>  
+
+            <container>
+                <!--Chart 7.2 -->
+                <div class="chart" id="chart11">
+                    <script>
+                    var myChart11 = "prjct_chart7.2_eduDevlping.json";
+                    vegaEmbed('#chart11', myChart11);
+                    </script>
+                </div>
+
+                <div class="container" id="codecontainer">
+                    <a href="https://github.com/athirahridzal/athirahridzal.github.io/blob/main/prjct_chart7.2_eduDevlping.json" target="_blank" class="button" id="buttoncode">Code</a>
+                    <a href="https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/dataEduDevlping.csv" target="_blank" class="button" id="buttoncode">Data</a>
+                    <a href="https://data.worldbank.org/indicator/SE.SEC.NENR" target="_blank" class="button" id="buttoncode">W Bank</a>
+                </div>
+            </container>  
+
+        </container>
     
 
-</container>
-<br>
-<br>
+    </container>
 
-<h2><span>Conclusion</span></h2> 
-<container class="containerborder">
-  <h3> Minor patterns emerged for each colonial empire, more so under the Russian empire. The apparent effect on former colonies under the Russian empire is likely since the 
-    countries gained independence most recently in 1991. Moreover, the Soviet Union operated as a single country rather than the common definition of colonialism of foreign 
-    political control. Surprisingly, countries under the British empire show the least similarities, showing high variation across variables. Therefore, colonial empires impact 
-    the government quality of the colonies in varying ways – relatively higher inequality, freer press or higher outcomes of public goods. Nonetheless, every country has different 
-    resources, experienced varying degrees of economic crisis and have accumulated centuries of history and culture. These visualisations are only able to describe one factor that 
-    affects the variation in government quality over the years.  </h3>
-</container>
+    <br>
+    <br>
+
+    <h2><span>Conclusion</span></h2> 
+
+    <container class="containerborder">
+        <h3> Minor patterns emerged for each colonial empire, more so under the Russian empire. The apparent effect on former colonies under the Russian empire is likely since the 
+        countries gained independence most recently in 1991. Moreover, the Soviet Union operated as a single country rather than the common definition of colonialism of foreign 
+        political control. Surprisingly, countries under the British empire show the least similarities, showing high variation across variables. Therefore, colonial empires impact 
+        the government quality of the colonies in varying ways – relatively higher inequality, freer press or higher outcomes of public goods. Nonetheless, every country has different 
+        resources, experienced varying degrees of economic crisis and have accumulated centuries of history and culture. These visualisations are only able to describe one factor that 
+        affects the variation in government quality over the years.  </h3>
+    </container>
   
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
