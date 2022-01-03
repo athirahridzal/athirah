@@ -74,6 +74,7 @@ p{
   border-color: transparent; 
   margin-top: 0px;
   padding: 0px;
+  margin-bottom: 20px;
 }
 
 .vega-embed.has-actions {
@@ -95,6 +96,8 @@ hr{
     background-color: transparent;
     height: 3px;
     width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .button{
