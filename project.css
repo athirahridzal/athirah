@@ -118,7 +118,7 @@ a:-webkit-any-link {
 .button{
     background-color: transparent;
     border: 1px solid rgb(126, 114, 114);
-    color: rgb(126, 114, 114);
+    color: rgb(126, 114, 114) !important;
     font-family: 'Raleway', sans-serif;
     line-height: 16px;
     font-weight: 600;
@@ -138,6 +138,10 @@ a:-webkit-any-link {
     transition: border-color,background-color .5s ease;
     white-space: nowrap;
   }
+
+.wrapper {
+    text-align: center;
+}
 
 @media screen and (max-width: 430px) and (min-width: 390px) {
   .vega-embed.has-actions {
