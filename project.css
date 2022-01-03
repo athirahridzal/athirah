@@ -116,9 +116,16 @@ hr{
     white-space: nowrap;
   }
 
-
 .wrapper {
     text-align: center;
+}
+
+.container{
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    gap: 25px 25px;
 }
 
 /* taken from w3schools - navigation bar and media screens */
