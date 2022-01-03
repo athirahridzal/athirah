@@ -118,7 +118,9 @@ hr{
   }
 
 #buttoncode{
- border: 2px solid black;
+ border: 2px solid #B3CCFF;
+ color: #595959;
+ background-color: #E6F7FF;
 }
 
 .wrapper {
