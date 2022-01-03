@@ -88,6 +88,36 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+hr{
+    border: none;
+    border-top: 10px dotted #FFC0CB;
+    color: #FFC0CB;
+    background-color: transparent;
+    height: 3px;
+    width: 100%;
+}
+
+.button{
+    background-color: #FFDF86;
+    border: 2px solid #FF9830;
+    color: #737373 !important;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 150px;
+    font-size: 15px;
+    text-decoration: none;
+    max-width: 100px;
+    outline-offset: 2px;
+    padding: 5px 12px;
+    text-overflow: ellipsis;
+    transition: border-color,background-color .5s ease;
+    white-space: nowrap;
+  }
+
+
+.wrapper {
+    text-align: center;
+}
+
 /* taken from w3schools - navigation bar and media screens */
 
 .icon-bar {
@@ -112,27 +142,6 @@ a:-webkit-any-link {
 
 .active {
   background-color: #EFADEB; /* Add an active/current color */
-}
-
-.button{
-    background-color: #FFDF86;
-    border: 2px solid #FF9830;
-    color: #737373 !important;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 150px;
-    font-size: 15px;
-    text-decoration: none;
-    max-width: 100px;
-    outline-offset: 2px;
-    padding: 5px 12px;
-    text-overflow: ellipsis;
-    transition: border-color,background-color .5s ease;
-    white-space: nowrap;
-  }
-
-
-.wrapper {
-    text-align: center;
 }
 
 @media screen and (max-width: 430px) and (min-width: 390px) {
