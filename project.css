@@ -117,6 +117,10 @@ hr{
     white-space: nowrap;
   }
 
+#buttoncode{
+ border: 2px solid black;
+}
+
 .wrapper {
     text-align: center;
 }
