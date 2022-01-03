@@ -73,6 +73,7 @@ p{
 #transpcontainer{
   border-color: transparent; 
   margin-top: 0px;
+  padding: 0px;
 }
 
 .vega-embed.has-actions {
