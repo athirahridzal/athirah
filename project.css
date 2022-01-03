@@ -124,7 +124,6 @@ hr{
 .container{
     flex-flow: row wrap;
     justify-content: center;
-    text-align: center;
 }
 
 #codecontainer{
