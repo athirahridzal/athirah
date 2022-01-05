@@ -171,6 +171,7 @@ hr{
     transition: all 0.3s ease;
     color: black;
     font-size: 12px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* hovering on icon bar */
@@ -199,6 +200,14 @@ hr{
         width: 340px;
     }
 }
+
+@media screen and (max-width: 349px) {
+    .icon-bar a {
+        font-size: 8px;
+    }
+}
+
+
 
 /* for screens 450 px and below */
 @media screen and (max-width: 450px) {
