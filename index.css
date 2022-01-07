@@ -1,7 +1,7 @@
 
 /* Header */
 
-.header {
+header {
     text-align: center;
     padding: 20px;
 }
@@ -24,6 +24,7 @@ body{
     font-size: 65px;
     text-transform: uppercase;
     letter-spacing: -2.0px;
+    margin-bottom: 0px;
 } 
   
 h2{
@@ -40,11 +41,13 @@ h3{
 } 
   
 p{
-    color: "black" ;
+    color: black ;
     font-family: 'Poppins', sans-serif;
-    font-style: italic;
     font-weight: 500;
     text-align: center;
+    margin-top: 0px;
+    font-weight: 1000;
+    font-size: 25px;
 } 
 
 
@@ -152,5 +155,8 @@ a:-webkit-any-link {
     h3{
         font-size: 15px;
     } 
+    p{
+        font-size: 17px;
+    }
 }
   
