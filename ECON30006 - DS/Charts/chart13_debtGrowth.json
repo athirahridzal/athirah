@@ -11,7 +11,7 @@
     },
 
     "data": {
-        "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/data_FRED-TDSP.json",
+        "url": "https://raw.githubusercontent.com/athirahridzal/athirahridzal.github.io/main/ECON30006%20-%20DS/Data/data_FRED-TDSP.json",
         "format": {"property": "observations"}
     },
 
